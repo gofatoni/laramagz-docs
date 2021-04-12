@@ -1,0 +1,69 @@
+= Settings 
+
+== Web Informations
+
+image::web-information.png[width=800,align=center]
+
+== Web Contact
+
+image::web-contacts.png[width=800,align=center]
+
+== Web Properties
+
+image::web-properties.png[width=800,align=center]
+
+== Web Config
+
+image::web-configs.png[width=800,align=center]
+
+=== Generate Sitemap
+
+Click the Generate Sitemap button to generate a web sitemap
+
+image::generate-sitemap.png[align=center]
+
+=== Web Sitemap 
+
+The web sitemap URL can be seen https://domain.com/sitemap.xml
+
+image::sitemap.xml.png[width=800,align=center]
+
+=== Maintenance Mode
+
+image::maintenance-mode.png[width=800,align=center]
+ 
+Display the page when in Maintenance mode
+
+image::service-unavailable.png[width=800,align=center]
+
+== Web Backup
+
+image::web-backup.png[width=800,align=center]
+
+=== Export Data 
+
+Click the "Download Export Data File" button to download the data backup file.
+
+image::web-backup.jpg[width=800,align=center]
+
+The results of the export of data are in the form of an xlsx format file that contains data in a database table.
+
+image::laramagz-backup.png[align=center]
+
+=== Backup file storage
+
+Click the "Download Backup Storage" button to download all files in public storage
+
+image::backup-store.png[align=center]
+
+The download results are in the form of a zip file which you can then extract and put in the public folder in storage
+
+=== Import Data
+
+image::import-data.png[align=center]
+
+If you want to import the data from the data file backup, you can search for the laramagz-backup.xlsx file that you downloaded. The import data action will replace all the data in some of the current database tables.
+
+== Web Permalinks
+
+image::web-permalinks.png[width=800,align=center]

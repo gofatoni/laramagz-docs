@@ -1,0 +1,53 @@
+= Env Editor 
+
+The Env Editor menu only appears for users as superadmins
+
+== overview
+
+image::overview.png[width=800,align=center]
+
+== Show .env file
+
+Click Load to display .env
+
+image::load-overview.png[width=800,align=center]
+
+== Edit Value
+
+Click the settings icon to edit the .env key value
+
+image::edit.png[width=800,align=center]
+
+== Add New
+
+Enter Key and Value to add to the .env Configuration
+
+image::add-new.png[width=800,align=center]
+
+== Backups
+
+image::backups.png[width=800,align=center]
+
+== Create Backup
+
+image::create-backup.png[width=800,align=center]
+
+== Result Backup
+
+image::result-backup.png[width=800,align=center]
+
+Env backup file saved to `resources/backups/dotenv-editor`
+
+image::path.png[align=center]
+
+== Download current .env
+
+image::download-currentenv.png[width=800,align=center]
+
+The file download results.
+
+image::env_file.png[align=center]
+
+== Upload
+
+image::upload.png[width=800,align=center]

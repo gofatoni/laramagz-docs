@@ -1,0 +1,13 @@
+= Pages 
+
+== All Pages
+
+image::all-pages.png[width=800,align=center]
+
+== Added a new page
+
+image::new-pages.png[width=800,align=center]
+
+== Edit Page
+
+image::edit-pages.png[width=800,align=center]

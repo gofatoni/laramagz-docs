@@ -1,0 +1,21 @@
+name: docs
+title: Laramagz
+version: v1.2.0
+nav:
+- modules/ROOT/nav.adoc
+- modules/installation/nav.adoc
+- modules/configuration/nav.adoc
+- modules/dashboard/nav.adoc
+- modules/posts/nav.adoc
+- modules/pages/nav.adoc
+- modules/contact/nav.adoc
+- modules/menu/nav.adoc
+- modules/ads/nav.adoc
+- modules/gallery/nav.adoc
+- modules/filemanager/nav.adoc
+- modules/profile/nav.adoc
+- modules/users/nav.adoc
+- modules/settings/nav.adoc
+- modules/env/nav.adoc
+- modules/themes/nav.adoc
+- modules/faq/nav.adoc

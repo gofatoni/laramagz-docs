@@ -1,0 +1,37 @@
+= Posts
+
+== All Posts
+
+image::all-posts.png[width=800,align=center]
+
+== Added a new post
+
+image::new-posts.png[width=800,align=center]
+
+== Inline Code
+
+Select text
+
+image::select-text.png[align=center]
+
+Click "C" Inline code `<code>` at Additional text styles.
+
+image::click-additional-text-styles.png[align=center]
+
+== Block Code
+
+Click highlight menu.
+
+image::click-highlight.png[align=center]
+
+Select "Select language" and enter your code.
+
+image::enter-code.png[align=center]
+
+Result
+
+image::result.png[align=center]
+
+== Edit Post
+
+image::edit-posts.png[width=800,align=center]

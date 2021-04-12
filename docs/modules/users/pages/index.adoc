@@ -1,0 +1,45 @@
+= Users
+
+== All Users
+
+image::users.png[width=800,align=center]
+
+== Add New User
+
+image::new-user.png[width=800,align=center]
+
+== Edit User
+
+image::edit-user.png[width=800,align=center]
+
+== All Permissions
+
+image::permission-all.png[width=800,align=center]
+
+== Added a new permission
+
+image::permission-new.png[width=800,align=center]
+
+== Edit Permission
+
+image::permission-update.png[width=800,align=center]
+
+== All Roles
+
+image::roles-all.png[width=800,align=center]
+
+== Added a new role
+
+image::roles-new.png[width=800,align=center]
+
+== Edit Role
+
+image::roles-update.png[width=800,align=center]
+
+== All Social Media
+
+image::all-socialmedia.png[width=800,align=center]
+
+== Edit Social Media
+
+image::edit-socialmedia.png[width=800,align=center]

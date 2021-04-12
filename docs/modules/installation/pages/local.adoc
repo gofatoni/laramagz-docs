@@ -1,0 +1,36 @@
+== Install on Local Computer
+
+:page-partial:
+
+1. Create Database
++
+image::create-database.png[align=center]
+
+2. Extract file zip
+3. Set .env file
++
+    DB_DATABASE=laramagz
+    DB_USERNAME=root
+    DB_PASSWORD=root
+
+4. Import database or migrate file 
++
+```
+php artisan migrate --seed
+```
+5. Running serve Artisan command
++
+```
+php artisan serve
+```
+6. See this video
++
+video::mRlP799y8B8[youtube, width=560, max-width=560, height="315", options=allowfullscreen, align=center]
+7. Update
+Database (local)
++
+```
+php artisan migrate:refresh --seed
+//or 
+php artisan migrate:fresh --seed
+```

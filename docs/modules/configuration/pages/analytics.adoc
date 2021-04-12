@@ -1,0 +1,158 @@
+== Google Analytics 
+
+Go to https://console.developers.google.com/apis
+
+
+If you are using GoogleAPIs for the first time, you will find the following display. Click "I agree .." in the Terms of Service and then click "Agree And Continue"
+
+image::analytics/welcome.png[align=center]
+
+Click CREATE PROJECT
+
+image::analytics/create_project.png[width=800,align=center]
+
+If you've made a project before, click select project from the top bar menu:
+
+image::analytics/select_project.png[align=center]
+
+Click NEW PROJECT
+
+image::analytics/new_project.png[align=center]
+
+1. Type a new project name
++
+image::analytics/1.png[align=center]
+
+2. Click ENABLE APIS AND SERVICES
++
+image::analytics/2.png[align=center]
+
+3. Find and select Analytics API
++
+image::analytics/3.png[align=center]
+
+4. Click ENABLE
++
+image::analytics/4.png[align=center]
+
+5. Click Credentials
++
+image::analytics/5.png[align=center]
+
+6. Click CREATE CREDENTIALS, click Service account
++
+image::analytics/6.png[align=center]
+
+7. Type Service account name, click DONE
++
+image::analytics/7.png[align=center]
+
+8. Click "Manage service accounts"
++
+image::analytics/8.png[align=center]
+
+9. Click Actions and select "Manage keys"
++
+image::analytics/9.png[align=center]
+
+10. Click "ADD KEY" and select "Create new key"
++
+image::analytics/10.png[align=center]
+
+11. Select key type "JSON"
++
+image::analytics/11.png[align=center]
+
+12. The json file will be downloaded automatically and a notification "Private key saved to your computer" will appear. Click CLOSE.
++
+image::analytics/12.png[align=center]
++
+TIP: Rename file `name-xxxxx-xxxxx.json` to `service-account-credentials.json`, and save in `storage/app/analytics`
++
+image::analytics/save_credentials.png[align=center]
+
+13. Go to the details tab and copy the email shown
++
+image::analytics/13.png[align=center]
+
+14. Go to https://analytics.google.com/analytics/web/
++
+If you open Google Analytics for the first time, you will get the following screen:
++
+image::analytics/14.png[align=center]
++
+If you already have an account name, select admin:
++
+image::analytics/admin.png[align=center]
++
+Click "Create Account"
++
+image::analytics/create_account.png[align=center]
+
+15. Type in the account name and then check all data sharing options. Then click Next.
++
+image::analytics/15.png[align=center]
+
+16. Type the property name and then click "Show advanced options"
++
+image::analytics/16.png[align=center]
+
+17. Enable "Create a Universal Analytics property".
++
+image::analytics/17.png[align=center]
+
+18. Enter the Website URL and then select "Create a Universal Analytics property only". Then click Next.
++
+image::analytics/18.png[align=center]
+
+19. Set about your business, then click "Create"
++
+image::analytics/19.png[align=center]
+
+20. Checklist Term of Service Agreement and cklick "I Accept".
++
+image::analytics/20.png[align=center]
+
+21. Copy and save Tracking ID
++
+image::analytics/21.png[align=center]
++
+TIP: Enter the Tracking ID value in the Google Analytics ID field in Settings menu > Web Config
++
+image::analytics/google_analytics_id.png[align=center]
+
+22. Click "Property User Management"
++
+image::analytics/22.png[align=center]
+
+23. Click button plus
++
+image::analytics/23.png[align=center]
+
+24. Click "Add users"
++
+image::analytics/24.png[align=center]
+
+25. Type the email that you copied from Google APIs, then click "Add".
++
+image::analytics/25.png[align=center]
++
+image::analytics/account_permission.png[align=center]
+
+26. Click "View Settings"
++
+image::analytics/26.png[align=center]
+
+27. Copy VIEW ID 
++
+image::analytics/27.png[align=center]
+
+
+28. Enter the ANALYTICS_VIEW_ID value in the .env file
+
+    ANALYTICS_VIEW_ID=238189280
+
++
+Or enter it in the Analytics View ID in the Settings menu
++
+image::analytics/analytics_view_id.png[align=center]

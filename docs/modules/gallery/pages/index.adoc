@@ -1,0 +1,13 @@
+= Gallery
+
+== Add Gallery
+
+image::add-gallery.png[width=800,align=center]
+
+== Result Upload Gallery
+
+image::result-upload.png[width=800,align=center]
+
+== Edit Gallery
+
+image::edit-gallery.png[width=800,align=center]

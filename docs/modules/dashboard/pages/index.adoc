@@ -1,0 +1,44 @@
+= Dashboard
+
+== Login 
+
+image::login.png[align=center]
+
+Superadmin
+
+* username/email: superadmin / <superadmin@example.com>
+* password: superadmin123
+
+Admin
+
+* username/email: admin / <admin@example.com>
+* password: admin123
+
+Member
+
+* username/email: member / <member@example.com>
+* password: member123
+
+== Register 
+
+The Register page is only available if activated by superadmin via the Settings menu.
+
+image::click-register-member.png[width=500, align=center]
+
+image::register-member.png[width=800, align=center]
+
+== Dashboard - Superadmin
+
+image::dashboard-superadmin.png[width=800,align=center]
+
+== Dashboard - Admin
+
+image::dashboard-admin.png[width=800,align=center]
+
+== Dashboard - Member
+
+image::dashboard-member.png[width=800,align=center]
+
+== look at your profile page
+
+image::profile_page.png[align=center]

@@ -1,0 +1,27 @@
+= Getting Started
+
+== Server Requirements
+
+* PHP >= 7.4
+* MySQL 5.6+ or MariaDB 10.0+
+* BCMath PHP Extension
+* Ctype PHP Extension
+* Fileinfo PHP extension
+* JSON PHP Extension
+* Mbstring PHP Extension
+* OpenSSL PHP Extension
+* PDO PHP Extension
+* Tokenizer PHP Extension
+* XML PHP Extension
+* Imagick PHP Extension
+* GD PHP Extension
+
+== Directory
+
+    Laramagz/
+    ├── app/
+    │   └── laramagz.zip
+    ├── database/
+    │   └── laramagz.sql
+    └── documentation/
+        └── laramagz.pdf

@@ -1,0 +1,35 @@
+= Menu 
+
+== Select Menu 
+
+image::select-menu.png[align=center]
+
+== Create Menu 
+
+image::menu.png[width=800,align=center]
+
+image::create-menu.png[width=800,align=center]
+
+== Create Item menu
+
+image::create-item-menu.png[width=800,align=center]
+
+== Result Item menu
+
+image::item-menu.png[width=800,align=center]
+
+== Modify the menu
+
+image::update-delete-item-menu.png[width=800,align=center]
+
+== Remove menu 
+
+Before deleting a menu, delete all the menu items in that menu.
+
+image::remove-all-item-menu.png[width=400,align=center]
+
+Then delete the menu.
+
+image::remove-menu.png[width=800,align=center]
+
+

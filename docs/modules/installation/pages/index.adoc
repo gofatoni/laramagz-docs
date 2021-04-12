@@ -1,0 +1,5 @@
+= Installing Laramagz
+
+include::./server.adoc[]
+
+include::./local.adoc[]
