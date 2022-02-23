@@ -8,10 +8,56 @@ image::advertisement.png[width=800,align=center]
 
 image::create_new_advertisement.png[align=center]
 
-=== Google Adsense 
-
-image::google_ads.png[width=600,align=center]
-
 == Edit Advertisement 
 
 image::edit_ads.png[width=800,align=center]
+
+== Google Adsense
+
+Get the ad unit code on google adsense after you create a new ad unit code.
+
+Responsive Ad Unit Code example
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- example -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-123456791234567"
+        data-ad-slot="5678567856"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+Fixed Ad Unit Code example
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- example -->
+    <ins class="adsbygoogle"
+        style="display:inline-block;width:728px;height:90px"
+        data-ad-client="ca-pub-123456791234567"
+        data-ad-slot="1234567890"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+Select the Google Adsense tab for the ad type
+
+image::google_ads.png[align=center]
+
+Enter the Ad Client and Ad Slot input according to the code you get.
+
+image::ad_client_ad_slot.png[align=center]
+
+Choose Ad Size according to your code whether fixed or responsive.
+
+image::ad_size.png[align=center]
+
+The fixed size makes you have to enter the height and width.
+
+image::enter_width_and_height.png[align=center]
+
+If you choose responsive you must enter the Ad Format and whether Full Width Responsive or not.
+
+image::responsive.png[align=center]

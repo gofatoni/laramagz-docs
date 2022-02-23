@@ -25,3 +25,12 @@
     │   └── laramagz.sql
     └── documentation/
         └── laramagz.pdf
+
+
+== Update Guide
+
+Before updating, make sure you have backed up the following data:
+
+1. Data table Contacts, menus, menu_items, model_has_roles, permissions, posts, roles, role_has_permissions, settings, socialmedia, terms, term_relationships, term_taxonomies, users, user_socialmedia.
+2. Files in storage such as service-account-credentials.json and all folders in public storage.
+3. .env file.
