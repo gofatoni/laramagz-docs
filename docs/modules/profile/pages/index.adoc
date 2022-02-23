@@ -1,23 +1,29 @@
 = Profile 
 
-== Setting Information
+== User Information
 
-image::profile-settings.png[width=800,align=center]
+image::profile.webp[align=center]
 
-== Setting Photo Avatar
+== User Photos
 
-image::profile-photo.png[width=800,align=center]
-
-== Uploading user photo files
-
-image::change-avatar.png[width=800,align=center]
+image::photo.webp[align=center]
 
 == Change user photo/Avatar
 
-image::upload-avatar.png[width=800,align=center]
+=== Remove Photo
+
+image::remove-photo.png[align=center]
+
+=== Uploading user photo files
+
+image::upload-avatar.webp[align=center]
+
+=== Using the uploaded photo
+
+image::using-photo.png[align=center]
 
 image::result.png[width=300,align=center]
 
 == Change user password
 
-image::change-password.png[width=800,align=center]
+image::change-password.webp[align=center]

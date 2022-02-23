@@ -1,0 +1,13 @@
+= Roles
+
+== All Roles
+
+image::all-roles.webp[align=center]
+
+== Added a new role
+
+image::new-role.webp[align=center]
+
+== Edit Role
+
+image::edit-role.webp[align=center]

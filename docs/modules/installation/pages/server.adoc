@@ -36,7 +36,7 @@ image::8-databases_phpmyadmin.png[align=center]
 
 9. Clik your database.
 +
-image::installing/9-phpmyadmin_databases.png[align=center]
+image::9-phpmyadmin_databases.png[align=center]
 						
 10. Click Import.
 +
