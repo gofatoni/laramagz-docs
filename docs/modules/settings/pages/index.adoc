@@ -1,32 +1,32 @@
 = Settings 
 
-== Web Informations
+== Web Information
 
-image::web-information.png[width=800,align=center]
+image::web-information.webp[align=center]
 
 == Web Contact
 
-image::web-contacts.png[width=800,align=center]
+image::web-contact.webp[align=center]
 
 == Web Properties
 
-image::web-properties.png[width=800,align=center]
+image::web-properties.webp[align=center]
 
 == Web Config
 
-image::web-configs.png[width=800,align=center]
+image::web-config.webp[align=center]
 
-=== Generate Sitemap
+=== Display Language Option
 
-Click the Generate Sitemap button to generate a web sitemap
+image::display-language-option.png[align=center]
 
-image::generate-sitemap.png[align=center]
+image::frontend-dipslay-language.webp[align=center]
 
-=== Web Sitemap 
+=== Site Language
 
-The web sitemap URL can be seen https://domain.com/sitemap.xml
+image::site-language.png[align=center]
 
-image::sitemap.xml.png[width=800,align=center]
+image::frontend-language.webp[align=center]
 
 === Maintenance Mode
 
@@ -38,13 +38,13 @@ image::service-unavailable.png[width=800,align=center]
 
 == Web Backup
 
-image::web-backup.png[width=800,align=center]
+image::web-backup.webp[width=800, align=center]
 
 === Export Data 
 
 Click the "Download Export Data File" button to download the data backup file.
 
-image::web-backup.jpg[width=800,align=center]
+image::backup-data.png[width=300,align=center]
 
 The results of the export of data are in the form of an xlsx format file that contains data in a database table.
 
@@ -66,4 +66,4 @@ If you want to import the data from the data file backup, you can search for the
 
 == Web Permalinks
 
-image::web-permalinks.png[width=800,align=center]
+image::web-permalinks.webp[align=center]

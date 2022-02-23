@@ -16,16 +16,17 @@
 * Imagick PHP Extension
 * GD PHP Extension
 
-== Directory
+== Laramagz package directory
 
-    Laramagz/
-    ├── app/
-    │   └── laramagz.zip
-    ├── database/
-    │   └── laramagz.sql
-    └── documentation/
-        └── laramagz.pdf
+The laramagz-v1.3.0.zip package contains the following files and folders.
 
+    📒 laramagz-v1.3.0
+        📂 app
+            📄 laramagz.zip
+        📂 database
+            📄 laramagz.sql
+        📂 documentation
+            📄 laramagz.pdf
 
 == Update Guide
 

@@ -2,7 +2,7 @@
 
 == Login 
 
-image::login.png[align=center]
+image::login.webp[align=center]
 
 Superadmin
 
@@ -25,20 +25,28 @@ The Register page is only available if activated by superadmin via the Settings 
 
 image::click-register-member.png[width=500, align=center]
 
-image::register-member.png[width=800, align=center]
+image::register-member.webp[align=center]
 
-== Dashboard - Superadmin
+== Dashboard
 
-image::dashboard-superadmin.png[width=800,align=center]
+image::dashboard-superadmin.webp[align=center]
 
-== Dashboard - Admin
+== Dashboard - Change the language
 
-image::dashboard-admin.png[width=800,align=center]
+image::change-language.png[align=center]
 
-== Dashboard - Member
+image::dashboard-language.webp[align=center]
 
-image::dashboard-member.png[width=800,align=center]
+== Dashboard - Dark Mode
+
+Click to activate dark mode
+
+image::dark-mode-icon.png[align=center]
+
+image::dashboard-dark-mode.webp[align=center]
 
 == look at your profile page
 
-image::profile_page.png[align=center]
+image::profile-button.png[align=center]
+
+image::profile.webp[align=center]

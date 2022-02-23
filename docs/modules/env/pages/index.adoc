@@ -2,52 +2,94 @@
 
 The Env Editor menu only appears for users as superadmins
 
-== overview
+image::env-editor.webp[align=center]
 
-image::overview.png[width=800,align=center]
-
-== Show .env file
-
-Click Load to display .env
-
-image::load-overview.png[width=800,align=center]
-
-== Edit Value
-
-Click the settings icon to edit the .env key value
-
-image::edit.png[width=800,align=center]
-
-== Add New
+== New Key
 
 Enter Key and Value to add to the .env Configuration
 
-image::add-new.png[width=800,align=center]
+image::add-new-key.webp[align=center]
+
+image::new-key.webp[align=center]
+
+A new key will appear below the list.
+
+image::result.png[align]
+
+It can also be seen in the .env file, the new key appears at the bottom.
+
+    ...
+    ANALYTICS_VIEW_ID=xxxxx 
+    locale=en 
+    
+
+If you want to be placed under a certain key, click the following icon to add a new key.
+
+image::add-bottom.png[align=center]
+
+A new key will appear below that key.
+
+image::result-bottom.png[align=center]
+
+== Edit Value
+
+Click the pencil mark to change.
+
+image::edit-key.png[align=center]
+
+Click "Update Key" to save changes.
+
+image::edit-modal.webp[align=center]
+
+The changes will look as follows.
+
+image::edit-result.png[align=center]
 
 == Backups
 
-image::backups.png[width=800,align=center]
+image::backups.webp[align=center]
 
 == Create Backup
 
-image::create-backup.png[width=800,align=center]
+Click "Gate a new Bakup" to backup the .env file.
 
-== Result Backup
+image::get-backup.png[align=center]
 
-image::result-backup.png[width=800,align=center]
+The results of the backed up .env will be in the following lis.
 
-Env backup file saved to `resources/backups/dotenv-editor`
+image::result-backup.png[align=center]
 
-image::path.png[align=center]
+Env backup file saved to `storage/env-editor`.
 
-== Download current .env
+    📂 storage 
+        📂 env-editor
+            📄 env_2022-02-15_164309
 
-image::download-currentenv.png[width=800,align=center]
+
+== Download
+
+=== Download current .env
+
+Click "Download current .env".
+
+image::download-env.png[align=center]
 
 The file download results.
 
-image::env_file.png[align=center]
+    📄 env
+
+=== Download .env backup
+
+Click the download icon to download the .env backup.
+
+The file download results.
+
+    📄 env_2022-02-15_164309
 
 == Upload
 
-image::upload.png[width=800,align=center]
+image::upload-env.webp[align=center]
+
+Click Browse to find the file then select "Upload as backup" or "Upload and replace current .env".
+
+image::uploads.webp[align=center]

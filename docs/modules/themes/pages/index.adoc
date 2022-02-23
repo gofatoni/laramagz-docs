@@ -1,11 +1,9 @@
 = Themes
 
-Current Theme 
+== Current Theme 
 
-image::current-theme.png[width=800,align=center]
+image::themes.webp[align=center]
 
-View Info Theme 
+== Info Theme 
 
-image::view-detail-theme.png[width=300,align=center]
-
-image::detail-theme.png[width=700,align=center]
+image::info-theme.webp[align=center]
