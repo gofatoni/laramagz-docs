@@ -1,6 +1,6 @@
 = Env Editor 
 
-The Env Editor menu only appears for users as superadmins
+The Env Editor menu only appears for users as `super-admin`
 
 image::env-editor.webp[align=center]
 
