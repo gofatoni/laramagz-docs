@@ -1,8 +1,8 @@
 = Roles
 
-Role memiliki 3 role default yang tidak bisa diubah dan dihapus, yaitu super-admin, admin, dan author. 
+Roles have 3 default roles that cannot be changed or deleted, namely super-admin, admin, and author.
 
-Role yang dibuat oleh pengguna bisa diubah dan dihapus.
+Role created by users can be changed and deleted.
 
 == All Roles
 

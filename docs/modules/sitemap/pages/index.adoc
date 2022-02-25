@@ -1,0 +1,27 @@
+= Sitemap 
+
+There are 4 sitemap urls that you can use for a website sitemap.
+
+== Index Sitemap
+
+    www.domain.com/sitemap.xml
+
+image::sitemap.png[align=center]
+
+== Post Sitemap
+
+    www.domain.com/sitemap-posts.xml
+
+image::sitemap-pages.png[align=center]
+
+== Pages Sitemap
+
+    www.domain.com/sitemap-pages.xml
+
+image::sitemap-pages.png[align=center]
+
+== Category Sitemap
+
+    www.domain.com/sitemap-categories.xml
+
+image::sitemap-categories.png[align=center]
