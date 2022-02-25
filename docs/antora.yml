@@ -19,5 +19,6 @@ nav:
 - modules/role/nav.adoc
 - modules/socialmedia/nav.adoc
 - modules/settings/nav.adoc
+- modules/sitemap/nav.adoc
 - modules/env/nav.adoc
 - modules/themes/nav.adoc
