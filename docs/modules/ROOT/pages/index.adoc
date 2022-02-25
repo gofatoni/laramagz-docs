@@ -30,8 +30,16 @@ The laramagz-v1.3.0.zip package contains the following files and folders.
 
 == Update Guide
 
-Before updating, make sure you have backed up the following data:
+Before updating, make sure you have backed up.
 
-1. Data table Contacts, menus, menu_items, model_has_roles, permissions, posts, roles, role_has_permissions, settings, socialmedia, terms, term_relationships, term_taxonomies, users, user_socialmedia.
-2. Files in storage such as service-account-credentials.json and all folders in public storage.
-3. .env file.
+1. Compress all files and folders into zip and download for backup.
+2. Backup your mysql database.
+3. Files in storage such as service-account-credentials.json and all folders in public storage.
+4. .env file.
+
+Replace folder Exports.
+
+📒 Exports
+    📂 Sheets
+    📄 MagzExports.php
+

@@ -1,5 +1,9 @@
 = Roles
 
+Role memiliki 3 role default yang tidak bisa diubah dan dihapus, yaitu super-admin, admin, dan author. 
+
+Role yang dibuat oleh pengguna bisa diubah dan dihapus.
+
 == All Roles
 
 image::all-roles.webp[align=center]

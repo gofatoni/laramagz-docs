@@ -17,7 +17,6 @@ nav:
 - modules/profile/nav.adoc
 - modules/users/nav.adoc
 - modules/role/nav.adoc
-- modules/permission/nav.adoc
 - modules/socialmedia/nav.adoc
 - modules/settings/nav.adoc
 - modules/env/nav.adoc
