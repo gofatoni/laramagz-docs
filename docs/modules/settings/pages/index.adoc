@@ -44,7 +44,7 @@ image::web-backup.png[width=800,align=center]
 
 Click the "Download Export Data File" button to download the data backup file.
 
-image::web-backup.jpg[width=800,align=center]
+image::backup-data.png[align=center]
 
 The results of the export of data are in the form of an xlsx format file that contains data in a database table.
 
