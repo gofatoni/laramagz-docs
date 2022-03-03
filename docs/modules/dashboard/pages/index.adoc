@@ -14,16 +14,16 @@ Admin
 * username/email: admin / <admin@example.com>
 * password: admin123
 
-Member
+Author
 
-* username/email: member / <member@example.com>
-* password: member123
+* username/email: author / <author@example.com>
+* password: author123
 
 == Register 
 
 The Register page is only available if activated by superadmin via the Settings menu.
 
-image::click-register-member.png[width=500, align=center]
+image::click-register-member.png[align=center]
 
 image::register-member.webp[align=center]
 
