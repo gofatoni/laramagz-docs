@@ -22,6 +22,9 @@ The laramagz-v1.3.0.zip package contains the following files and folders.
 
     📒 laramagz-v1.3.0
         📂 app
+            📂 upgrade
+                📂 Exports
+                📂 file
             📄 laramagz.zip
         📂 database
             📄 laramagz.sql
@@ -37,9 +40,32 @@ Before updating, make sure you have backed up.
 3. Files in storage such as service-account-credentials.json and all folders in public storage.
 4. .env file.
 
-Replace folder Exports.
+Extract package `laramagz-v1.3.0`. Copy folder `Exports`.
 
-📒 Exports
-    📂 Sheets
-    📄 MagzExports.php
+image::copy.png[align=center]
+
+Go to your website folder. Replace Exports with Exports from Laramagz.
+
+image::paste.png[align=center]
+ 
+Go to Settings then to Web Backup, click "Download Export File Data" and "Download Backup Storage".
+
+image::download.png[align=center]
+
+Now you can upload laramagz.zip to your hosting to replace the previous version of laramagz.
+
+After you have successfully installed it, you can re-import the data file that you exported.
+
+image::import.png[align=center]
+
+Upload and re-enter your storage data to `storage/app/public`. Please do not delete the `supportedLocales.json` file which is located in `app/public/file`. 
+
+image::supportedlocalesjson.png[align=center]
+
+If deleted take it back from laramagz package in `upgrade` folder.
+
+
+
+
+
 
