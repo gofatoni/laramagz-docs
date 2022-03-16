@@ -58,7 +58,7 @@ After you have successfully installed it, you can re-import the data file that y
 
 image::import.png[align=center]
 
-Upload and re-enter your storage data to `storage/app/public`. Please do not delete the `supportedLocales.json` file which is located in `app/public/file`. 
+Upload and re-enter your storage data to `storage/app/public/file/`. Please do not delete the `supportedLocales.json` file which is located in `app/public/file`. 
 
 image::supportedlocalesjson.png[align=center]
 
