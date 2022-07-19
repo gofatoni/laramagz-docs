@@ -24,7 +24,7 @@ image::frontend-dipslay-language.webp[align=center]
 
 === Site Language
 
-image::site-language.png[align=center]
+image::site-language.webp[align=center]
 
 image::frontend-language.webp[align=center]
 
@@ -34,7 +34,31 @@ image::maintenance-mode.png[width=800,align=center]
  
 Display the page when in Maintenance mode
 
-image::service-unavailable.png[width=800,align=center]
+image::service-unavailable.webp[width=800,align=center]
+
+=== Register User
+
+image::register-user.png[align=center]
+
+Displays the register user link at login
+
+image::link-register-user.webp[align=center]
+
+=== Email Verification
+
+image::email-verification.png[align=center]
+
+If activated, users who have not confirmed the email must click the confirmation link sent to the email to enter the dashboard.
+
+image::alert-confirm.png[align=center]
+
+=== Symlink
+
+image::symlink.png[align=center]
+
+Click to create a symlink to the storage folder.
+
+image::storage.png[align=center]
 
 == Web Backup
 
@@ -56,7 +80,7 @@ Click the "Download Backup Storage" button to download all files in public stora
 
 image::backup-store.png[align=center]
 
-The download results are in the form of a zip file which you can then extract and put in the public folder in storage
+The download results are in the form of a zip file which you can then extract and put in the public folder in storage. If you want to re-download, you need to refresh the web browser.
 
 === Import Data
 

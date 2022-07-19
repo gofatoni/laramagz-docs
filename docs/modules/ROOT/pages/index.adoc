@@ -18,51 +18,57 @@
 
 == Laramagz package directory
 
-The laramagz-v1.3.1.zip package contains the following files and folders.
+The `laramagz-v1.3.2.zip` package contains the following files and folders.
 
-    📒 laramagz-v1.3.1
+    📒 laramagz-v1.3.2
         📂 app
-            📂 upgrade
+            📂 update
                 📂 Exports
                 📂 file
-            📄 laramagz.zip
+            📄 basic-v1.3.2.zip // no vendor
+            📄 hosting-v1.3.2.zip // this is uploaded to shared hosting
         📂 database
-            📄 laramagz.sql
+            📄 db-laramagz-v1.3.2.sql
         📂 documentation
-            📄 laramagz.pdf
+            📄 documentation-v1.3.2.html
 
-== Update Guide
+== Update Guide (Only for Laramagz v1.3.1)
 
-Before updating, make sure you have backed up.
+Before updating, do the following steps:
 
-1. Compress all files and folders into zip and download for backup.
-2. Backup your mysql database.
-3. Files in storage such as service-account-credentials.json and all folders in public storage.
-4. .env file.
+1. Compress to zip all the files and folders of your website on the hosting and then download them for backup.
+2. Backup `service-account-credentials.json` (If you have it).
+3. Backup `.env` file.
+4. Backup the contents of the `public` folder in `storage`.
 
-Extract package `laramagz-v1.3.1`. Copy folder `Exports`.
+5. Backup your website mysql database via phpMyadmin (main backup in case export - import Laramagz fails).
++
+image::export-table.png[align=center]
++
+6. Extract package `laramagz-v1.3.2`. Open the `app/updates` folder. Copy the `Exports` folder.
 
-image::copy.png[align=center]
+7. Go to your website folder. Replace `app/Exports`.
 
-Go to your website folder. Replace Exports with Exports from Laramagz.
+8. Go to Laramagz Settings page, in Web Backup click the `Download Export File Data` button and `Download Backup Storage`. Data file contains your website data to be imported and Storage contains public storage files.
 
-image::paste.png[align=center]
- 
-Go to Settings then to Web Backup, click "Download Export File Data" and "Download Backup Storage".
+image::export.png[align=center]
 
-image::download.png[align=center]
+After doing the steps above, you are ready to install the Laramagz update. 
 
-Now you can upload laramagz.zip to your hosting to replace the previous version of laramagz.
+I'm sorry that the installation process is done manually so your website will have problems so it is recommended to redirect it.
 
-After you have successfully installed it, you can re-import the data file that you exported.
-
+1. Delete all old version laramagz files and folders.
+2. Upload `hosting-v1.3.2` to your hosting.
+3. Create a new database or use an old database (previously delete all tables).
+4. Import `laramagz-v1.3.2.sql` to your database.
+5. Re-adjust the contents of the .env file with the previous .env.
+6. Re-upload service-account-credentials.json (If you have it).
+7. Upload your backup public storage to the storage folder.
+8. Enter the dashboard, go to Settings > Web Backup. Then import the laramagz-backup.xlsx file.
++
 image::import.png[align=center]
-
-Upload and re-enter your storage data to `storage/app/public`. Please do not delete the `supportedLocales.json` file which is located in `app/public/file`. 
-
-image::supportedlocalesjson.png[align=center]
-
-If deleted take it back from laramagz package in `upgrade` folder.
++
+9. Done.
 
 
 

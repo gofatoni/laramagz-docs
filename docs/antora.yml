@@ -1,8 +1,9 @@
 name: docs
 title: Laramagz
-version: v1.3.1
+version: v1.3.2
 nav:
 - modules/ROOT/nav.adoc
+- modules/changelog/nav.adoc
 - modules/installation/nav.adoc
 - modules/configuration/nav.adoc
 - modules/dashboard/nav.adoc

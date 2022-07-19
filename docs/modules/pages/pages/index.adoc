@@ -11,3 +11,7 @@ image::new-page.webp[align=center]
 == Edit Page
 
 image::edit-page.webp[align=center]
+
+== Add Translation
+
+image::add-translation.webp[align=center]

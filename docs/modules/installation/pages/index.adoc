@@ -1,5 +1,42 @@
 = Installing Laramagz
 
-include::./server.adoc[]
+== Setup Database 
 
-include::./local.adoc[]
+1. Create a new database.
+2. Import db-laramagz-v1.3.2.sql
+
+== Install on Server (Shared Hosting)
+
+1. Upload `hosting-v1.3.2.zip` in `public_html`.
+2. Extract it.
++
+image::extract.png[align=center]
++
+3. Move it outside the public_html folder.
++
+image::move-laramagz.png[align=center]
++
+image::move-to-root.png[align=center]
+4. Select all files and folders in public laramagz then move them to `public_html`.
++
+image::select-all-move.png[align=center]
++
+image::move-files.png[align=center]
++
+5. 
+Edit the .env file according to your database.
+
+== Install on Local
+
+1. Extract basic-v1.3.2.zip.
+2. Edit the .env file according to your database.
+3. Open your terminal, type the following command:
++
+```
+composer install
+```
+4. Run the server.
++
+```
+php artisan serve
+```
