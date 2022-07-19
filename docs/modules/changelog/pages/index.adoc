@@ -7,7 +7,7 @@ All laramagz changes are documented in this file.
 - Support RTL for dashboard.
 - Support Dark Mode for theme.
 - Image for category.
-- shared hosting version and.
+- shared hosting and basic version.
 - Disk 'sharedhosting' on Filesystem Disks for custom storage.
 - Env configuration for custom disk filesystem in env file.
 
