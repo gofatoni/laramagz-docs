@@ -63,7 +63,7 @@ I'm sorry that the installation process is done manually so your website will ha
 4. Import `laramagz-v1.3.2.sql` to your database.
 5. Re-adjust the contents of the .env file with the previous .env.
 6. Re-upload service-account-credentials.json (If you have it).
-7. Upload your backup public storage to the storage folder.
+7. Upload your backup public storage to the storage folder in public_html (main domain) or your subdomain folder.
 8. Enter the dashboard, go to Settings > Web Backup. Then import the laramagz-backup.xlsx file.
 +
 image::import.png[align=center]
