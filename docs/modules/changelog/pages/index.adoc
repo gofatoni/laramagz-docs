@@ -2,6 +2,16 @@
 
 All laramagz changes are documented in this file.
 
+== [v1.3.2-2] - 2022-10-05
+=== Fixed
+- Site Social Media
+- Permalink
+- Image ad
+- change favicon
+- change logo 
+- Update Settings
+- Env-editor blank
+
 == [v1.3.2] - 2022-07-19
 === Added
 - Support RTL for dashboard.
