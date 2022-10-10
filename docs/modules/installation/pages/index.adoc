@@ -3,11 +3,11 @@
 == Setup Database 
 
 1. Create a new database.
-2. Import db-laramagz-v1.3.2.sql
+2. Import db-laramagz-v1.3.2-3.sql
 
 == Install on Server (Shared Hosting)
 
-1. Upload `hosting-v1.3.2.zip` in `public_html`.
+1. Upload `hosting-v1.3.2-.zip` in `public_html`.
 2. Extract it.
 +
 image::extract.png[align=center]
@@ -26,14 +26,15 @@ image::move-files.png[align=center]
 5. 
 Edit the .env file according to your database.
 
-== Install on Local
+== Install on Local or Hosting (support SSH and symlink)
 
-1. Extract basic-v1.3.2.zip.
+1. Extract basic-v1.3.2-3.zip.
 2. Edit the .env file according to your database.
 3. Open your terminal, type the following command:
 +
 ```
 composer install
+php artisan storage:link
 ```
 4. Run the server.
 +
