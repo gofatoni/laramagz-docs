@@ -7,7 +7,7 @@
 
 == Install on Server (Shared Hosting)
 
-1. Upload `hosting-v1.3.2-.zip` in `public_html`.
+1. Upload `hosting-v1.3.2-3.zip` in `public_html`.
 2. Extract it.
 +
 image::extract.png[align=center]
