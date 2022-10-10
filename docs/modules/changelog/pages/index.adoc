@@ -2,6 +2,32 @@
 
 All laramagz changes are documented in this file.
 
+== [v1.3.2-3] - 2022-10-10
+=== Fixed
+- Can't delete social media site links
+- ad image not showing
+- minor bug
+
+=== Removed
+- package consoletvs/charts
+
+== [v1.3.2-2] - 2022-10-05
+=== Fixed
+- Site Social Media
+- Permalink
+- Image ad
+- change favicon
+- change logo 
+- Update Settings
+- Env-editor blank
+
+== [v1.3.2-1] - 2022-07-24
+=== Fixed
+- Display a blank image on the edit page
+
+### Removed 
+- Check php symlink extension
+
 == [v1.3.2] - 2022-07-19
 === Added
 - Support RTL for dashboard.
