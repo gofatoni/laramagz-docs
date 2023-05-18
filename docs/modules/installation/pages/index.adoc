@@ -3,16 +3,19 @@
 == Setup Database 
 
 1. Create a new database.
-2. Import db-laramagz-v1.3.2-3.sql
+2. Import db-laramagz-v1.3.2-4.sql
 
 == Install on Server (Shared Hosting)
 
-1. Upload `hosting-v1.3.2-3.zip` in `public_html`.
+1. Upload `app-v1.3.2-4.zip` in `public_html`. 
++
+[NOTE]
+====
+If your root home directory is different instead of `public_html`, please <<instruction, read the following instructions>>
+====
++
 2. Extract it.
-+
-image::extract.png[align=center]
-+
-3. Move it outside the public_html folder.
+3. Move `laramagz` folder outside the public_html folder.
 +
 image::move-laramagz.png[align=center]
 +
@@ -26,18 +29,19 @@ image::move-files.png[align=center]
 5. 
 Edit the .env file according to your database.
 
-== Install on Local or Hosting (support SSH and symlink)
+[#instruction]
+== The root home directory is not public_html
 
-1. Extract basic-v1.3.2-3.zip.
-2. Edit the .env file according to your database.
-3. Open your terminal, type the following command:
-+
+For example, the name of your root folder is `httpdocs`, then you have to adjust the env file as follows:
+
 ```
-composer install
-php artisan storage:link
+ROOT_PUBLIC=/../../httpdocs
 ```
-4. Run the server.
-+
-```
-php artisan serve
+
+You should also modify the file `laramagz/app/Providers/AppServiceProvider.php` on lines 33 - 35. Change `public_html` to `httpdocs`
+
+```php
+$this->app->bind('path.public', function() {
+    return base_path().'/../httpdocs';
+});
 ```

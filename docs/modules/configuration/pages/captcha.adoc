@@ -1,5 +1,4 @@
 == Google re-Captcha
-:page-partial:
 
 Google re-Captcha
 

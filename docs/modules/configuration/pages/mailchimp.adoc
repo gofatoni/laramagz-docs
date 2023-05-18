@@ -1,7 +1,5 @@
 == Mailchimp
 
-:page-partial:
-
 1. Go to https://mailchimp.com/, click Sign Up Free
 +
 image::mailchimp/01-mailchimp.png[align=center]
