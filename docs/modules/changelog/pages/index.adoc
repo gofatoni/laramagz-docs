@@ -2,6 +2,12 @@
 
 All laramagz changes are documented in this file.
 
+== [v1.3.2-4] - 2023-04-27
+=== Fixed
+- Post image not showing
+- Error sitemap
+- Post error page when opened by a different user
+
 == [v1.3.2-3] - 2022-10-10
 === Fixed
 - Can't delete social media site links

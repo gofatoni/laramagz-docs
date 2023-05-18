@@ -18,19 +18,16 @@
 
 == Laramagz package directory
 
-The `laramagz-v1.3.2-3.zip` package contains the following files and folders.
+The `laramagz-v1.3.2.zip` package contains the following files and folders.
 
-    📒 laramagz-v1.3.2-3
+    📒 laramagz-v1.3.2
         📂 app
-            📂 update
-                📂 Exports
-                📂 file
-            📄 basic-v1.3.2-3.zip // no vendor
-            📄 hosting-v1.3.2-3.zip // this is uploaded to shared hosting
+            📄 app-v1.3.2.zip // this is uploaded to shared hosting
         📂 database
-            📄 db-laramagz-v1.3.2-3.sql
+            📄 db-laramagz-v1.3.2.sql
         📂 documentation
-            📄 documentation-v1.3.2-3.html
+            📄 documentation-v1.3.2.html
+
 
 == Update Guide (Only for Laramagz v1.3.1)
 
@@ -45,7 +42,7 @@ Before updating, do the following steps:
 +
 image::export-table.png[align=center]
 +
-6. Extract package `laramagz-v1.3.2-3`. Open the `app/updates` folder. Copy the `Exports` folder.
+6. Extract package `laramagz-v1.3.2`. Open the `app/updates` folder. Copy the `Exports` folder.
 
 7. Go to your website folder. Replace `app/Exports`.
 
@@ -58,9 +55,9 @@ After doing the steps above, you are ready to install the Laramagz update.
 I'm sorry that the installation process is done manually so your website will have problems so it is recommended to redirect it.
 
 1. Delete all old version laramagz files and folders.
-2. Upload `hosting-v1.3.2-3` to your hosting.
+2. Upload `hosting-v1.3.2` to your hosting.
 3. Create a new database or use an old database (previously delete all tables).
-4. Import `laramagz-v1.3.2-3.sql` to your database.
+4. Import `laramagz-v1.3.2.sql` to your database.
 5. Re-adjust the contents of the .env file with the previous .env.
 6. Re-upload service-account-credentials.json (If you have it).
 7. Upload your backup public storage to the storage folder in public_html (main domain) or your subdomain folder.
@@ -69,9 +66,3 @@ I'm sorry that the installation process is done manually so your website will ha
 image::import.png[align=center]
 +
 9. Done.
-
-
-
-
-
-
