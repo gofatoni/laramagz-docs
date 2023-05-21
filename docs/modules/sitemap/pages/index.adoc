@@ -12,7 +12,7 @@ image::sitemap.png[align=center]
 
     www.domain.com/sitemap-posts.xml
 
-image::sitemap-pages.png[align=center]
+image::sitemap-posts.png[align=center]
 
 == Pages Sitemap
 
