@@ -20,14 +20,22 @@
 
 The `laramagz-v1.3.3.zip` package contains the following files and folders.
 
-    📒 laramagz-v1.3.3
+    📒 laramagz-v1.3.4
         📂 app
-            📄 app-v1.3.3.zip // this is uploaded to shared hosting
+            📄 app-v1.3.4.zip // this is uploaded to shared hosting
         📂 database
-            📄 db-laramagz-v1.3.3.sql
+            📄 db-laramagz-v1.3.4.sql
         📂 documentation
-            📄 documentation-v1.3.3.html
+            📄 documentation.html
+        📂 update
+            📄 update-v1.3.2-to-v1.3.3.zip
+            📄 update-v1.3.3-to-v1.3.4.zip
 
+== Update Guide (Updating from v1.3.3)
+
+1. Extract `update-v1.3.3-to-v1.3.4.zip`
+2. Replace `app` (`Helpers/Posts.php` & `Htp/Controllers/Front/ArticleController.php`) and `config` (`retenvi.php`)
+3. Go to public root > themes/magz/css, replace `skins`
 
 == Update Guide (Updating from v1.3.2)
 
@@ -35,6 +43,6 @@ The `laramagz-v1.3.3.zip` package contains the following files and folders.
 2. Ekstrak paket zip
 3. Replace folder laramagz di dalam paket ke folder laramagz di hosting 
 4. Replace isi folder public ke root home directory (htdocs atau lainnya)
-5. Untuk update database, pergi ke Settings > Web Backup klik tombol Update
+5. For update database, Go to Settings > Web Backup, click Update button
 +
 image::btn-update.png[align=center]

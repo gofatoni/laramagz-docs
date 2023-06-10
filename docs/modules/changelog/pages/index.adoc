@@ -2,6 +2,23 @@
 
 All laramagz changes are documented in this file.
 
+== [Unreleased]
+=== Added
+ - Video Post
+ - Audio Post
+
+=== Changed
+ - Upgrade to Laravel 10
+
+== [v1.3.4] - 2023-06-10
+=== Fixed
+ - Error 503 when accessing post details that have category
+ - CSS: The color of the pagination number when active
+ - Fixed attempt to read property "parent" on null on homepage
+
+=== Changed
+ - Posts helper: display thumbnail images in edited posts
+
 == [v1.3.3] - 2023-05-22
 === Added 
  - Custom Open Graph Image per Page
