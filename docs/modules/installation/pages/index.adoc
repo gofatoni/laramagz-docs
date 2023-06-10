@@ -3,11 +3,11 @@
 == Setup Database 
 
 1. Create a new database.
-2. Import db-laramagz-v1.3.2-4.sql
+2. Import db-laramagz-v1.3.3.sql
 
 == Install on Server (Shared Hosting)
 
-1. Upload `app-v1.3.2-4.zip` in `public_html`. 
+1. Upload `app-v1.3.3.zip` in `public_html`. 
 +
 [NOTE]
 ====

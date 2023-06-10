@@ -2,6 +2,16 @@
 
 All laramagz changes are documented in this file.
 
+== [v1.3.3] - 2023-05-22
+=== Added 
+ - Custom Open Graph Image per Page
+ - Supports Sub Categories
+ 
+=== Fixed 
+ - Can't deactivate language in Localization > Language menu
+ - Can't delete Sub Menu
+ - Error saving Menu When Any Menu Item is deleted
+
 == [v1.3.2-4] - 2023-04-27
 === Fixed
 - Post image not showing

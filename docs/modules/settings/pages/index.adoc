@@ -10,11 +10,15 @@ image::web-contact.webp[align=center]
 
 == Web Properties
 
-image::web-properties.webp[align=center]
+image::web-properties.jpeg[align=center]
+
+== Web Properties - Open Graph Image
+
+image::open-graph-image.jpeg[align=center]
 
 == Web Config
 
-image::web-config.webp[align=center]
+image::web-config.jpeg[align=center]
 
 === Display Language Option
 

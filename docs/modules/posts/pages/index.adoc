@@ -6,8 +6,12 @@ image::all-posts.webp[align=center]
 
 == Added a new post
 
-image::new-posts.webp[align=center]
+image::add-new-post.jpeg[align=center]
 
 == Edit Post
 
-image::edit-posts.webp[align=center]
+image::edit-post.jpeg[align=center]
+
+== Add Post Translation
+
+image::add-post-translation.jpeg[align=center]
