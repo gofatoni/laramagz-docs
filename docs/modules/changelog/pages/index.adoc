@@ -10,7 +10,7 @@ All laramagz changes are documented in this file.
 === Changed
  - Upgrade to Laravel 10
 
-== [v1.3.4] - 2023-06-10
+== [v1.3.4] - 2023-06-21
 === Fixed
  - Error 503 when accessing post details that have category
  - CSS: The color of the pagination number when active
