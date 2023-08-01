@@ -1,1 +1,4 @@
-* xref:index.adoc[Themes]
+.Themes
+* xref:theme.adoc[Themes]
+* xref:layout.adoc[Edit Page]
+* xref:widget.adoc[Widget]

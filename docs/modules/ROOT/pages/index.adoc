@@ -2,7 +2,7 @@
 
 == Server Requirements
 
-* PHP >= 8.0
+* PHP >= 8.1
 * MySQL 5.6+ or MariaDB 10.0+
 * BCMath PHP Extension
 * Ctype PHP Extension
@@ -18,31 +18,12 @@
 
 == Laramagz package directory
 
-The `laramagz-v1.3.3.zip` package contains the following files and folders.
+The `laramagz-v2.0.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v1.3.4
+    📒 laramagz-v2.0.0
         📂 app
-            📄 app-v1.3.4.zip // this is uploaded to shared hosting
+            📄 app-v2.0.0.zip // this is uploaded to shared hosting
         📂 database
-            📄 db-laramagz-v1.3.4.sql
+            📄 db-laramagz-v2.0.0.sql
         📂 documentation
             📄 documentation.html
-        📂 update
-            📄 update-v1.3.2-to-v1.3.3.zip
-            📄 update-v1.3.3-to-v1.3.4.zip
-
-== Update Guide (Updating from v1.3.3)
-
-1. Extract `update-v1.3.3-to-v1.3.4.zip`
-2. Replace `app` (`Helpers/Posts.php` & `Htp/Controllers/Front/ArticleController.php`) and `config` (`retenvi.php`)
-3. Go to public root > themes/magz/css, replace `skins`
-
-== Update Guide (Updating from v1.3.2)
-
-1. Upload `update-v1.3.2-to-v1.3.3.zip` to your hosting.
-2. Ekstrak paket zip
-3. Replace folder laramagz di dalam paket ke folder laramagz di hosting 
-4. Replace isi folder public ke root home directory (htdocs atau lainnya)
-5. For update database, Go to Settings > Web Backup, click Update button
-+
-image::btn-update.png[align=center]

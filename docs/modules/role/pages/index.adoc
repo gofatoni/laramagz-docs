@@ -6,12 +6,12 @@ Role created by users can be changed and deleted.
 
 == All Roles
 
-image::all-roles.webp[align=center]
+image::all-roles.jpeg[align=center]
 
 == Added a new role
 
-image::new-role.webp[align=center]
+image::add-role.jpeg[align=center]
 
 == Edit Role
 
-image::edit-role.webp[align=center]
+image::edit-role.jpeg[align=center]

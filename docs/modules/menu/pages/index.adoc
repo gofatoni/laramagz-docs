@@ -1,6 +1,6 @@
 = Menu 
 
-image::menu.webp[align=center]
+image::menu.jpeg[align=center]
 
 == Select Menu 
 

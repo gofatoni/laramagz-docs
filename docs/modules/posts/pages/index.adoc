@@ -2,7 +2,7 @@
 
 == All Posts
 
-image::all-posts.webp[align=center]
+image::all-posts.jpeg[align=center]
 
 == Added a new post
 

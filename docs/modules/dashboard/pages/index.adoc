@@ -29,13 +29,17 @@ image::register-member.webp[align=center]
 
 == Dashboard
 
-image::dashboard-superadmin.webp[align=center]
+image::dashboard-admin.jpeg[align=center]
+
+== Analytics
+
+image::analytics.jpeg[align=center]
 
 == Dashboard - Change the language
 
 image::change-language.png[align=center]
 
-image::dashboard-language.webp[align=center]
+image::dashboard-language.jpeg[align=center]
 
 == Dashboard - Dark Mode
 
@@ -43,10 +47,4 @@ Click to activate dark mode
 
 image::dark-mode-icon.png[align=center]
 
-image::dashboard-dark-mode.webp[align=center]
-
-== look at your profile page
-
-image::profile-button.png[align=center]
-
-image::profile.webp[align=center]
+image::dashboard-dark-mode.jpeg[align=center]

@@ -2,12 +2,12 @@
 
 == All Galleries
 
-image::all-galleries.webp[align=center]
+image::all-galleries.jpeg[align=center]
 
 == Add Gallery
 
-image::new-gallery.webp[align=center]
+image::new-gallery.jpeg[align=center]
 
 == Edit Gallery
 
-image::edit-gallery.webp[align=center]
+image::edit-gallery.jpeg[align=center]

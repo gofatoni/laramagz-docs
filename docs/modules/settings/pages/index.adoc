@@ -2,17 +2,17 @@
 
 == Web Information
 
-image::web-information.webp[align=center]
+image::web-information.jpeg[align=center]
 
 == Web Contact
 
-image::web-contact.webp[align=center]
+image::web-contact.jpeg[align=center]
 
 == Web Properties
 
 image::web-properties.jpeg[align=center]
 
-== Web Properties - Open Graph Image
+== Open Graph Image Custom
 
 image::open-graph-image.jpeg[align=center]
 
@@ -38,7 +38,7 @@ image::maintenance-mode.png[width=800,align=center]
  
 Display the page when in Maintenance mode
 
-image::service-unavailable.webp[width=800,align=center]
+image::service-unavailable.jpeg[width=800,align=center]
 
 === Register User
 
@@ -55,14 +55,6 @@ image::email-verification.png[align=center]
 If activated, users who have not confirmed the email must click the confirmation link sent to the email to enter the dashboard.
 
 image::alert-confirm.png[align=center]
-
-=== Symlink
-
-image::symlink.png[align=center]
-
-Click to create a symlink to the storage folder.
-
-image::storage.png[align=center]
 
 == Web Backup
 
@@ -94,4 +86,4 @@ If you want to import the data from the data file backup, you can search for the
 
 == Web Permalinks
 
-image::web-permalinks.webp[align=center]
+image::web-permalinks.jpeg[align=center]

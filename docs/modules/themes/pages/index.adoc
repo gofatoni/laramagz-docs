@@ -1,9 +1,0 @@
-= Themes
-
-== Current Theme 
-
-image::themes.webp[align=center]
-
-== Info Theme 
-
-image::info-theme.webp[align=center]

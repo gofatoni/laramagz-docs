@@ -43,7 +43,7 @@ image::success-message.webp[align=center]
 
 == All Messages
 
-image::all-messages.webp[align=center]
+image::all-messages.jpeg[align=center]
 
 == Message details
 
@@ -51,4 +51,4 @@ Click the eye icon to view the contact's message
 
 image::see-detail.png[align]
 
-image::detail-message.webp[align=center]
+image::detail-message.jpeg[align=center]

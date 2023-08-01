@@ -4,8 +4,8 @@ Term consists of post categories and post tags.
 
 == Categories
 
-image::categories.webp[align=center]
+image::categories.jpeg[align=center]
 
 == Tags
 
-image::tags.webp[align=center]
+image::tags.jpeg[align=center]
