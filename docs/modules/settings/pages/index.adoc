@@ -2,15 +2,15 @@
 
 == Web Information
 
-image::web-information.jpeg[align=center]
+image::information.png[align=center]
 
 == Web Contact
 
-image::web-contact.jpeg[align=center]
+image::contact.jpeg[align=center]
 
 == Web Properties
 
-image::web-properties.jpeg[align=center]
+image::properties.jpeg[align=center]
 
 == Open Graph Image Custom
 
@@ -18,7 +18,7 @@ image::open-graph-image.jpeg[align=center]
 
 == Web Config
 
-image::web-config.jpeg[align=center]
+image::config.jpg[align=center]
 
 === Display Language Option
 
@@ -26,9 +26,9 @@ image::display-language-option.png[align=center]
 
 image::frontend-dipslay-language.webp[align=center]
 
-=== Site Language
+=== Default Language
 
-image::site-language.webp[align=center]
+image::default-language.png[align=center]
 
 image::frontend-language.webp[align=center]
 
@@ -58,7 +58,7 @@ image::alert-confirm.png[align=center]
 
 == Web Backup
 
-image::web-backup.webp[width=800, align=center]
+image::backup.png[width=800, align=center]
 
 === Export Data 
 
@@ -86,4 +86,4 @@ If you want to import the data from the data file backup, you can search for the
 
 == Web Permalinks
 
-image::web-permalinks.jpeg[align=center]
+image::permalinks.jpeg[align=center]

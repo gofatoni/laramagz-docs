@@ -8,6 +8,8 @@ nav:
 - modules/configuration/nav.adoc
 - modules/dashboard/nav.adoc
 - modules/posts/nav.adoc
+- modules/video/nav.adoc
+- modules/audio/nav.adoc
 - modules/terms/nav.adoc
 - modules/pages/nav.adoc
 - modules/contact/nav.adoc

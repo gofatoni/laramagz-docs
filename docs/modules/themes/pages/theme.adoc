@@ -22,4 +22,4 @@ image::custom-theme.jpeg[align=center]
 
 Click edit to set the content and layout on the page
 
-image::edit-page.jpeg[align=center]
+image::edit-page.jpeg[align=center, width=800]

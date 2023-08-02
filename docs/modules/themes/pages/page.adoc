@@ -1,4 +1,4 @@
-= Edit Page
+= Page
 
 == Layout Visibility
 

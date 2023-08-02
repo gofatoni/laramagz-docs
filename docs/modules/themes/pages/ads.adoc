@@ -1,0 +1,67 @@
+= Ads widget
+
+Ads widget to display ad banners.
+
+image::ads-widget-modal.png[align=center]
+
+== Title
+
+You can write different language titles which will be displayed according to the language selection on the site.
+
+image::title.png[align=center]
+
+== Ad type
+
+There are 3 types of ad widgets, namely Google Adsense, image, and custom scripts.
+
+image::ad-type.png[align=center]
+
+=== Google Adsense
+
+The following are ad settings for Google Adsense.
+
+==== GA Client
+
+image::ga-client.png[align=center]
+
+==== GA Slot
+
+image::ga-slot.png[align=center]
+
+==== GA Size
+
+image::ga-size.png[align=center]
+
+==== Ad Size
+
+image::ad-size.png[align=center]
+
+==== GA Format
+
+Input GA Format is available when you select GA Size Responsive.
+
+image::ga-format.png[align=center]
+
+There are 4 options for ad display, namely Rectangle, Vertical, Horizontal, and Auto.
+
+==== Full width responsive
+
+image::full-width-responsive.png[align=center]
+
+=== Image
+
+==== Ad Image
+
+image::ad-image.png[align=center]
+
+==== Ad Size
+
+image::ad-size.png[align=center]
+
+==== URL
+
+image::url.png[align=center]
+
+=== Script
+
+image::script.png[align=center]

@@ -6,7 +6,7 @@ Role created by users can be changed and deleted.
 
 == All Roles
 
-image::all-roles.jpeg[align=center]
+image::roles.png[align=center]
 
 == Added a new role
 

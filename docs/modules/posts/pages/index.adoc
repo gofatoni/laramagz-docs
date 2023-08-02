@@ -2,11 +2,11 @@
 
 == All Posts
 
-image::all-posts.jpeg[align=center]
+image::posts.jpeg[align=center]
 
 == Added a new post
 
-image::add-new-post.jpeg[align=center]
+image::add-post.jpeg[align=center]
 
 == Edit Post
 
@@ -14,4 +14,12 @@ image::edit-post.jpeg[align=center]
 
 == Add Post Translation
 
+image::add-translation-button.png[align=center]
+
 image::add-post-translation.jpeg[align=center]
+
+== Edit Post Translation 
+
+image::edit-translation-button.png[align=center]
+
+image::edit-translation.jpeg[align=center]

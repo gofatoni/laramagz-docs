@@ -2,7 +2,7 @@
 
 == Login 
 
-image::login.webp[align=center]
+image::login.png[align=center]
 
 Superadmin
 
@@ -29,7 +29,7 @@ image::register-member.webp[align=center]
 
 == Dashboard
 
-image::dashboard-admin.jpeg[align=center]
+image::dashboard.jpeg[align=center]
 
 == Analytics
 
@@ -38,8 +38,6 @@ image::analytics.jpeg[align=center]
 == Dashboard - Change the language
 
 image::change-language.png[align=center]
-
-image::dashboard-language.jpeg[align=center]
 
 == Dashboard - Dark Mode
 

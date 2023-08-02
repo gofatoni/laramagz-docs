@@ -1,0 +1,5 @@
+= Newsletter widget
+
+The newsletter widget is only available on the sidebar and footer.
+
+image::newsletter.png[align=center]

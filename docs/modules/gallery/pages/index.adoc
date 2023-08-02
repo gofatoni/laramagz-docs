@@ -6,7 +6,7 @@ image::all-galleries.jpeg[align=center]
 
 == Add Gallery
 
-image::new-gallery.jpeg[align=center]
+image::new-gallery.png[align=center]
 
 == Edit Gallery
 
