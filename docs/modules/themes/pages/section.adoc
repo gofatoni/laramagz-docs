@@ -1,6 +1,6 @@
 = Section 
 
-Sections are layouts that contain small widgets. Widgets that can be included in the layout are post and term (category and tag).
+Sections are only available on the front page of the site. Sections are layouts that contain small widgets. Widgets that can be included in the layout are post and term (category and tag).
 
 == Add Widget 
 

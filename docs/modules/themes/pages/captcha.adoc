@@ -1,0 +1,7 @@
+= Captcha
+
+Captcha settings are only available in Contacts.
+
+image::captcha.png[align=center]
+
+If the Captcha is hidden, it will not activate Captcha on the contact form.

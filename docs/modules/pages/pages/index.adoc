@@ -12,6 +12,10 @@ image::add-page.jpeg[align=center]
 
 image::edit-page.jpeg[align=center]
 
-== Add Translation
+== Add translation
 
-image::add-translation.jpeg[align=center]
+image::add-translation-button.png[align=center]
+
+== Edit translation
+
+image::edit-translation-button.png[align=center]

@@ -3,11 +3,23 @@
 == Setup Database 
 
 1. Create a new database.
-2. Import db-laramagz-v1.3.4.sql
+2. Import db-laramagz-v2.0.0.sql
+
+== Install on Server (Shared Hosting with symlink)
+== Install on Server (Shared Hosting without symlink)
+== Install on Server (using GIT)
+
+
+Edit .env file
+composer install
+php artisan key:generate
+php artisan storage:link
+php artisan migrate --seed
+upload files storage
 
 == Install on Server (Shared Hosting)
 
-1. Upload `app-v1.3.4.zip` in `public_html`. 
+1. Upload `app-v2.0.0.zip` in `public_html`. 
 +
 [NOTE]
 ====
@@ -30,9 +42,9 @@ image::move-files.png[align=center]
 Edit the .env file according to your database.
 
 [#instruction]
-== The root home directory is not public_html
+== Direktori root hostingmu bukan public_html?
 
-For example, the name of your root folder is `httpdocs`, then you have to adjust the env file as follows:
+For example, the name of your root folder is *httpdocs*. Edit the .env file:
 
 ```
 ROOT_PUBLIC=/../../httpdocs

@@ -1,0 +1,13 @@
+= Map Widget 
+
+Map Widget to display maps from Google Map. 
+
+image::googlemap.png[align=center]
+
+These settings are available on the contact page.
+
+image::map.png[align=center]
+
+The way to enter the embed code is to copy the iframe source:
+
+image::copyembed.png[align=center]

@@ -1,0 +1,9 @@
+= About widget
+
+About Widget is available in the footer.
+
+image::about.png[align=center]
+
+You can set whether the image logo and link button are displayed or not.
+
+image::about-widget-frontend.png[align=center]

@@ -14,6 +14,8 @@ nav:
 - modules/pages/nav.adoc
 - modules/contact/nav.adoc
 - modules/menu/nav.adoc
+- Modules/languages/nav.adoc
+- Modules/translations/nav.adoc
 - modules/gallery/nav.adoc
 - modules/filemanager/nav.adoc
 - modules/profile/nav.adoc

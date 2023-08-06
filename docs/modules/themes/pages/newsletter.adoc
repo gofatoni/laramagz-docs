@@ -3,3 +3,11 @@
 The newsletter widget is only available on the sidebar and footer.
 
 image::newsletter.png[align=center]
+
+== Newsletter in Sidebar
+
+image::newsletter-sidebar.png[align=center]
+
+== Newsletter in Footer
+
+image::newsletter-footer.png[align=center]

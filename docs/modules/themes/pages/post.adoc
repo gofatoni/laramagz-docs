@@ -14,9 +14,11 @@ image::category.png[align=center, width=400]
 
 == Layout Type
 
+Setting the Layout Type affects the appearance of the style on the content. Each widget has a different layout type. 
+
 image::layout-type.png[align=center]
 
-Each widget has a different layout type. The post widget has 2 types of layouts, namely one-column and two-column.
+The post widget has 2 types of layouts, namely one-column and two-column. The default post widget layout type is set to one-column
 
 === One Column 
 
@@ -25,6 +27,24 @@ image::one-column.jpeg[align=center, width=400]
 === Two Column
 
 image::two-column.jpeg[align=center, width=400]
+
+== Layout Type for Sidebar Post Widget
+
+The post widget on the sidebar has 3 layout type settings. The default widget sidebar post layout type is set with Regular List Posts
+
+image::layouttype-postsidebar.png[align=center]
+
+=== List Post With Link
+
+image::linkpost.png[align=center]
+
+=== First Large Thumbnail
+
+image::firstlargethumbnail.jpeg[align=center]
+
+=== Regular List Post
+
+image::regularlistpost.png[align=center]
 
 == Title
 
@@ -54,8 +74,3 @@ image::popular.png[align=center]
 Set the number of posts in the widget content
 
 image::number-of-posts.png[align=center]
-
-[NOTE]
-====
-Audio and Video Widgets
-====
