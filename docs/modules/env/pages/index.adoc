@@ -2,34 +2,17 @@
 
 The Env Editor menu only appears for users as `super-admin`
 
-image::env-editor.webp[align=center]
+image::env.jpeg[align=center]
 
-== New Key
+== Add New Key
+
+Click "Add New Key" to add settings to the .env file.
+
+image::add-new-key.png[align=center]
 
 Enter Key and Value to add to the .env Configuration
 
-image::add-new-key.webp[align=center]
-
-image::new-key.webp[align=center]
-
-A new key will appear below the list.
-
-image::result.png[align]
-
-It can also be seen in the .env file, the new key appears at the bottom.
-
-    ...
-    ANALYTICS_VIEW_ID=xxxxx 
-    locale=en 
-    
-
-If you want to be placed under a certain key, click the following icon to add a new key.
-
-image::add-bottom.png[align=center]
-
-A new key will appear below that key.
-
-image::result-bottom.png[align=center]
+image::new-key.png[align=center]
 
 == Edit Value
 
@@ -49,13 +32,13 @@ image::edit-result.png[align=center]
 
 image::backups.webp[align=center]
 
-== Create Backup
+=== Create Backup
 
 Click "Gate a new Bakup" to backup the .env file.
 
 image::get-backup.png[align=center]
 
-The results of the backed up .env will be in the following lis.
+The results of the backed up .env will be in the following list.
 
 image::result-backup.png[align=center]
 
@@ -63,7 +46,7 @@ Env backup file saved to `storage/env-editor`.
 
     📂 storage 
         📂 env-editor
-            📄 env_2022-02-15_164309
+            📄 env_2023-08-02_163605
 
 
 == Download
@@ -84,12 +67,10 @@ Click the download icon to download the .env backup.
 
 The file download results.
 
-    📄 env_2022-02-15_164309
+    📄 env_2023-08-02_163605
 
 == Upload
 
-image::upload-env.webp[align=center]
+image::upload-env.png[align=center]
 
 Click Browse to find the file then select "Upload as backup" or "Upload and replace current .env".
-
-image::uploads.webp[align=center]

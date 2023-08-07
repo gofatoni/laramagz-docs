@@ -1,0 +1,69 @@
+= Widget
+
+== Content Visibility
+
+Click edit on one of the layouts, click on the eye icon to hide the widget content you want.
+
+image::hide-content-widget.png[align=center]
+
+== Widget Content position
+
+You can change the position of the widget content, except for widgets marked in gray.
+
+image::order.jpeg[align=center, width=400]
+
+== Add Widget
+
+Click the "Add Widget" button to add content in the page layout
+
+image::add-widget.png[align=center]
+
+Select the widget content that you want to add to the page layout
+
+image::add-opt-widget.png[align=center, width=350]
+
+The new post widget will appear before the recent posts.
+
+image::add-post-widget.png[align=center]
+
+== Add Widget in Section
+
+Click the "Add Widget" button in the section.
+
+image::click-add-widget-in-section.png[align=center]
+
+Content that can be added to sections is only posts and terms
+
+image::add-widget-in-section.png[align=center]
+
+The new widget content will appear in the section
+
+image::mini-post.png[align=center]
+
+== Add Widget in footer
+
+Widgets that have been added to the footer layout cannot be added again
+
+image::add-widget-in-footer.png[align=center]
+
+Each page has different footer content settings so you can add widgets to the footer on the page and it won't affect other pages.
+
+== Remove Widget 
+
+Click the delete icon on the widget.
+
+image::remove-widget.png[align=center]
+
+Click "Yes, delete it!" to remove widget.
+
+image::alert-delete-widget.png[align=center]
+
+== Edit Widget Content
+
+Click edit to change the widget content
+
+image::edit-widget.png[align=center]
+
+A modal will appear containing the content settings
+
+image::post-edit.png[align=center, width=350]

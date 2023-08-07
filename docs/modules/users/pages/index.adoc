@@ -2,12 +2,12 @@
 
 == All Users
 
-image::all-users.webp[align=center]
+image::users.png[align=center]
 
 == Add New User
 
-image::new-user.png[align=center]
+image::add-user.jpeg[align=center]
 
 == Edit User
 
-image::edit-user.png[align=center]
+image::edit-user.jpeg[align=center]

@@ -2,15 +2,21 @@
 
 == Server Requirements
 
-* PHP >= 7.4
+* PHP >= 8.1
 * MySQL 5.6+ or MariaDB 10.0+
 * BCMath PHP Extension
 * Ctype PHP Extension
+* cURL PHP Extension
+* Filter PHP Extension
+* Hash PHP Extension
+* DOM PHP Extension
 * Fileinfo PHP extension
 * JSON PHP Extension
 * Mbstring PHP Extension
 * OpenSSL PHP Extension
+* PCRE PHP Extension
 * PDO PHP Extension
+* Session PHP Extension
 * Tokenizer PHP Extension
 * XML PHP Extension
 * Imagick PHP Extension
@@ -18,54 +24,12 @@
 
 == Laramagz package directory
 
-The laramagz-v1.3.0.zip package contains the following files and folders.
+The `laramagz-v2.0.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v1.3.0
+    📒 laramagz-v2.0.0
         📂 app
-            📂 upgrade
-                📂 Exports
-                📂 file
-            📄 laramagz.zip
+            📄 app-v2.0.0.zip // this is uploaded to shared hosting
         📂 database
-            📄 laramagz.sql
+            📄 db-laramagz-v2.0.0.sql
         📂 documentation
-            📄 laramagz.pdf
-
-== Update Guide
-
-Before updating, make sure you have backed up.
-
-1. Compress all files and folders into zip and download for backup.
-2. Backup your mysql database.
-3. Files in storage such as service-account-credentials.json and all folders in public storage.
-4. .env file.
-
-Extract package `laramagz-v1.3.0`. Copy folder `Exports`.
-
-image::copy.png[align=center]
-
-Go to your website folder. Replace Exports with Exports from Laramagz.
-
-image::paste.png[align=center]
- 
-Go to Settings then to Web Backup, click "Download Export File Data" and "Download Backup Storage".
-
-image::download.png[align=center]
-
-Now you can upload laramagz.zip to your hosting to replace the previous version of laramagz.
-
-After you have successfully installed it, you can re-import the data file that you exported.
-
-image::import.png[align=center]
-
-Upload and re-enter your storage data to `storage/app/public/file/`. Please do not delete the `supportedLocales.json` file which is located in `app/public/file`. 
-
-image::supportedlocalesjson.png[align=center]
-
-If deleted take it back from laramagz package in `upgrade` folder.
-
-
-
-
-
-
+            📄 documentation.html

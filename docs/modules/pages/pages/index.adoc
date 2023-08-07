@@ -2,12 +2,20 @@
 
 == All Pages
 
-image::all-pages.webp[align=center]
+image::pages.png[align=center]
 
 == Added a new page
 
-image::new-page.webp[align=center]
+image::add-page.jpeg[align=center]
 
 == Edit Page
 
-image::edit-page.webp[align=center]
+image::edit-page.jpeg[align=center]
+
+== Add translation
+
+image::add-translation-button.png[align=center]
+
+== Edit translation
+
+image::edit-translation-button.png[align=center]

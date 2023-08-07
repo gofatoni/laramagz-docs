@@ -4,25 +4,8 @@ Term consists of post categories and post tags.
 
 == Categories
 
-image::category.webp[align=center]
+image::categories.jpeg[align=center]
 
 == Tags
 
-image::tag.webp[align=center]
-
-== Added a new term
-
-1. Enter the term name.
-2. Enter the term description.
-3. Click "Add Translation" to add a translation or "Hide Translation" to hide the input translation.
-4. Enter the translation.
-5. Click "Add New" to save the translation.
-
-image::new_term.webp[align=center]
-
-
-== Edit term
-
-Click the pencil mark to change the data. Click "Cancel" to cancel, or "Update" to save.
-
-image::edit_term.webp[align=center]
+image::tags.jpeg[align=center]

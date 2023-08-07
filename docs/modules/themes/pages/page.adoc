@@ -1,0 +1,22 @@
+= Page
+
+== Layout Visibility
+
+image::visibility.png[align=center]
+
+If the sidebar is set not visible it will look as follows. The page content is centered
+
+image::without-sidebar.jpeg[align=center]
+
+If the footer is not visible then it will only display the credit footer
+
+image::no-footer.jpeg[align=center]
+
+== Sidebar Position
+
+image::set-position.png[align=center]
+
+Sidebar position can be set right or left
+
+image::sidebar-position.jpeg[align=center]
+

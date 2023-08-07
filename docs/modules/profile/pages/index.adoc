@@ -2,11 +2,11 @@
 
 == User Information
 
-image::profile.webp[align=center]
+image::profile.jpeg[align=center]
 
 == User Photos
 
-image::photo.webp[align=center]
+image::photo.jpeg[align=center]
 
 == Change user photo/Avatar
 
@@ -26,4 +26,4 @@ image::result.png[width=300,align=center]
 
 == Change user password
 
-image::change-password.webp[align=center]
+image::change-password.jpeg[align=center]
