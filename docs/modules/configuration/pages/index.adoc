@@ -1,7 +1,0 @@
-= Configuration 
-
-include::analytics.adoc[]
-
-include::captcha.adoc[]
-
-include::mailchimp.adoc[]

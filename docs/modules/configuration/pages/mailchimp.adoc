@@ -1,4 +1,4 @@
-== Mailchimp
+= Mailchimp
 
 1. Go to https://mailchimp.com/, click Sign Up Free
 +

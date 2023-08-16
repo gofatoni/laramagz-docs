@@ -1,158 +1,181 @@
-== Google Analytics 
+= Google Analytics 
+
+== Create a new project in Google Cloud
 
 Go to https://console.developers.google.com/apis
 
-
 If you are using GoogleAPIs for the first time, you will find the following display. Click "I agree .." in the Terms of Service and then click "Agree And Continue"
 
-image::analytics/welcome.png[align=center]
+image::analytics/welcome-google-cloud-first-time.png[align=center]
 
-Click CREATE PROJECT
+1. Click "Select a project"
++
+image::analytics/select-project.png[align=center]
++
+2. Click "NEW PROJECT"
++
+image::analytics/new-project.png[align=center]
++
+3. Type in your project name
++
+image::analytics/project-name.png[align=center]
++
+4. Click create project
++
+image::analytics/create-project.png[align=center]
++
+5. Select "APIs & Services > Library"
++
+image::analytics/select-library.png[align=center]
++
+6. Type "google analytics data-api". Then, click to select.
++
+image::analytics/find-ga-data-api.png[align=center]
++
+7. Click "Google Analytics Data API".
++
+image::analytics/select-google-analytics-data-api.png[align=center]
++
+8. Click "ENABLE" to enable Data API.
++
+image::analytics/enable-data-api.png[align=center]
++
+9. Click "Credentials" in the sidebar
++
+image::analytics/click-credentials.png[align=center]
++
+10. Click "CREATE CREDENTIALS", choose "Service Account".
++
+image::analytics/choose-service-account.png[align=center]
++
+11. Type in any name you like. You will see an email address under "Service account ID"
++
+----
+laramagz@laramagz-395905.iam.gserviceaccount.com
+----
++
+This email address will be used for roles and data restrictions to access Google Analytics properties.
++
+image::analytics/create-service-account.png[align=center]
++
+12. Select the service account email address
++
+image::analytics/service-account-created.png[align=center]
++
+13. Click on the "KEYS" tab
++
+image::analytics/service-account-details.png[align=center]
++
+14. Choose "Create new key"
++
+image::analytics/create-new-key.png[align=center]
++
+15. Select the JSON key type.
++
+image::analytics/create-private-key-json.png[align=center]
++
+After you click "Create" then you will download the json file, example: `laramagz-xxxxxx-z41d06879xz3.json`
++
+image::analytics/saved-json.png[align=center]
++
+[NOTE]
+====
+Rename `laramagz-xxxxxx-z41d06879xz3.json` to `service-account-credentials.json` and save it in `laramagz/storage/app/analytics` folder.
+====
 
-image::analytics/create_project.png[width=800,align=center]
+== Create a Google Analytics account
 
-If you've made a project before, click select project from the top bar menu:
+Go to https://analytics.google.com/analytics
 
-image::analytics/select_project.png[align=center]
+image::analytics/welcome-to-google-analytics.png[align=center]
 
-Click NEW PROJECT
+Click "Start Measuring" to begin
 
-image::analytics/new_project.png[align=center]
-
-1. Type a new project name
+1. Type in the account name you want
 +
-image::analytics/1.png[align=center]
-
-2. Click ENABLE APIS AND SERVICES
+image::analytics/create-account-ga.png[align=center]
 +
-image::analytics/2.png[align=center]
-
-3. Find and select Analytics API
+Click the "Next" button to continue.
 +
-image::analytics/3.png[align=center]
-
-4. Click ENABLE
+2. Enter Property Name with any name. Choose your timezone and currency according to your location.
 +
-image::analytics/4.png[align=center]
-
-5. Click Credentials
+image::analytics/create-property.png[align=center]
 +
-image::analytics/5.png[align=center]
-
-6. Click CREATE CREDENTIALS, click Service account
+3. Select the industry category and business size
 +
-image::analytics/6.png[align=center]
-
-7. Type Service account name, click DONE
+image::analytics/descibe-business.png[align=center]
 +
-image::analytics/7.png[align=center]
-
-8. Click "Manage service accounts"
+4. Choose your business objectives
 +
-image::analytics/8.png[align=center]
-
-9. Click Actions and select "Manage keys"
+image::analytics/business-objective.png[align=center]
 +
-image::analytics/9.png[align=center]
-
-10. Click "ADD KEY" and select "Create new key"
+5. Select your country/region, check the Data Processing Terms agreement box, click the "I Agree" button.
 +
-image::analytics/10.png[align=center]
-
-11. Select key type "JSON"
+image::analytics/ga-term-agreement.png[align=center]
 +
-image::analytics/11.png[align=center]
-
-12. The json file will be downloaded automatically and a notification "Private key saved to your computer" will appear. Click CLOSE.
+6. Choose a platform to start collecting data
 +
-image::analytics/12.png[align=center]
+image::analytics/start-collecting-data.png[align=center]
 +
-TIP: Rename file `name-xxxxx-xxxxx.json` to `service-account-credentials.json`, and save in `storage/app/analytics`
+7. Type in the website url and stream name.
 +
-image::analytics/save_credentials.png[align=center]
-
-13. Go to the details tab and copy the email shown
+image::analytics/setup-data-stream.png[align=center]
 +
-image::analytics/13.png[align=center]
-
-14. Go to https://analytics.google.com/analytics/web/
+8. Save the MEASUREMENT ID
 +
-If you open Google Analytics for the first time, you will get the following screen:
+image::analytics/measurement-id.png[align=center]
 +
-image::analytics/14.png[align=center]
+[NOTE]
+====
+Enter `G-DXYY3ZMC09` in the MEASUREMENT ID input in settings > Web Config
+====
 +
-If you already have an account name, select admin:
+9. Click "Next"
 +
-image::analytics/admin.png[align=center]
+image::analytics/start-collect-data.png[align=center]
 +
-Click "Create Account"
+10. Click "Admin"
 +
-image::analytics/create_account.png[align=center]
-
-15. Type in the account name and then check all data sharing options. Then click Next.
+image::analytics/home-ga.png[align=center]
 +
-image::analytics/15.png[align=center]
-
-16. Type the property name and then click "Show advanced options"
+11. Click "Property Settings"
 +
-image::analytics/16.png[align=center]
-
-17. Enable "Create a Universal Analytics property".
+image::analytics/property-settings.png[align=center]
 +
-image::analytics/17.png[align=center]
-
-18. Enter the Website URL and then select "Create a Universal Analytics property only". Then click Next.
+12. Copy your property ID
 +
-image::analytics/18.png[align=center]
-
-19. Set about your business, then click "Create"
+image::analytics/property-id.png[align=center]
 +
-image::analytics/19.png[align=center]
-
-20. Checklist Term of Service Agreement and cklick "I Accept".
+Place it in ANALYTICS_PROPERTY_ID in the .env file
 +
-image::analytics/20.png[align=center]
-
-21. Copy and save Tracking ID
+----
+ANALYTICS_PROPERTY_ID=406298333
+----
 +
-image::analytics/21.png[align=center]
+13. Click "Property Access Management"
 +
-TIP: Enter the Tracking ID value in the Google Analytics ID field in Settings menu > Web Config
+image::analytics/property-access-management.png[align=center]
 +
-image::analytics/google_analytics_id.png[align=center]
-
-22. Click "Property User Management"
+14. Click the plus logo button
 +
-image::analytics/22.png[align=center]
-
-23. Click button plus
+image::analytics/add-property-access-management.png[align=center]
 +
-image::analytics/23.png[align=center]
-
-24. Click "Add users"
+15. Select "Add users"
 +
-image::analytics/24.png[align=center]
-
-25. Type the email that you copied from Google APIs, then click "Add".
+image::analytics/add-users.png[align=center]
 +
-image::analytics/25.png[align=center]
+16. Enter the email address that you got when you created the service account, or you can see it in the downloaded json file. Look at the client_email:
 +
-image::analytics/account_permission.png[align=center]
-
-26. Click "View Settings"
+[, json]
+----
+"client_email": "laramagz@laramagz-395905.iam.gserviceaccount.com",
+----
 +
-image::analytics/26.png[align=center]
-
-27. Copy VIEW ID 
+Select "Analyst" for standard roles.
 +
-image::analytics/27.png[align=center]
+image::analytics/add-roles-and-data-restrictions.png[align=center]
 
 
-28. Enter the ANALYTICS_VIEW_ID value in the .env file
 
-    ANALYTICS_VIEW_ID=238189280
 
-+
-Or enter it in the Analytics View ID in the Settings menu
-+
-image::analytics/analytics_view_id.png[align=center]
+

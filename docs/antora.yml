@@ -6,6 +6,7 @@ nav:
 - modules/changelog/nav.adoc
 - modules/installation/nav.adoc
 - modules/configuration/nav.adoc
+- modules/authentication/nav.adoc
 - modules/dashboard/nav.adoc
 - modules/posts/nav.adoc
 - modules/video/nav.adoc
@@ -14,8 +15,7 @@ nav:
 - modules/pages/nav.adoc
 - modules/contact/nav.adoc
 - modules/menu/nav.adoc
-- Modules/languages/nav.adoc
-- Modules/translations/nav.adoc
+- modules/localization/nav.adoc
 - modules/gallery/nav.adoc
 - modules/filemanager/nav.adoc
 - modules/profile/nav.adoc

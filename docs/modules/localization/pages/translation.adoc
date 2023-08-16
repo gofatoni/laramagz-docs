@@ -1,0 +1,37 @@
+= Translations
+
+Translations contains all the translations used by Laramagz.
+
+image::translations.png[align=center]
+
+== Added translation
+
+This feature is suitable for those of you who want to modify the appearance of Laramagz. Besides adding translations with the form, you can also add them via the translation file in the lang folder.
+
+To add translations click the "Add" button.
+
+image::added-translation.png[align=center]
+
+In the add translation form, you can enter the new translation that you want to use.
+
+image::form-added-translation.png[align=center]
+
+- *Group*: You can write a new group or use an existing group. For example: button, form, title, and others. You can also leave it blank if you only want to use the key without the group, for example: __('home'). This key will be added to single language json file (en.json, id.json, ar.json, etc).
+
+image::group.png[align=center]
+
+- *Key*: used to display the word translation, example: __all_translations__ to display All Translations in English or كل الترجمات in Arabic
+
+- *Value*: Contains the translation of the keywords used, for example: All Translations as the value of the __all_translations key__
+
+- *Namespace*: only translations for packages you build or install.
+
+== Edit translation
+
+image::click.png[align=center]
+
+Change the translation by clicking on the translation column so that an input box appears.
+
+image::input-box.png[align=center]
+
+End with any click to save changes.

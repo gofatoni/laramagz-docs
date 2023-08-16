@@ -28,8 +28,27 @@ The `laramagz-v2.0.0.zip` package contains the following files and folders.
 
     📒 laramagz-v2.0.0
         📂 app
-            📄 app-v2.0.0.zip // this is uploaded to shared hosting
-        📂 database
+            📄 app-v2.0.0.zip
             📄 db-laramagz-v2.0.0.sql
         📂 documentation
             📄 documentation.html
+
+== Upgrade Guide (for v1.3.2, v1.3.3, v1.3.4)
+
+1. Backup all Laramagz files
+2. Go to phpMyAdmin. Select the Export menu tab. Select "Custom" in "Export method". Then, select the JSON format.
++
+image::export.png[align=center]
++
+3. Uncheck the following tables: `advertisements`, `ad_placements`, `failed_jobs`, `language_lines`, `migrations`, `personal_access_tokens`, 
++
+image::uncheck.png[align=center]
++
+4. Rename the downloaded database json file to `db.json`
+5. Install Laramagz v2.0.0 (look at the installation guide menu)
+6. Upload `db.json` to `storage/app/public/file`
+7. Go to the menu Settings > Web Backup. Click the "Import" button
++
+image::import.png[align=center]
++
+Wait until the import process is complete.

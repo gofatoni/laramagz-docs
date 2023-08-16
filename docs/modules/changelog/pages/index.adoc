@@ -2,13 +2,25 @@
 
 All laramagz changes are documented in this file.
 
-== [Unreleased]
+== [v2.0.0] - 2023-08-15
 === Added
  - Video Post
  - Audio Post
+ - layout and content can be customized
+ - add system mode color scheme
 
 === Changed
  - Upgrade to Laravel 10
+ - Text editor from summernote to TinyMCE
+ - Renamed Google Analytics ID to Measurement ID
+ - Renamed Aanalytics View ID to Property ID 
+ - Translation editor
+ - Color scheme icon: dark mode, light mode, system mode
+ - etc~
+
+ === Fixed 
+  - Google Analytics
+  - Other bugs
 
 == [v1.3.4] - 2023-06-21
 === Fixed

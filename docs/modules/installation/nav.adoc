@@ -1,1 +1,3 @@
-* xref:index.adoc[Installation]
+.Installation
+* xref:install.adoc[Install on server]
+* xref:install-alt.adoc[Install on server (alternative)]

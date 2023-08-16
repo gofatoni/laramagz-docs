@@ -1,9 +1,4 @@
-== Google re-Captcha
-
-Google re-Captcha
-
-    NOCAPTCHA_SITEKEY=
-    NOCAPTCHA_SECRET=
+= Google re-Captcha
 
 1. Go to https://www.google.com/recaptcha
 +
@@ -20,3 +15,9 @@ image::captcha/3.png[align=center]
 4. COPY SITE KEY to NOCAPTCHA_SITEKEY, COPY SECRET KEY to NOCAPTCHA_SECRET
 +
 image::captcha/4.png[align=center]
+
+[, txt]
+----
+NOCAPTCHA_SITEKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NOCAPTCHA_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+----
