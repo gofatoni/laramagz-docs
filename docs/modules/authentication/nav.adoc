@@ -1,4 +1,0 @@
-.Authentication
-* xref:login.adoc[Login]
-* xref:register.adoc[Register]
-* xref:reset.adoc[Reset Password]

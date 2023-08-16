@@ -1,9 +1,0 @@
-= Social Media
-
-== All Social Media
-
-image::all-socialmedia.webp[align=center]
-
-== Edit Social Media
-
-image::edit-socialmedia.webp[align=center]

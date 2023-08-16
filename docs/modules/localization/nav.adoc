@@ -1,3 +1,0 @@
-.Localization
-* xref:language.adoc[Languages]
-* xref:translation.adoc[Translations]

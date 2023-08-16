@@ -1,7 +1,0 @@
-= Box Label widget
-
-image::boxlabel.png[align=center]
-
-The Box Label Widget is only available in the footer. This widget content can be of category or tag type.
-
-image::label.png[align=center, width=400]

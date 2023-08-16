@@ -1,4 +1,0 @@
-.Configuration
-* xref:analytics.adoc[Google Analytics]
-* xref:captcha.adoc[Google re-Captcha]
-* xref:mail.adoc[Mail]

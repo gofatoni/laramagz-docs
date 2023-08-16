@@ -1,7 +1,0 @@
-= Register
-
-The Register page is only available if activated by superadmin via the Settings menu.
-
-image::click-register-member.png[align=center]
-
-image::register.webp[align=center]
