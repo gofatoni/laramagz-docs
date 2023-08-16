@@ -1,0 +1,181 @@
+= Google Analytics 
+
+== Create a new project in Google Cloud
+
+Go to https://console.developers.google.com/apis
+
+If you are using GoogleAPIs for the first time, you will find the following display. Click "I agree .." in the Terms of Service and then click "Agree And Continue"
+
+image::analytics/welcome-google-cloud-first-time.png[align=center]
+
+1. Click "Select a project"
++
+image::analytics/select-project.png[align=center]
++
+2. Click "NEW PROJECT"
++
+image::analytics/new-project.png[align=center]
++
+3. Type in your project name
++
+image::analytics/project-name.png[align=center]
++
+4. Click create project
++
+image::analytics/create-project.png[align=center]
++
+5. Select "APIs & Services > Library"
++
+image::analytics/select-library.png[align=center]
++
+6. Type "google analytics data-api". Then, click to select.
++
+image::analytics/find-ga-data-api.png[align=center]
++
+7. Click "Google Analytics Data API".
++
+image::analytics/select-google-analytics-data-api.png[align=center]
++
+8. Click "ENABLE" to enable Data API.
++
+image::analytics/enable-data-api.png[align=center]
++
+9. Click "Credentials" in the sidebar
++
+image::analytics/click-credentials.png[align=center]
++
+10. Click "CREATE CREDENTIALS", choose "Service Account".
++
+image::analytics/choose-service-account.png[align=center]
++
+11. Type in any name you like. You will see an email address under "Service account ID"
++
+----
+laramagz@laramagz-395905.iam.gserviceaccount.com
+----
++
+This email address will be used for roles and data restrictions to access Google Analytics properties.
++
+image::analytics/create-service-account.png[align=center]
++
+12. Select the service account email address
++
+image::analytics/service-account-created.png[align=center]
++
+13. Click on the "KEYS" tab
++
+image::analytics/service-account-details.png[align=center]
++
+14. Choose "Create new key"
++
+image::analytics/create-new-key.png[align=center]
++
+15. Select the JSON key type.
++
+image::analytics/create-private-key-json.png[align=center]
++
+After you click "Create" then you will download the json file, example: `laramagz-xxxxxx-z41d06879xz3.json`
++
+image::analytics/saved-json.png[align=center]
++
+[NOTE]
+====
+Rename `laramagz-xxxxxx-z41d06879xz3.json` to `service-account-credentials.json` and save it in `laramagz/storage/app/analytics` folder.
+====
+
+== Create a Google Analytics account
+
+Go to https://analytics.google.com/analytics
+
+image::analytics/welcome-to-google-analytics.png[align=center]
+
+Click "Start Measuring" to begin
+
+1. Type in the account name you want
++
+image::analytics/create-account-ga.png[align=center]
++
+Click the "Next" button to continue.
++
+2. Enter Property Name with any name. Choose your timezone and currency according to your location.
++
+image::analytics/create-property.png[align=center]
++
+3. Select the industry category and business size
++
+image::analytics/descibe-business.png[align=center]
++
+4. Choose your business objectives
++
+image::analytics/business-objective.png[align=center]
++
+5. Select your country/region, check the Data Processing Terms agreement box, click the "I Agree" button.
++
+image::analytics/ga-term-agreement.png[align=center]
++
+6. Choose a platform to start collecting data
++
+image::analytics/start-collecting-data.png[align=center]
++
+7. Type in the website url and stream name.
++
+image::analytics/setup-data-stream.png[align=center]
++
+8. Save the MEASUREMENT ID
++
+image::analytics/measurement-id.png[align=center]
++
+[NOTE]
+====
+Enter `G-DXYY3ZMC09` in the MEASUREMENT ID input in settings > Web Config
+====
++
+9. Click "Next"
++
+image::analytics/start-collect-data.png[align=center]
++
+10. Click "Admin"
++
+image::analytics/home-ga.png[align=center]
++
+11. Click "Property Settings"
++
+image::analytics/property-settings.png[align=center]
++
+12. Copy your property ID
++
+image::analytics/property-id.png[align=center]
++
+Place it in ANALYTICS_PROPERTY_ID in the .env file
++
+----
+ANALYTICS_PROPERTY_ID=406298333
+----
++
+13. Click "Property Access Management"
++
+image::analytics/property-access-management.png[align=center]
++
+14. Click the plus logo button
++
+image::analytics/add-property-access-management.png[align=center]
++
+15. Select "Add users"
++
+image::analytics/add-users.png[align=center]
++
+16. Enter the email address that you got when you created the service account, or you can see it in the downloaded json file. Look at the client_email:
++
+[, json]
+----
+"client_email": "laramagz@laramagz-395905.iam.gserviceaccount.com",
+----
++
+Select "Analyst" for standard roles.
++
+image::analytics/add-roles-and-data-restrictions.png[align=center]
+
+
+
+
+

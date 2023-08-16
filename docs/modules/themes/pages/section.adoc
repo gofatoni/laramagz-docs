@@ -1,0 +1,24 @@
+= Section 
+
+Sections are only available on the front page of the site. Sections are layouts that contain small widgets. Widgets that can be included in the layout are post and term (category and tag).
+
+== Add Widget 
+
+image::add-widget-in-section.png[align=center]
+
+- Mini Post: Article-type widget content.
+- List Label: Widget content is of type term (category or tag).
+
+== Mini Post 
+
+The settings are the same as the post widget but there are additional settings for the carousel and carousel autoplay.
+
+image::mini-post-widget.png[align=center, width=400]
+
+== List Label 
+
+You can choose to display a list of categories or tags. You can also choose how it is displayed, whether ordered lists or unordered lists.
+
+image::list-label.png[align=center, width=400]
+
+

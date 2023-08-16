@@ -1,0 +1,3 @@
+= Reset Password
+
+image::reset-password.png[align=center]

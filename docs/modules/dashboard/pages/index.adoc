@@ -1,0 +1,19 @@
+= Dashboard
+
+image::dashboard.jpeg[align=center]
+
+== Analytics
+
+image::analytics.jpeg[align=center]
+
+== Dashboard - Change the language
+
+image::change-language.png[align=center]
+
+== Dashboard - Dark Mode
+
+Click to activate dark mode
+
+image::dark-mode-icon.png[align=center]
+
+image::dashboard-dark-mode.jpeg[align=center]

@@ -1,0 +1,75 @@
+= Mailchimp
+
+1. Go to https://mailchimp.com/, click Sign Up Free
++
+image::mailchimp/01-mailchimp.png[align=center]
+
+2. Fill in the sign up form
++ 
+image::mailchimp/02-signup.png[align=center]
+
+3. Check your E-mail
++
+image::mailchimp/03-check-email.png[align=center]
+
+4. Click "I'm Not A Robot"
++
+image::mailchimp/04-confirm.png[align=center]
+
+5. Select "Free" and click "Complete"
++
+image::mailchimp/05-select-order.png[align=center]
+
+6. Fill in the form for your account
++
+image::mailchimp/06-setup.png[align=center]
+
+7. Add your physical address
++
+image::mailchimp/07-add-your-address.png[align=center]
+
+8. Select yes or no on the question have contacts
++
+image::mailchimp/08-have-any-contacts.png[align=center]
+
+9. Select your offer
++
+image::mailchimp/10-select-offer.png[align=center]
+
+10. Click "Let's Go!"
++
+image::mailchimp/11-lets-go.png[align=center]
+
+11. Finish
++
+image::mailchimp/accounts-all-setup.png[align=center]
+
+12. Click "Account"
++
+image::mailchimp/13-account.png[align=center]
+
+13. Click "Api keys"
++
+image::mailchimp/14-api-keys.png[align=center]
+
+14. Click "Create a key"
++
+image::mailchimp/15-key.png[align=center]
+
+15. Copy Api key to MAILCHIMP_APIKEY value
++
+image::mailchimp/16-api-keys.png[align=center]
+
+16. Select menu "Adience"
++
+image::mailchimp/17-audience.png[align=center]
+
+17. Select "Manage Audience", click "Settings"
++
+image::mailchimp/18-settings.png[align=center]
+
+18. Copy Unique id to MAILCHIMP_LIST_ID value
++
+image::mailchimp/19-id.png[align=center]
+
+

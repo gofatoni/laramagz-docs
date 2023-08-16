@@ -1,0 +1,87 @@
+= Ad Unit
+
+image::adunit.webp[align=center]
+
+== Create New Advertisement 
+
+image::new-adunit.webp[align=center]
+
+=== How to upload an image as a banner
+
+image::ad-banner.webp[align=center]
+
+1. Type the name of the ad unit
+2. Select the image ad type
+3. Click the "choose a file" area to select an image
+
+image::upload-image-ad-banner.webp[align=center]
+
+[start=4]
+. The ad image will appear
+. The size of the width and height of the image will be automatically filled
+. Image URL is optional
+. Click "Create new ad unit" to save
+
+=== Google Adsense
+
+image::googleadsense.webp[align=center]
+
+1. Type the name of the ad unit
+2. Choose Google Adsense ad type
+
+Get the ad unit code on google adsense after you create a new ad unit code.
+
+Responsive Ad Unit Code example:
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- example -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-123456791234567"
+        data-ad-slot="5678567856"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+Fixed Ad Unit Code example:
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- example -->
+    <ins class="adsbygoogle"
+        style="display:inline-block;width:728px;height:90px"
+        data-ad-client="ca-pub-123456791234567"
+        data-ad-slot="1234567890"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+---
+
+image::insert-ga.webp[align=center]
+
+1. Enter data-ad-client into Ad Client Input
+2. Enter the data-ad-slot into the Ad-Slot Input
+
+If you want to set the ad size you have to select "Ad Fixed" and fill in the width and height.
+
+image::fixed.png[align=center]
+
+---
+
+image::responsive.webp[align=center]
+
+Select "Ad Responsive" if you want to have a responsive ad size. Fill in Ad Format input according to `data-ad-format' and Full width responsive input according to `data-full-width-responsive`
+
+=== Script
+
+image::script-code.webp[align=center]
+
+1. Type the name of the ad unit
+2. Choose Script ad type
+3. You can fill in with a google adsense ad script or other ad scripts.
+
+=== How to display ads on the website?
+
+Please go to the Placement menu

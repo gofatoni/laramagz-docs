@@ -1,0 +1,17 @@
+= Roles
+
+Roles have 3 default roles that cannot be changed or deleted, namely super-admin, admin, and author.
+
+Role created by users can be changed and deleted.
+
+== All Roles
+
+image::roles.png[align=center]
+
+== Added a new role
+
+image::add-role.jpeg[align=center]
+
+== Edit Role
+
+image::edit-role.jpeg[align=center]

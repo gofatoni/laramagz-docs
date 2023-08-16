@@ -1,0 +1,22 @@
+= Login 
+
+You can login using your username or email.
+
+image::login.png[align=center]
+
+On the Laramagz demo, use the following account to login:
+
+**Superadmin**
+
+* username/email: superadmin / <superadmin@example.com>
+* password: superadmin123
+
+**Admin**
+
+* username/email: admin / <admin@example.com>
+* password: admin123
+
+**Author**
+
+* username/email: author / <author@example.com>
+* password: author123

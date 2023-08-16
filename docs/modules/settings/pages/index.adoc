@@ -1,0 +1,89 @@
+= Settings 
+
+== Web Information
+
+image::information.png[align=center]
+
+== Web Contact
+
+image::contact.jpeg[align=center]
+
+== Web Properties
+
+image::properties.jpeg[align=center]
+
+== Open Graph Image Custom
+
+image::open-graph-image.jpeg[align=center]
+
+== Web Config
+
+image::config.jpeg[align=center]
+
+=== Display Language Option
+
+image::display-language-option.png[align=center]
+
+image::frontend-dipslay-language.webp[align=center]
+
+=== Default Language
+
+image::default-language.png[align=center]
+
+image::frontend-language.webp[align=center]
+
+=== Maintenance Mode
+
+image::maintenance-mode.png[width=800,align=center]
+ 
+Display the page when in Maintenance mode
+
+image::service-unavailable.jpeg[width=800,align=center]
+
+=== Register User
+
+image::register-user.png[align=center]
+
+Displays the register user link at login
+
+image::link-register-user.webp[align=center]
+
+=== Email Verification
+
+image::email-verification.png[align=center]
+
+If activated, users who have not confirmed the email must click the confirmation link sent to the email to enter the dashboard.
+
+image::alert-confirm.png[align=center]
+
+== Web Backup
+
+image::backup.png[width=800, align=center]
+
+=== Export Data 
+
+Click the "Download Export Data File" button to download the data backup file.
+
+image::backup-data.png[width=300,align=center]
+
+The results of the export of data are in the form of an xlsx format file that contains data in a database table.
+
+image::laramagz-backup.png[align=center]
+
+=== Backup file storage
+
+Click the "Download Backup Storage" button to download all files in public storage
+
+image::backup-store.png[align=center]
+
+The download results are in the form of a zip file which you can then extract and put in the public folder in storage. If you want to re-download, you need to refresh the web browser.
+
+=== Import Data
+
+image::import-data.png[align=center]
+
+If you want to import the data from the data file backup, you can search for the laramagz-backup.xlsx file that you downloaded. The import data action will replace all the data in some of the current database tables.
+
+== Web Permalinks
+
+image::permalinks.jpeg[align=center]
