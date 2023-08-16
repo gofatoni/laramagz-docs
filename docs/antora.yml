@@ -15,7 +15,12 @@ nav:
 - modules/pages/nav.adoc
 - modules/contact/nav.adoc
 - modules/menu/nav.adoc
+<<<<<<< HEAD
 - modules/localization/nav.adoc
+=======
+- Modules/languages/nav.adoc
+- Modules/translations/nav.adoc
+>>>>>>> 678c03073308eb9a1217cc915a083ca3fb5bef7e
 - modules/gallery/nav.adoc
 - modules/filemanager/nav.adoc
 - modules/profile/nav.adoc

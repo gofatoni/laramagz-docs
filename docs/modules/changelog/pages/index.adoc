@@ -2,6 +2,7 @@
 
 All laramagz changes are documented in this file.
 
+<<<<<<< HEAD
 == [v2.0.0] - 2023-08-15
 === Added
  - Video Post
@@ -21,6 +22,15 @@ All laramagz changes are documented in this file.
  === Fixed 
   - Google Analytics
   - Other bugs
+=======
+== [Unreleased]
+=== Added
+ - Video Post
+ - Audio Post
+
+=== Changed
+ - Upgrade to Laravel 10
+>>>>>>> 678c03073308eb9a1217cc915a083ca3fb5bef7e
 
 == [v1.3.4] - 2023-06-21
 === Fixed

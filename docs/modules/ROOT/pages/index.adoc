@@ -28,6 +28,7 @@ The `laramagz-v2.0.0.zip` package contains the following files and folders.
 
     📒 laramagz-v2.0.0
         📂 app
+<<<<<<< HEAD
             📄 app-v2.0.0.zip
             📄 db-laramagz-v2.0.0.sql
         📂 documentation
@@ -52,3 +53,10 @@ image::uncheck.png[align=center]
 image::import.png[align=center]
 +
 Wait until the import process is complete.
+=======
+            📄 app-v2.0.0.zip // this is uploaded to shared hosting
+        📂 database
+            📄 db-laramagz-v2.0.0.sql
+        📂 documentation
+            📄 documentation.html
+>>>>>>> 678c03073308eb9a1217cc915a083ca3fb5bef7e
