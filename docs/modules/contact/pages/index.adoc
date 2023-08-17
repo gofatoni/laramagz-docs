@@ -11,7 +11,7 @@ You need to set config .env:
     NOCAPTCHA_SITEKEY=
     NOCAPTCHA_SECRET=
 
-Sehingga akan terlihat sebagai berikut:
+So it will look as follows:
 
 image::captcha.png[align=center]
 

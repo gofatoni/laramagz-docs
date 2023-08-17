@@ -47,7 +47,15 @@ image::edit-env.png[align=center]
 DB_DATABASE=your_database_name
 DB_USERNAME=your_username_mysql
 DB_PASSWORD=your_password_mysql
+
+FILESYSTEM_DRIVER=public_storage
+ROOT_FOLDER=/../../public_html
 ----
+
+[NOTE]
+====
+For subdomains, add the folder name so it looks like this: `ROOT_FOLDER=/../../public_html/your-subdomain`
+====
 
 == Setting up a public folder
 
