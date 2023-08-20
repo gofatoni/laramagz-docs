@@ -2,7 +2,7 @@
 
 All laramagz changes are documented in this file.
 
-== [v2.0.0] - 2023-08-19
+== [v2.0.0] - 2023-08-20
 === Added
  - Video Post
  - Audio Post
