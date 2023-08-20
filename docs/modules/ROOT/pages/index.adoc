@@ -29,6 +29,7 @@ The `laramagz-v2.0.0.zip` package contains the following files and folders.
     📒 laramagz-v2.0.0
         📂 app
             📄 app-v2.0.0.zip
+        📂 database 
             📄 db-laramagz-v2.0.0.sql
         📂 documentation
             📄 documentation.html
