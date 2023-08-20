@@ -13,7 +13,7 @@ All laramagz changes are documented in this file.
  - Upgrade to Laravel 10
  - Text editor from summernote to TinyMCE
  - Renamed Google Analytics ID to Measurement ID
- - Renamed Aanalytics View ID to Property ID 
+ - Renamed Analytics View ID to Property ID 
  - Translation editor
  - Color scheme icon: dark mode, light mode, system mode
  - etc
