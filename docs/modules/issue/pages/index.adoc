@@ -7,7 +7,7 @@
 
 :url-peak5: hhttps://dl.dropbox.com/scl/fi/hqhe1oaermhzvi96lloxj/route-admin.zip?rlkey=vypdad3b15vlkgwbyxqe7buxv&dl=2
 
-Download {url-peak5}[admin.php]. Put the downloaded file in the directory as follows:
+Download {url-peak5}[route-admin.zip]. Put the downloaded file in the directory as follows:
 
     📒 laramagz
         📂 routes
