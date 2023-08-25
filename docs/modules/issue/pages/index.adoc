@@ -1,12 +1,76 @@
 = ISSUE
 
+== v2.0.0 
+
+=== 2023-08-24
+====  The DataTables 'Attempt to read property "name" on null' error appears after deleting the parent category
+
+:url-peak4: https://dl.dropbox.com/scl/fi/e2k5kwnq5y6mlba7ibnfx/app.zip?rlkey=45s3q4uv9ltiz2ds4kc91upeo&dl=2
+
+image::attempt-ro-read-property-name-on-null.png[align=center]
+
+Download {url-peak4}[app.zip]. Put the downloaded file in the directory as follows:
+
+    📒 laramagz
+        📂 app 
+            📂 Models 
+                📄 Term.php
+            📂 Services
+                📄 TermService.php
+
+=== 2023-08-21
+==== Problem with Logo header on mobile view
+
+:url-peak3: https://dl.dropbox.com/scl/fi/bfr6d1r6i4jbkv0gnhx3z/style.zip?rlkey=7b6mfix6ckzlqmbxq2z54eelq&dl=2
+
+image::logo-header.png[align=center]
+
+Download {url-peak3}[style.zip]. Put the downloaded file in the directory as follows:
+
+    📒 laramagz
+        📂 public 
+            📂 themes 
+                📂 magz
+                    📂 css  
+                        📄 style.css
+                        📄 style.css.map
+
+
+
+==== Disqus missing in Laramagz v2.0.0
+
+:url-peak2: https://dl.dropbox.com/scl/fi/45l3ryfkjovwczb8tbl8g/patch-disqus.zip?rlkey=p937whiixj5t2ynspvwlpycrv&dl=2
+
+If you download the application but don't find disqus in settings. 
+
+image::disqus-not-available.png[align=center]
+
+Please download the following file {url-peak2}[patch-disqus]. Put the downloaded file in the directory as follows:
+
+    📒 laramagz
+        📂 app
+            📂 Http 
+                📂 Controllers
+                    📂 Admin
+                        📄 SettingController.php
+        📂 database
+            📂 seeders 
+                📄 SettingSeeder.php
+        📂 resources
+            📂 views 
+                📂 admin 
+                    📂 settings
+                        📄 _web-config.blade.php
+        📂 routes
+            📄 admin.php
+
 == v1.3.2-3
 
 === The post image in the post details does not appear
 
-:url-peak: https://dl.dropbox.com/s/dwxoobw0cav4yz9/single.blade.php?dl=2
+:url-peak1: https://dl.dropbox.com/s/dwxoobw0cav4yz9/single.blade.php?dl=2
 
-Please download the following file {url-peak}[single.blade.php]. Put the downloaded file in the directory as follows:
+Please download the following file {url-peak1}[single.blade.php]. Put the downloaded file in the directory as follows:
 
 
     📒 resources

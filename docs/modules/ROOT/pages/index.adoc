@@ -26,13 +26,44 @@
 
 The `laramagz-v2.0.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v2.0.0
+    📒 laramagz-v2.0.1
         📂 app
-            📄 app-v2.0.0.zip
+            📄 app-v2.0.1.zip
         📂 database 
-            📄 db-laramagz-v2.0.0.sql
+            📄 db-laramagz-v2.0.1.sql
         📂 documentation
             📄 documentation.html
+
+== Update Guide (from v2.0.0)
+
+:url-peak: https://dl.dropbox.com/scl/fi/6c0w8vxpiewbk9z0whdk5/patch-v2.0.0.zip?rlkey=2prin2bf11v6fiiaxzsi2285k&dl=2
+
+Download {url-peak}[patch-v2.0.0.zip] and extract it. Put the file in the directory as follows:
+
+    📒 laramagz
+        📂 app 
+            📂 Http 
+                📂 Controllers
+                    📂 Admin
+                        📄 SettingController.php
+            📂 Models 
+                📄 Term.php
+            📂 Services
+                📄 TermService.php
+        📂 database
+            📂 seeders 
+                📄 SettingSeeder.php
+        📂 public 
+            📂 themes 
+                📂 magz
+                    📂 css  
+                        📄 style.css
+                        📄 style.css.map
+        📂 resources
+            📂 views 
+                📂 admin 
+                    📂 settings
+                        📄 _web-config.blade.php
 
 == Upgrade Guide (for v1.3.2, v1.3.3, v1.3.4)
 
