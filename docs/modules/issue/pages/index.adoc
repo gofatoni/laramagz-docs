@@ -5,7 +5,7 @@
 === 2023-08-25
 ==== Cannot change Display language options
 
-:url-peak5: hhttps://dl.dropbox.com/scl/fi/hqhe1oaermhzvi96lloxj/route-admin.zip?rlkey=vypdad3b15vlkgwbyxqe7buxv&dl=2
+:url-peak5: https://dl.dropbox.com/scl/fi/hqhe1oaermhzvi96lloxj/route-admin.zip?rlkey=vypdad3b15vlkgwbyxqe7buxv&dl=2
 
 Download {url-peak5}[route-admin.zip]. Put the downloaded file in the directory as follows:
 
