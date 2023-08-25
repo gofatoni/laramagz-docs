@@ -7,6 +7,8 @@
 
 :url-peak5: https://dl.dropbox.com/scl/fi/otbiuzknuyc7tzzs2ap9w/admin.php?rlkey=x1nnfekqx5j54hd4qm0zxa71l&dl=2
 
+Download {url-peak5}[admin.php]. Put the downloaded file in the directory as follows:
+
     📒 laramagz
         📂 routes
             📄 admin.php
