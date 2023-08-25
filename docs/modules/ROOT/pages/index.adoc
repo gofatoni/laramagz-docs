@@ -64,6 +64,8 @@ Download {url-peak}[patch-v2.0.0.zip] and extract it. Put the file in the direct
                 📂 admin 
                     📂 settings
                         📄 _web-config.blade.php
+        📂 routes
+            📄 admin.php
 
 == Upgrade Guide (for v1.3.2, v1.3.3, v1.3.4)
 
