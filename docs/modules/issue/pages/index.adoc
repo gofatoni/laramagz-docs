@@ -2,6 +2,15 @@
 
 == v2.0.0 
 
+=== 2023-08-25
+==== Cannot change Display language options
+
+:url-peak5: https://dl.dropbox.com/scl/fi/otbiuzknuyc7tzzs2ap9w/admin.php?rlkey=x1nnfekqx5j54hd4qm0zxa71l&dl=2
+
+    📒 laramagz
+        📂 routes
+            📄 admin.php
+
 === 2023-08-24
 ====  The DataTables 'Attempt to read property "name" on null' error appears after deleting the parent category
 
