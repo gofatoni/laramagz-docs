@@ -2,6 +2,20 @@
 
 == v2.0.0 
 
+=== 2023-08-30
+==== The language item caanot be activated/deactivated
+
+:url-peak6: https://dl.dropbox.com/scl/fi/6s7ov6t33ajdf6vhikfp6/LanguageController.zip?rlkey=5zdcggf5azvmlklb3ursdopp7&dl=2
+
+Download {url-peak6}[LanguageController.zip]. Put the downloaded file in the directory as follows:
+
+    📒 laramagz
+        📂 app
+            📂 Http
+                📂 Controllers
+                    📂 Admin
+                        📄 LanguageController.php
+
 === 2023-08-25
 ==== Cannot change Display language options
 
