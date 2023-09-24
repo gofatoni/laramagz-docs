@@ -1,6 +1,21 @@
 = ISSUE
 
 == v2.0.1 
+=== 2023-09-24
+==== The language code directory does not exist
+
+image::the_lang_directory_does_not_exist.jpg[align=center]
+
+Solution:
+
+Create a language code folder in the `laramagz/lang` directory, for example: `kk`. Copy all the contents of the files in the `en` folder into the `kk` folder. Copy the `en.json` file, rename it to `ka.json`.
+
+=== 2023-09-21
+==== 1. An error appears on the site page when selecting a new language option
+
+image::error-language.png[align=center]
+
+==== 2. Error when importing file data and backup storage
 
 === 2023-09-18
 ==== 1. Category images are deleted when category data is updated

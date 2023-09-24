@@ -2,6 +2,20 @@
 
 All laramagz changes are documented in this file.
 
+== [v2.0.2] - 2023-09-21
+=== Fixed
+ - Category images are deleted when category data is updated
+ - The Google Analytics Global site tag script does not appear
+ - download export file data
+ - An error appears on the site page when selecting a new language option
+ - Error when importing file data and backup storage
+
+=== Added
+ - Intervention Image configuration file
+
+=== Changed
+ - Remove the link in the URL column on Themes Pages
+
 == [v2.0.1] - 2023-08-30 (reupload)
 === Fixed 
  - The DataTables 'Attempt to read property "name" on null' error appears after deleting the parent category

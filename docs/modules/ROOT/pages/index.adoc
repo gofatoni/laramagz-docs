@@ -24,65 +24,28 @@
 
 == Laramagz package directory
 
-The `laramagz-v2.0.0.zip` package contains the following files and folders.
+The `laramagz-v2.0.2.zip` package contains the following files and folders.
 
-    📒 laramagz-v2.0.1
+    📒 laramagz-v2.0.2
         📂 app
-            📄 app-v2.0.1.zip
+            📄 app-v2.0.2.zip
         📂 database 
-            📄 db-laramagz-v2.0.1.sql
+            📄 db-laramagz-v2.0.2.sql
         📂 documentation
             📄 documentation.html
 
-== Update Guide (from v2.0.0)
+== Update Guide (only from v2.0.1)
 
-:url-peak: https://dl.dropbox.com/scl/fi/6c0w8vxpiewbk9z0whdk5/patch-v2.0.0.zip?rlkey=2prin2bf11v6fiiaxzsi2285k&dl=2
+=== Backup Storage and .env file
 
-Download {url-peak}[patch-v2.0.0.zip] and extract it. Put the file in the directory as follows:
+1. Open your hosting's File Manager. 
+2. Backup the .env file. 
+3. Go to `storage/app` folder, backup `public` and `analytics` folders. 
 
-    📒 laramagz
-        📂 app 
-            📂 Http 
-                📂 Controllers
-                    📂 Admin
-                        📄 SettingController.php
-            📂 Models 
-                📄 Term.php
-            📂 Services
-                📄 TermService.php
-        📂 database
-            📂 seeders 
-                📄 SettingSeeder.php
-        📂 public 
-            📂 themes 
-                📂 magz
-                    📂 css  
-                        📄 style.css
-                        📄 style.css.map
-        📂 resources
-            📂 views 
-                📂 admin 
-                    📂 settings
-                        📄 _web-config.blade.php
-        📂 routes
-            📄 admin.php
+=== Replace Storage and .env file
 
-== Upgrade Guide (for v1.3.2, v1.3.3, v1.3.4)
+1. Install Laramagz v2.0.2 (look at the installation guide menu).
+2. Go to the hosting File Manager. 
+3. Replace .env file.
+4. Go to `storage/app` folder. Replace `public` and `analytics` folders with backup.
 
-1. Backup all Laramagz files
-2. Go to phpMyAdmin. Select the Export menu tab. Select "Custom" in "Export method". Then, select the JSON format.
-+
-image::export.png[align=center]
-+
-3. Uncheck the following tables: `advertisements`, `ad_placements`, `failed_jobs`, `language_lines`, `migrations`, `personal_access_tokens`, 
-+
-image::uncheck.png[align=center]
-+
-4. Rename the downloaded database json file to `db.json`
-5. Install Laramagz v2.0.0 (look at the installation guide menu)
-6. Upload `db.json` to `storage/app/public/file`
-7. Go to the menu Settings > Web Backup. Click the "Import" button
-+
-image::import.png[align=center]
-+
-Wait until the import process is complete.
