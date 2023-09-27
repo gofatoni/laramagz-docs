@@ -1,5 +1,15 @@
 = ISSUE
 
+== v2.0.2
+=== 2023-09-27
+==== 1. The POST method is not supported for route subscribe. Supported methods: GET, HEAD.
+
+image::failed-sent-email-subscription.png[align=center]
+
+==== 2. SQLSTATE[HY0000]: General error: 1364 Field 'post_source' doesn't have a default value
+
+image::post_source_null.png[align=center]
+
 == v2.0.1 
 === 2023-09-24
 ==== The language code directory does not exist
