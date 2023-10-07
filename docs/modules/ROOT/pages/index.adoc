@@ -24,28 +24,31 @@
 
 == Laramagz package directory
 
-The `laramagz-v2.0.2.zip` package contains the following files and folders.
+The `laramagz-v2.1.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v2.0.2
+    📒 laramagz-v2.1.0
         📂 app
-            📄 app-v2.0.2.zip
+            📄 app-v2.1.0.zip
         📂 database 
-            📄 db-laramagz-v2.0.2.sql
+            📄 db-laramagz-v2.1.0.sql
         📂 documentation
             📄 documentation.html
+        📂 update 
+            📂 database
+                📄 subscribers.sql
+            📂 files 
+                📄 update-v2.1.0.zip
+        📄 CHANGELOG.txt    
+        
+== Update Guide (only from v2.0.2)
 
-== Update Guide (only from v2.0.1)
+=== Import a new table
 
-=== Backup Storage and .env file
+import the subscribers.sql table into your database
 
-1. Open your hosting's File Manager. 
-2. Backup the .env file. 
-3. Go to `storage/app` folder, backup `public` and `analytics` folders. 
+=== Replace files
 
-=== Replace Storage and .env file
-
-1. Install Laramagz v2.0.2 (look at the installation guide menu).
-2. Go to the hosting File Manager. 
-3. Replace .env file.
-4. Go to `storage/app` folder. Replace `public` and `analytics` folders with backup.
+1. Upload the update-v2.1.0.zip file in your hosting's File Manager
+2. Extract the package
+3. Copy all files and folders and replace them into the laramagz directory
 
