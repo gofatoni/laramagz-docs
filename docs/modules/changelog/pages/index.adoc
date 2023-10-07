@@ -2,17 +2,17 @@
 
 All laramagz changes are documented in this file.
 
-[v2.1.0] - 2023-10-07
-Fixed
-- Pages cannot be deleted
-- Email Subscription
+== [v2.1.0] - 2023-10-07
+=== Fixed
+ - Pages cannot be deleted
+ - Email Subscription
 
-Added
-- table subscribers
-- Creates a language code folder in the lang directory automatically when creating a language
+=== Added
+ - table subscribers
+ - Creates a language code folder in the lang directory automatically when creating a language
 
-Changed
-- Removed use of MailChimp
+=== Changed
+ - Removed use of MailChimp
 
 == [v2.0.2] - 2023-09-21
 === Fixed
