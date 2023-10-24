@@ -1,5 +1,17 @@
 = ISSUE
 
+== v2.1.0
+=== 2023-10-22
+==== 1. "Undefined array key "es"" error when opening the Footer layout page. 
+
+This error appears because a new language has been added but titles in that new language are not available.
+
+image::undefined-array-key-lang.png[align=center]
+
+==== 2. Sidebar Image Ads cannot be changed.
+
+image::ads-sidebar-cannot-changed.png[align=center]
+
 == v2.0.2
 === 2023-09-27
 ==== 1. The POST method is not supported for route subscribe. Supported methods: GET, HEAD.
