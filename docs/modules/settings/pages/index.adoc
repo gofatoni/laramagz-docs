@@ -18,7 +18,7 @@ image::open-graph-image.jpeg[align=center]
 
 == Web Config
 
-image::config.jpeg[align=center]
+image::config.png[align=center]
 
 === Display Language Option
 

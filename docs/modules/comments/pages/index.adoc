@@ -1,0 +1,99 @@
+= Comments
+
+== All Comments
+
+image::all-comments.png[align=center]
+
+== Write Comments
+
+Go to one of the posts you want to respond to. You can write your response to the article or reply to a response.
+
+image::reply-comment-article.png[align=center]
+
+image::write-response.png[align=center]
+
+If you open this page as a registered user, you can leave a comment without writing your name and email again.
+
+image::write-response-as-user.png[align=center]
+
+Your avatar will display your photo and additional features for changing and deleting comments.
+
+image::comment-as-user.png[align=center]
+
+== Reply to comments in the Admin Panel
+
+Replying to comments from the Admin Panel can only be done by registered users.
+
+Click the reply icon button in the table.
+
+image::button-reply.png[align=center]
+
+image::reply-comment.png[align=center]
+
+== Comment Moderation
+
+You can enable comment moderation to check comments before they are displayed on the Settings > Web Config.
+
+image::comment-moderation.png[align=center]
+
+If comment moderation is enabled then comments made will be displayed temporarily:
+
+image::moderation-comment.png[align=center]
+
+This comment will no longer appear when the page is reload so to display this comment you need to get approval.
+
+image::pending.png[align=center]
+
+== Approve Comments
+
+Click "pending" to approve the comment.
+
+image::click-pending.png[align=center]
+
+image::comment-approve.png[align=center]
+
+Comments appear after approval.
+
+image::comment-show.png[align=center]
+
+== Number of Nested Comments
+
+You can set the number of comment reply level depths so that comment replies at the last number of levels cannot be replied to.
+
+image::number-nested-comment.png[align=center]
+
+Example: If you set the value to 3 then the number of nesting levels is only 3 comment replies. You cannot add another reply to the last comment.
+
+image::nested-comment.png[align=center]
+
+== Receive Comment Response Emails
+
+When you activate sending comment replies to email, you will receive a reply to the comment via email.
+
+image::receive_email.png[align=center]
+
+Requirements:
+
+- Configure email in .env:
++
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.googlemail.com
+MAIL_PORT=465
+MAIL_USERNAME=your@gmail.com
+MAIL_PASSWORD=y0urP4s5w0rd
+MAIL_ENCRYPTION=ssl
+MAIL_FROM_ADDRESS=your@gmail.com
+MAIL_FROM_NAME=Yourname
+```
++
+- Make sure the email you enter in the comment form is a real email so you can receive a reply.
+
+[CAUTION]
+====
+When sending email replies to comments is activated, the process of replying to comments will take longer because the email sending process occurs. Even though it supports the use of queues so that processes run in the background, it is difficult to do on shared hosting. 
+
+So, the "send comment replies to email" feature is not recommended to enable on shared hosting, unless you have no problem with longer processing times.
+====
+
+

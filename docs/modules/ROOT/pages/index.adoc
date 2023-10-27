@@ -24,31 +24,36 @@
 
 == Laramagz package directory
 
-The `laramagz-v2.1.0.zip` package contains the following files and folders.
+The `laramagz-v2.2.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v2.1.0
+    📒 laramagz-v2.2.0
         📂 app
-            📄 app-v2.1.0.zip
+            📄 app-v2.2.0.zip
         📂 database 
-            📄 db-laramagz-v2.1.0.sql
+            📄 db-laramagz-v2.2.0.sql
         📂 documentation
             📄 documentation.html
         📂 update 
             📂 database
-                📄 subscribers.sql
+                📄 comments.sql
+                📄 jobs.sql
             📂 files 
-                📄 update-v2.1.0.zip
+                📄 update-v2.2.0.zip
         📄 CHANGELOG.txt    
         
-== Update Guide (only from v2.0.2)
+== Update Guide (only from v2.1.0)
 
 === Import a new table
 
-import the subscribers.sql table into your database
+- import the comments.sql and jobs.sql table into your database
 
 === Replace files
 
-1. Upload the update-v2.1.0.zip file in your hosting's File Manager
+1. Upload the update-v2.2.0.zip file in your hosting's File Manager
 2. Extract the package
 3. Copy all files and folders and replace them into the laramagz directory
+
+=== Clear cache
+
+Go to `laramagz/storage/framework/views` then delete all cache files.
 
