@@ -10,7 +10,7 @@ image::add-post.jpeg[align=center]
 
 == Edit Post
 
-image::edit-post.jpeg[align=center]
+image::edit-post.png[align=center]
 
 == Add Post Translation
 
@@ -23,3 +23,7 @@ image::add-post-translation.jpeg[align=center]
 image::edit-translation-button.png[align=center]
 
 image::edit-translation.jpeg[align=center]
+
+== Change publish date
+
+image::edit-publish-date.png[align=center]

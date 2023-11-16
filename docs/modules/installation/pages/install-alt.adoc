@@ -29,11 +29,11 @@ I assume your website root home directory is `p`ublic_html`. Otherwise, you can 
 +
 image::filemanager-cpanel.png[align=center]
 +
-2. Upload `app-v2.1.0.zip` *outside* the public_html folder
+2. Upload `app-v2.2.1.zip` *outside* the public_html folder
 +
 image::put-app.jpg[align=center]
 +
-3. Extract app-v2.1.0.zip so that the laramagz folder appears.
+3. Extract app-v2.2.1.zip so that the laramagz folder appears.
 +
 image::put-laramagz.jpg[align=center]
 +

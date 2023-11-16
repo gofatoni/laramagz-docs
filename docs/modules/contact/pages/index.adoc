@@ -17,15 +17,17 @@ image::captcha.png[align=center]
 
 == Contac Form
 
+image::form-contact.png[align=center]
+
 Fill in the input form
 
-image::form-contact.png[align=center]
+image::filled-form-contact.png[align=center]
 
 Click "I'm not a robot".
 
 Select some images according to the name shown.
 
-image::click-iamnotrobot.webp[align=center]
+image::click-iamnotrobot.png[align=center]
 
 After selecting click "VERIFY".
 
@@ -39,7 +41,7 @@ Click "Send Message".
 
 Message successfully sent
 
-image::success-message.webp[align=center]
+image::success-message.png[align=center]
 
 == All Messages
 

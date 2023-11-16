@@ -2,6 +2,33 @@
 
 All laramagz changes are documented in this file.
 
+== [v2.2.1] - 2023-11-16
+=== Fixed
+ - Height of the Tinymce Text Editor Source Code field
+ - Loading sign during the contact message sending process
+ - Thumbnail page image not displayed
+
+=== Added
+ - Added language translation for notifications when contact messages are successfully sent
+ - Validate the contact message form
+ - Add a first name to the notification when sending a contact message successfully
+ - Add date and time edit input on the Edit Post
+ - Added draft and scheduled icons on the All Posts page in the Admin Panel
+ - Added favicon logo invocation script
+ - Post thumbnail caption
+
+=== Changed
+ - Update TinyMCE version 6.4.2 to 6.7.2 
+ - TinyMce skin name for theme light from magz to tinymce-5
+ - Remove elevation-3 on brand-image to remove shadow on logo
+ - Update sweetalert2 v11.4.0 to sweetalert2 v11.9.0
+ - Change sweetalert invocation script from swal() to Swal.fire() in e-magz.js file
+ - Changed the style call from sweetalert2-theme-bootstrap-4/bootstrap-4.min.css to sweetalert2/sweetalert2.min.css in frontend theme
+ - Changed the script to display the logo in Helpers/ImageHelper.php
+ - Added to the scope query to prevent posts from displaying articles created with a date and time that exceeds the current date and time.
+ - Changed the script to display the logo in the footer
+ - Changed the script to display the logo in the header
+
 == [v2.2.0] - 2023-10-26
 === Fixed
  - Sidebar Image Ads cannot be changed.
