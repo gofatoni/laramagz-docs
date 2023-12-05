@@ -33,7 +33,7 @@ After selecting click "VERIFY".
 
 image::verify.webp[align=center]
 
-If the right meal appears a checklist mark.
+If what you choose is correct, a check mark will appear.
 
 image::checklist-iamnotrobot.png[align=center]
 

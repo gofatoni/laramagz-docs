@@ -2,11 +2,12 @@
 
 All laramagz changes are documented in this file.
 
-== [v2.2.1] - 2023-11-16
+== [v2.2.1] - 2023-11-17
 === Fixed
  - Height of the Tinymce Text Editor Source Code field
  - Loading sign during the contact message sending process
  - Thumbnail page image not displayed
+ - Export and Import database backup files
 
 === Added
  - Added language translation for notifications when contact messages are successfully sent
@@ -16,6 +17,7 @@ All laramagz changes are documented in this file.
  - Added draft and scheduled icons on the All Posts page in the Admin Panel
  - Added favicon logo invocation script
  - Post thumbnail caption
+ - The number of post comments in the comment_count column in the posts table
 
 === Changed
  - Update TinyMCE version 6.4.2 to 6.7.2 
