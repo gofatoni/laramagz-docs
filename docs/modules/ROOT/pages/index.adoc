@@ -24,7 +24,7 @@
 
 == Laramagz package directory
 
-The `laramagz-v2.2.1.zip` package contains the following files and folders.
+The `laramagz-v2.2.2.zip` package contains the following files and folders.
 
     📒 laramagz-v2.2.1
         📂 app
@@ -34,11 +34,7 @@ The `laramagz-v2.2.1.zip` package contains the following files and folders.
         📂 documentation
             📄 documentation.html
         📂 update 
-            📂 2.1.0 to 2.2.1
-                📂 database
-                    📄 comments.sql
-                    📄 jobs.sql
-            📂 2.2.0 to 2.2.1
+            📂 2.2.1 to 2.2.2
                 📂 files 
                     📄 update-v2.2.1.zip
         📄 CHANGELOG.txt    
@@ -59,10 +55,10 @@ The `laramagz-v2.2.1.zip` package contains the following files and folders.
 
 Go to `laramagz/storage/framework/views` then delete all cache files.
 
-== Update Guide (from v2.2.0 to v2.2.1)
+== Update Guide (from v2.2.1 to v2.2.2)
 
 === Replace files
 
-1. Upload the update-v2.2.1.zip file in your hosting's File Manager
+1. Upload the update-v2.2.2.zip file in your hosting's File Manager
 2. Extract the package
 3. Copy all files and folders and replace them into the laramagz directory
