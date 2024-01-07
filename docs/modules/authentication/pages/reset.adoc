@@ -1,3 +1,19 @@
 = Reset Password
 
+Enter the user's email. Make sure you enter the correct email used by the user.
+
 image::reset-password.png[align=center]
+
+Klik tombol "Send Password Reset Link". Tunggu hingga beberapa saat hingga muncul notifikasi.
+
+image::reset-password-alert.png[align=center]
+
+Klik "Reset Password" atau link url yang tertera pada bagian bawah email.
+
+image::link-reset-by-email.png[align=center]
+
+Masukkan kembali email, berikut password baru yang ingin kamu gunakan menggantikan password lama. Ketik kembali passwordnya. Lalu klik "Reset Password".
+
+image::reset-password-form.png[align=center]
+
+Jika berhasil kamu akan dibawa masuk ke halaman dashboard.

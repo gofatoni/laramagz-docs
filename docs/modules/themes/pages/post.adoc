@@ -22,11 +22,11 @@ The post widget has 2 types of layouts, namely one-column and two-column. The de
 
 === One Column 
 
-image::one-column.jpeg[align=center, width=400]
+image::one-column.jpg[align=center, width=400]
 
 === Two Column
 
-image::two-column.jpeg[align=center, width=400]
+image::two-column.jpg[align=center, width=400]
 
 == Layout Type for Sidebar Post Widget
 
@@ -36,15 +36,15 @@ image::layouttype-postsidebar.png[align=center]
 
 === List Post With Link
 
-image::linkpost.png[align=center]
+image::linkpost.jpg[align=center]
 
 === First Large Thumbnail
 
-image::firstlargethumbnail.jpeg[align=center]
+image::firstlargethumbnail.jpg[align=center]
 
 === Regular List Post
 
-image::regularlistpost.png[align=center]
+image::regularlistpost.jpg[align=center]
 
 == Title
 

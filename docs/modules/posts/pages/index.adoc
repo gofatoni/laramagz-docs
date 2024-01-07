@@ -18,10 +18,6 @@ image::add-translation-button.png[align=center]
 
 image::add-post-translation.jpeg[align=center]
 
-== Edit Post Translation 
-
-image::edit-translation-button.png[align=center]
-
 image::edit-translation.jpeg[align=center]
 
 == Change publish date

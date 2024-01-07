@@ -24,41 +24,45 @@
 
 == Laramagz package directory
 
-The `laramagz-v2.2.2.zip` package contains the following files and folders.
+The `laramagz-v2.3.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v2.2.1
+    📒 laramagz-v2.3.0
         📂 app
-            📄 app-v2.2.1.zip
+            📄 app-v2.3.0.zip
         📂 database 
-            📄 db-laramagz-v2.2.1.sql
+            📄 dblaramagz-v2.3.0.sql
         📂 documentation
             📄 documentation.html
         📂 update 
-            📂 2.2.1 to 2.2.2
-                📂 files 
-                    📄 update-v2.2.1.zip
+            📂 2.2.1 to 2.3.0
+               📄 update-from-v2.2.1.zip
         📄 CHANGELOG.txt    
         
-== Update Guide (from v2.1.0 to v2.2.0)
 
-=== Import a new table
+== Update Guide (from v2.2.1 to v2.3.0)
 
-- import the comments.sql and jobs.sql table into your database
+Follow the steps below to successfully update.
 
 === Replace files
 
-1. Upload the update-v2.2.0.zip file in your hosting's File Manager
-2. Extract the package
-3. Copy all files and folders and replace them into the laramagz directory
+1. Upload the `update-from-v2.2.1.zip` file in your hosting's File Manager.
+2. Extract the package.
+3. Copy all files and folders and replace them into the laramagz directory.
+4. Clear cache browser and laramagz.
 
 === Clear cache
 
-Go to `laramagz/storage/framework/views` then delete all cache files.
+Manually delete all cache in the following folders (except .gitignore file if present):
 
-== Update Guide (from v2.2.1 to v2.2.2)
+1. `laramagz/storage/framework/views`.
+2. `laramagz/storage/framework/cache/data`.
+3. `laramagz/storage/framework/sessions`.
+4. `laramagz/bootstrap/cache`.
 
-=== Replace files
+Clearing cache with artisan command:
 
-1. Upload the update-v2.2.2.zip file in your hosting's File Manager
-2. Extract the package
-3. Copy all files and folders and replace them into the laramagz directory
+    php artisan optimize:clear
+
+=== Login to Dashboard
+
+After overwriting the update file and deleting the cache, you have to log in to the dashboard so you can make some adjustments to the database.

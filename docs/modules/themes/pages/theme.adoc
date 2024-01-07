@@ -1,25 +1,57 @@
 = Themes
 
-== Current Theme 
+This page displays the theme used by Laramagz.
 
-image::themes.jpeg[align=center]
+image::themes.jpg[align=center]
 
-== Info Theme 
+== Info Theme
 
-image::info.png[align=center]
+If clicked, it will display theme information.
 
-image::theme-info.png[align=center]
+image::button-info-theme.png[align=center]
 
-== Custom Themes 
+image::theme-information.jpg[align=center]
 
-Click customize to edit the page layout.
+== Theme Settings
 
-image::customize.png[align=center]
+Click "customize" to enter the theme layout.
 
-image::custom-theme.jpeg[align=center]
+image::button-customize-theme.png[align=center]
 
-== Edit page
+image::general-layout.jpg[align=center]
 
-Click edit to set the content and layout on the page
+On this page, you can set content in the sidebar and footer that applies to all pages. 
 
-image::edit-page.jpeg[align=center, width=800]
+== Page Settings
+
+If you want to set the main content on each page, you can go to page settings.
+
+image::page-settings-click.jpg[align=center]
+
+image::page-settings.jpeg[align=center, width=800]
+
+== Visibility
+
+Sidebars and footers can also be set to display or not display for all pages. If you want to display it on a certain page, you can set it in Page Settings.
+
+image::visibility.png[align=center]
+
+=== Sidebar
+
+If the sidebar is set not visible it will look as follows. The page content is centered
+
+image::without-sidebar.jpeg[align=center]
+
+=== Footer
+
+If the footer is not visible then only the footer credits will be displayed without the footer content
+
+image::no-footer.jpeg[align=center]
+
+== Sidebar Position
+
+image::set-position.png[align=center]
+
+Sidebar position can be set right or left
+
+image::sidebar-position.jpeg[align=center]

@@ -18,13 +18,13 @@ image::open-graph-image.jpeg[align=center]
 
 == Web Config
 
-image::config.png[align=center]
+image::web-config.jpeg[align=center]
 
 === Display Language Option
 
 image::display-language-option.png[align=center]
 
-image::frontend-dipslay-language.webp[align=center]
+image::frontend-dipslay-language.jpg[align=center]
 
 === Default Language
 
@@ -46,15 +46,19 @@ image::register-user.png[align=center]
 
 Displays the register user link at login
 
-image::link-register-user.webp[align=center]
+image::link-register-user.jpg[align=center]
 
 === Email Verification
 
 image::email-verification.png[align=center]
 
+To get the verification link via email, click on "Click here to request another"
+
+image::alert-confirm.jpg[align=center]
+
 If activated, users who have not confirmed the email must click the confirmation link sent to the email to enter the dashboard.
 
-image::alert-confirm.png[align=center]
+image::verify-email.jpg[align=center]
 
 == Web Backup
 

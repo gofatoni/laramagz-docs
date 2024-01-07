@@ -2,7 +2,7 @@
 
 Translations contains all the translations used by Laramagz.
 
-image::translations.png[align=center]
+image::translations.jpg[align=center]
 
 == Added translation
 

@@ -4,15 +4,13 @@ Installing ads is done through the layout page located in the Appearance > Theme
 
 image::menu.png[align=center]
 
+Point the mouse at the pencil icon, then click Customize.
+
 image::theme.png[align=center]
 
-Select the page you want to place the ad on, such as the Home page. Click edit to enter the Home settings.
+Click edit on the sidebar (For sidebar ads).
 
-image::selecthome.png[align=center]
-
-On the Home page, ads can be placed in the sidebar and body. For example, you want to place an ad on the sidebar. Click edit in the Sidebar section.
-
-image::selectsidebar.png[align=center]
+image::click-edit.jpg[align=center]
 
 Click the "Add Widget" button.
 

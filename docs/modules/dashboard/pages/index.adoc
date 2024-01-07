@@ -2,7 +2,7 @@
 
 image::dashboard.jpeg[align=center]
 
-== Analytics
+== Google Analytics
 
 image::analytics.jpeg[align=center]
 

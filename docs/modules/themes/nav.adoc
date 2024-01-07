@@ -1,7 +1,8 @@
 .Themes
 * xref:theme.adoc[Themes]
 * xref:page.adoc[Page]
-* xref:widget.adoc[Widget]
+* Widgets
+** xref:widget.adoc[Widget]
 ** xref:post.adoc[Post Widget]
 ** xref:relatedpost.adoc[Related Post Widget]
 ** xref:ads.adoc[Ads Widget]

@@ -2,6 +2,46 @@
 
 All laramagz changes are documented in this file.
 
+== [v2.3.0] - 2023-12-18
+=== Fixed
+ - Audio posts during updates.
+ - Submenu navigation.
+ - Performance issues based on PageSpeed Insights.
+ - Authentication message on failed login.
+ - Reset password message that is not visible.
+ - Video & Audio player not appearing on adding Video Post Translations.
+ - File manager menu.
+ - Other issues.
+
+=== Added
+ - Multilingual translation in the contact description.
+ - Support for image URLs for post thumbnails, page thumbnails, video cover thumbnails, and audio cover thumbnails.
+ - Recommendation for image size: 763x414px (16:9) on the post thumbnail upload form page.
+ - Edit date and time of publishing for video and audio posts.
+ - Support for sidebar and footer settings applied to all pages.
+ - Addition of a theme page for general layout.
+ - Like count description above the post title in the post listing.
+
+=== Changed
+ - Thumbnail image size for posts, categories, video covers, and audio covers (recommended size with a 16:9 ratio).
+ - Theme color changed to red (#EB0000).
+ - Update FontAwesome to version 6.5.1.
+ - Redesign of the logo image, favicon, OG cover, dashboard logo, and login logo.
+ - Redesign of the default no-image image.
+ - List icons on the icon picker using FontAwesome 6.5.1, displaying only a few icons. Additional available icons can be added manually.
+ - Stylish appearance for the Item Menu Manager.
+ - Restore the group column on the Translations table that was removed in the previous version.
+ - Change the favicon appearance and reduce the list of favicons in the HTML meta.
+ - Frontend theme CSS styling.
+ - Limit post title rows to 2 in the content body's post list and 1 row for post titles in sections, sidebars, and footers.
+ - Replace the love symbol with the like symbol for liking posts on the single post page.
+ - Other changes.
+
+=== Removed
+ - Ionicons
+ - The love icon to like in the list of posts.
+ - The "more" button to read further in the listing of posts.
+
 == [v2.2.1] - 2023-11-16
 === Fixed
  - Height of the Tinymce Text Editor Source Code field

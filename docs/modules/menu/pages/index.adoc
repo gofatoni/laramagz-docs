@@ -8,10 +8,10 @@ image::select-menu.png[align=center]
 
 == Create Item Menu
 
-image::create-item-menu.webp[align=center]
+image::create-item-menu.jpeg[align=center]
 
 image::result-menu-create.png[align=center]
 
 == Edit Item Menu
 
-image::edit-item-menu.webp[align=center]
+image::edit-item-menu.jpeg[align=center]
