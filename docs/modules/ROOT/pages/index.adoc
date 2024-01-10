@@ -24,31 +24,34 @@
 
 == Laramagz package directory
 
-The `laramagz-v2.3.0.zip` package contains the following files and folders.
+The `laramagz-v2.3.1.zip` package contains the following files and folders.
 
-    📒 laramagz-v2.3.0
+    📒 laramagz-v2.3.1
         📂 app
-            📄 app-v2.3.0.zip
+            📄 app-v2.3.1.zip
         📂 database 
-            📄 dblaramagz-v2.3.0.sql
+            📄 dblaramagz-v2.3.1.sql
         📂 documentation
             📄 documentation.html
         📂 update 
-            📂 2.2.1 to 2.3.0
-               📄 update-from-v2.2.1.zip
+            📂 2.3.0 to 2.3.1
+               📄 update-from-v2.3.0.zip
         📄 CHANGELOG.txt    
         
 
-== Update Guide (from v2.2.1 to v2.3.0)
+== Update Guide (from v2.3.0 to v2.3.1)
 
 Follow the steps below to successfully update.
 
 === Replace files
 
-1. Upload the `update-from-v2.2.1.zip` file in your hosting's File Manager.
+1. Upload the `update-from-v2.3.0.zip` file in your hosting's File Manager.
 2. Extract the package.
 3. Copy all files and folders and replace them into the laramagz directory.
-4. Clear cache browser and laramagz.
+
+=== Database 
+
+Go to `posts` table. In the default section of the `post_source` column change the default value from `As Define:` to `NULL`.
 
 === Clear cache
 
@@ -62,7 +65,3 @@ Manually delete all cache in the following folders (except .gitignore file if pr
 Clearing cache with artisan command:
 
     php artisan optimize:clear
-
-=== Login to Dashboard
-
-After overwriting the update file and deleting the cache, you have to log in to the dashboard so you can make some adjustments to the database.

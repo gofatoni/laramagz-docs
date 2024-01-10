@@ -2,6 +2,21 @@
 
 All laramagz changes are documented in this file.
 
+== [v2.3.1] - 2024-01-10
+=== Fixed
+ - The process of resizing post thumbnail images, audio and video.
+ - Open graph image post/audio/video.
+ - Category thumbnails are not displayed.
+ - Open Graph Image image not displayed.
+ - Post subcategories when editing posts.
+ - Problem editing the date when in a language other than English
+ - Other issues.
+
+=== Changed
+ - The default value of the post_source table posts field from empty string to nullable.
+ - The user interface displays the settings menu as a submenu.
+ - Other minor changes
+
 == [v2.3.0] - 2023-12-18
 === Fixed
  - Audio posts during updates.

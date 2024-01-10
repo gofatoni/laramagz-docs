@@ -2,17 +2,46 @@
 
 == Web Information
 
-image::information.png[align=center]
+image::information.jpeg[align=center]
 
 == Web Contact
 
+=== Contact - Address 
+
 image::contact.jpeg[align=center]
+
+=== Contact - Links 
+
+image::contact-links.jpeg[align=center]
+
+==== Added new social media links
+
+Click "Add Link"
+
+image::add-link.jpg[align=center]
 
 == Web Properties
 
+=== Web Properties - Logo & Favicon
+
 image::properties.jpeg[align=center]
 
-== Open Graph Image Custom
+==== Change the image
+
+Move the cursor over the image until the cross button (x) appears.
+
+image::remove.jpg[align=center]
+
+Click or drag the image into the input area to upload the image
+
+image::form-upload.jpg[align=center]
+
+Click "Upload"
+
+image::upload.jpg[align=center]
+
+
+=== Web Properties - Open Graph Images
 
 image::open-graph-image.jpeg[align=center]
 
@@ -34,7 +63,7 @@ image::frontend-language.webp[align=center]
 
 === Maintenance Mode
 
-image::maintenance-mode.png[width=800,align=center]
+image::maintenance-mode.jpg[align=center]
  
 Display the page when in Maintenance mode
 
@@ -62,7 +91,7 @@ image::verify-email.jpg[align=center]
 
 == Web Backup
 
-image::backup.png[width=800, align=center]
+image::web-backup.jpeg[width=800, align=center]
 
 === Export Data 
 
