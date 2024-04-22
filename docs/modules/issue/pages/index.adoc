@@ -1,5 +1,19 @@
 = ISSUE
 
+== v2.3.1
+=== 2024-03-25
+==== 1. Cannot save new categories when adding translations
+==== 2. The image display is broken when editing a translation category where the main category image is deleted
+
+:url-peak7: https://dl.dropbox.com/scl/fi/dixqesum1wchibjrp61bv/TermTrait.zip?rlkey=45z81pdiu5f6i7alkblpol6xp&dl=2
+
+Download {url-peak7}[TermTrait.zip]. Put the downloaded file in the directory as follows to replace the old `TermTrait.php` file.
+
+    📒 your_folder_website
+        📂 app
+            📂 Traits
+                📄 TermTrait.php
+
 == v2.1.0
 === 2023-10-22
 ==== 1. "Undefined array key "es"" error when opening the Footer layout page. 
