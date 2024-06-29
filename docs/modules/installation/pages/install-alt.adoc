@@ -17,7 +17,7 @@ image::mysql-cpanel.png[align=center]
 4. Go to phpMyAdmin
 +
 image::phpmyadmin.png[align=center]
-5. Import database `dblaramagz-v2.3.1.sql`
+5. Import database `dblaramagz-v3.0.0.sql`
 +
 image::phpmyadmin-db.png[align=center]
 
@@ -29,11 +29,11 @@ I assume your website root home directory is `public_html`. Otherwise, you can a
 +
 image::filemanager-cpanel.png[align=center]
 +
-2. Upload `app-v2.3.1.zip` *outside* the public_html folder
+2. Upload `app-v3.0.0.zip` *outside* the public_html folder
 +
 image::put-app.jpg[align=center]
 +
-3. Extract app-v2.3.1.zip so that the laramagz folder appears.
+3. Extract app-v3.0.0.zip so that the laramagz folder appears.
 +
 image::put-laramagz.jpg[align=center]
 +

@@ -3,7 +3,7 @@
 == Setup Database 
 
 1. Create a new database.
-2. Import dblaramagz-v2.3.1.sql
+2. Import dblaramagz-v3.0.0.sql
 
 == Install on Server (Shared Hosting with symlink)
 == Install on Server (Shared Hosting without symlink)

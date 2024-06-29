@@ -2,11 +2,10 @@
 
 == Server Requirements
 
-* PHP >= 8.1
-* MySQL 5.6+ or MariaDB 10.0+
+* PHP >= 8.2
+* MySQL >= 5.7 or MariaDB >= 10.3
 * BCMath PHP Extension
 * Ctype PHP Extension
-* cURL PHP Extension
 * Filter PHP Extension
 * Hash PHP Extension
 * DOM PHP Extension
@@ -22,36 +21,74 @@
 * Imagick PHP Extension
 * GD PHP Extension
 
+
 == Laramagz package directory
 
-The `laramagz-v2.3.1.zip` package contains the following files and folders.
+The `laramagz-v3.0.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v2.3.1
+    📒 laramagz-v3.0.0
         📂 app
-            📄 app-v2.3.1.zip
+            📄 app-v3.0.0.zip
         📂 database 
-            📄 dblaramagz-v2.3.1.sql
+            📄 dblaramagz-v3.0.0.sql
         📂 documentation
             📄 documentation.html
-        📂 update 
-            📂 2.3.0 to 2.3.1
-               📄 update-from-v2.3.0.zip
+        📂 update-db 
+            📄 cache.sql 
+            📄 chache_locks.sql 
+            📄 job_batches.sql 
+            📄 sessions.sql
         📄 CHANGELOG.txt    
         
 
-== Update Guide (from v2.3.0 to v2.3.1)
+== Update Guide (from v2.3.0 to v3.0.0)
 
 Follow the steps below to successfully update.
 
-=== Replace files
+=== Export data from dashboard
 
-1. Upload the `update-from-v2.3.0.zip` file in your hosting's File Manager.
-2. Extract the package.
-3. Copy all files and folders and replace them into the laramagz directory.
+1. Login with super-admin.
+2. Go to the Settings > Web Backup menu.
++
+image::web-backup-menu.jpg[align=center]
++
+3. Click the `Download Export Data File` button. 
++
+image::export-data-button.jpg[align=center]
++
+[WARNING]
+====
+If it fails, export via phpMyAdmin. 
 
-=== Database 
+Select all tables to export, except: failed_jobs, jobs, migrations, model_has_permissions, password_resets, password_reset_tokens, and personal_access_tokens
+====
++
+image::export-via-phpmyadmin.jpg[align=center]
++
+4. Click the Download Backup Storage button. 
++
+image::download-backup-storage.jpg[align=center]
++
+[WARNING]
+====
+If it fails, do a manual backup of the `storage/app/public` folder.
+====
 
-Go to `posts` table. In the default section of the `post_source` column change the default value from `As Define:` to `NULL`.
+=== Backup other important files
+
+1. `service-account-credentials.json` file in `storage/app/analytics` folder.
+2. .env file.
+
+=== Upload Laramagz
+
+1. Delete all files and folders of the old version of laramagz
+2. Upload the `app-v3.0.0.zip` file in your hosting's File Manager.
+3. Extract the package.
+4. Edit the .env file based on your previous .env settings.
+5. Restore files in storage.
+6. Import cache tables, cache locks, job_batches, and sessions into the database (the import file is in the update-db folder).
+
+image::import-table.jpg[align=center]
 
 === Clear cache
 

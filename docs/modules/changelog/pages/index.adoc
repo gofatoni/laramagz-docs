@@ -2,6 +2,19 @@
 
 All laramagz changes are documented in this file.
 
+== [v3.0.0] - 2024-04-27
+=== Fixed 
+ - Cannot save new categories when adding translations
+ - The image display is broken when editing a translation category where the main category image is deleted
+ - Remove multiple tags
+ - Notification when entering email in newsletter
+ - Video Post 
+ - Audio Post
+ 
+=== Changed
+ - Update to Laravel 11
+ - Change package from rahulhaque/laravel-filepond to sopamo/laravel-filepond"
+
 == [v2.3.1] - 2024-01-10
 === Fixed
  - The process of resizing post thumbnail images, audio and video.
