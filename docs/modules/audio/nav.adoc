@@ -1,1 +1,6 @@
-* xref:index.adoc[Audio]
+.Audio
+* xref:index.adoc[All Audio Posts]
+* xref:add.adoc[New Audio Post]
+* xref:edit.adoc[Edit New Audio Post]
+* xref:translation.adoc[Audio Post Translation]
+* xref:delete.adoc[Delete Audio Post]

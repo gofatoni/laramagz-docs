@@ -1,0 +1,11 @@
+= Menu Link Widget
+
+image::menulink.png[align=center]
+
+Menu Link Widget hanya tersedia di footer. Widget ini untuk menampilkan menu footer yang telah dibuat di Menu.
+
+image::menu-setting.png[align=center]
+
+Tampilkan tautan menu di footer.
+
+image::menu-link-display.png[align=center]

@@ -1,0 +1,45 @@
+= Settings
+
+== Web Configuration
+
+image::web-config.jpeg[]
+
+=== Display Language Options
+
+image::display-language-option.png[]
+
+image::frontend-dipslay-language.jpg[]
+
+=== Default Language
+
+image::default-language.png[]
+
+image::frontend-language.webp[]
+
+=== Maintenance Mode
+
+image::maintenance-mode.jpg[]
+
+Show page when in Maintenance mode
+
+image::service-unavailable.jpeg[width=800,]
+
+=== Register User
+
+image::register-user.png[]
+
+Show user register link when logged in
+
+image::link-register-user.jpg[]
+
+=== Email verification
+
+image::email-verification.png[]
+
+To get verification link via email, click on "Click here to request another"
+
+image::alert-confirm.jpg[]
+
+If enabled, users who have not confirmed their email must click the confirmation link sent to their email to access the dashboard.
+
+image::verify-email.jpg[]

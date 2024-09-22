@@ -1,1 +1,6 @@
-* xref:index.adoc[Posts]
+.Article Posts
+* xref:index.adoc[All Article Posts]
+* xref:add.adoc[Added a New Article Post]
+* xref:edit.adoc[Edit Article Post]
+* xref:translation.adoc[Add Article Post Translation]
+* xref:delete.adoc[Remove Article Post]

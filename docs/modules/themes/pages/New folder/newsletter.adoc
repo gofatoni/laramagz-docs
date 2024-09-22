@@ -1,0 +1,13 @@
+= Newsletter widget
+
+Widget newsletter hanya tersedia di sidebar dan footer.
+
+image::newsletter.png[align=center]
+
+== Newsletter di Sidebar
+
+image::newsletter-sidebar.png[align=center]
+
+== Newsletter di Footer
+
+image::newsletter-footer.png[align=center]

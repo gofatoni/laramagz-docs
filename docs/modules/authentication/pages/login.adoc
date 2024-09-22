@@ -1,6 +1,6 @@
 = Login 
 
-You can login using your username or email.
+You can log in using your username or email.
 
 image::login.png[align=center]
 

@@ -1,1 +1,6 @@
-* xref:index.adoc[Video]
+.Video
+* xref:index.adoc[All Video Posts]
+* xref:add.adoc[Add New Video Post]
+* xref:edit.adoc[Edit New Video Post]
+* xref:translation.adoc[Video Post Translation]
+* xref:delete.adoc[Delete Video Post]

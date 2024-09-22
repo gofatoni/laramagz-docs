@@ -1,0 +1,10 @@
+= links Widget 
+
+Links Widget hanya tersedia di footer.
+
+image::links.png[align=center]
+
+Links Widget untuk menampilkan link media sosial atau website yang telah Anda buat di halaman Pengaturan.
+
+image::links-settings.png[align=center]
+

@@ -1,0 +1,21 @@
+= Settings
+
+== Web Contacts
+
+=== Contacts - Addresses
+
+image::contact.jpeg[]
+
+=== Contacts - Links
+
+image::contact-links.jpeg[]
+
+==== Add social media links
+
+Click "Add Link"= Settings
+
+== Web Information
+
+image::information.jpeg[align=center]
+
+image::add-link.jpg[align=center]

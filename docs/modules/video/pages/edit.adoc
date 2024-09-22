@@ -1,0 +1,71 @@
+= Video
+
+Change the video post that has been made by pressing the pencil button image:button-edit.jpg[align=center]
+
+== Edit Video Post
+
+=== Change Video
+
+image::change-video.jpg[]
+
+==== Video that comes from a file upload
+
+Press the “Change Video Files” button to change the video upload file.
+
+image::change-video-files.jpg[]
+
+Then in the upload area insert a video file as a replacement.
+
+image::drag-drop-files.jpg[]
+
+Press the “Use previous video files” button if you want to use the previous files again.
+
+image::use-previous-video-files.jpg[]
+
+==== Changing Video from uploaded files to other sources
+
+Select the URL or Embed tab if you want to change it. How to insert it, see the “Add New Video Post” menu.
+
+image::url-video.png[]
+
+=== Changing Permalink
+
+Press the “Use Custom Permalink” button to change the title slug. image:use-custom-permalink-button.jpg[]
+
+Enter the title permalink in lowercase letters separated by a dash (-). If you enter the same permalink as another post, a number will be added automatically when saved.
+
+image::edit-custom-permalinks.jpg[]
+
+=== Changing the Thumbnail Image
+
+Press the “Remove” button to change the thumbnail image.
+
+image::video-thumbnails-upload.jpg[]
+
+If you want to change the image file to an image URL, select the URL tab to enter the image URL.
+
+image::video-thumbnails-url.jpg[]
+
+=== Adding Translations
+
+Press the + symbol on the selected language to add a translation for that language.
+
+image::language-translate.jpg[]
+
+=== Edit Publish Date
+
+Press “Edit” to change the publish date.
+
+image::edit-publish.jpg[]
+
+Change the post date.
+
+image::edit-input-publish.jpg[]
+
+=== Audio Post Publication 
+
+image::update.jpg[align=center]
+
+Press the “Update” button to publish the changes or press “Save Draft” to save them.
+
+

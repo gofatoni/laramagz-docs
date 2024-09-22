@@ -1,21 +1,7 @@
-= Pages 
+= Page
 
-== All Pages
+== Displays All Pages
 
-image::pages.png[align=center]
+Displays all page titles. 
 
-== Added a new page
-
-image::add-page.jpeg[align=center]
-
-== Edit Page
-
-image::edit-page.jpeg[align=center]
-
-== Add translation
-
-image::add-translation-button.png[align=center]
-
-== Edit translation
-
-image::edit-translation-button.png[align=center]
+image::all-posts.jpeg[]

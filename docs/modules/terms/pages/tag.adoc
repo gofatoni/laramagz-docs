@@ -1,0 +1,7 @@
+== Tags
+
+== Display All Tags
+
+Displays all tag lists.
+
+image::tags.jpg[width=600]

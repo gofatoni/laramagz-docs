@@ -1,0 +1,19 @@
+= Categories 
+
+== Delete category data
+
+- Delete a category by pressing the button with a trash can symbol image:button-delete.jpg[].
++
+image::remove-item-category.jpg[width=400]
+
+- Delete one or more categories by selecting one or more categories in the checkbox.
++
+image::select-category.jpg[width=400]
++
+Press “Delete” image:button-deletes.jpg[] to delete the checked categories.
+
+- Delete all categories by checking the box in the __header column__. All rows will be checked automatically.
++
+image::select-all-categories.jpg[width=400]
++
+Press “Delete” image:button-deletes.jpg[] to delete all categories.

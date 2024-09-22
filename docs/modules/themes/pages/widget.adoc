@@ -1,69 +1,106 @@
-= Widget
+= Widgets
 
-== Content Visibility
+Widgets in the Laramagz theme are areas that contain certain types of content displayed in the body, sidebar, and footer of a page.
 
-Click edit on one of the layouts, click on the eye icon to hide the widget content you want.
+== Widget Type
 
-image::hide-content-widget.png[align=center]
+Widgets are of three types.
 
-== Widget Content position
+1. Static widget. 
++
+This type of widget is fixed, it cannot be removed and repositioned.
++
+* Static widget on the 'Home' page:
+** Headlines - _no support for titles_
+** Featured - _no support for titles_
+** Post (Recent Post)
+** Bottom Post (Best of the Week)
 
-You can change the position of the widget content, except for widgets marked in gray.
++
+image::widget-static.jpg[width=600]
 
-image::order.jpeg[align=center, width=400]
+* Static widget on the 'Single Post' page:
+** Related Post (You May Also Like)
 
-== Add Widget
++
+image::related-post.jpg[width=600]
 
-Click the "Add Widget" button to add content in the page layout
+* Static widget on the 'Contact' page:
+** Contact Information - _only setting for widget on/off_
+** Captcha - only have setting for widget on/off
+** Map - _no support for title_
 
-image::add-widget.png[align=center]
++
+image::static-contact.jpg[width=600]
 
-Select the widget content that you want to add to the page layout
+2. Widget section. 
++
+This type of widget is for organizing a two-column area that can be filled with 2 types of widgets, namely article posts and label lists.
++
+image::widget-section.jpg[width=600]
++
+3. Regular widget.
++
+This widget is dynamic. It can be added, changed in content and position, and deleted.
++
+image::widget-regular.jpg[width=600]
 
-image::add-opt-widget.png[align=center, width=350]
+== Layout Type
 
-The new post widget will appear before the recent posts.
+There are three types of layout.
 
-image::add-post-widget.png[align=center]
+1. Body 
++
+There are five types of widgets supported in the Body area:
++
+image::add-new-widget-body.jpg[width=250]
++
+- Article Post
+- Ads
+- Section
+- Video Post 
+- Audio Post
++
+In the section area, you can add widgets that fill columns, up to a maximum of 2 columns. There are only two types of widgets supported in the section area.
++
+image::add-widget-in-section.jpg[width=250]
++
+- Post Article 
+- Label List
 
-== Add Widget in Section
-
-Click the "Add Widget" button in the section.
-
-image::click-add-widget-in-section.png[align=center]
-
-Content that can be added to sections is only posts and terms
-
-image::add-widget-in-section.png[align=center]
-
-The new widget content will appear in the section
-
-image::mini-post.png[align=center]
-
-== Add Widget in footer
-
-Widgets that have been added to the footer layout cannot be added again
-
-image::add-widget-in-footer.png[align=center]
-
-Each page has different footer content settings so you can add widgets to the footer on the page and it won't affect other pages.
-
-== Remove Widget 
-
-Click the delete icon on the widget.
-
-image::remove-widget.png[align=center]
-
-Click "Yes, delete it!" to remove widget.
-
-image::alert-delete-widget.png[align=center]
-
-== Edit Widget Content
-
-Click edit to change the widget content
-
-image::edit-widget.png[align=center]
-
-A modal will appear containing the content settings
-
-image::post-edit.png[align=center, width=350]
+2. Sidebar 
++
+First enable the custom toggle button so that you can set widgets in the Sidebar area.
++
+image::layout-sidebar.jpg[width=350]
++
+There are five types of widgets supported in the Sidebar:
++
+image::add-new-widget-sidebar.jpg[width=250]
++
+- Article Post 
+- Subscribe (Newsletter) 
+- Ads
+- Video Post
+- Audio Post
++
+3. Footer
++
+When the custom feature is enabled, users can set widgets in the footer where we can separate the widgets between columns with a maximum of 3 columns.
++
+image::layout-footer.jpg[]
++
+Footer columns can be deleted by clicking the “Delete Column” button image:delete-column-button.jpg[]
++
+All widgets in the deleted column will be deleted as well.
++
+There are six types of widgets supported in Footer:
++
+image::add-new-widget-footer.jpg[width=250]
++
+- About 
+- Links 
+- Links Menu 
+- Subscribe (Newsletter) 
+- Article (Post)
+- Label (Category/Tag)

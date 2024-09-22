@@ -1,0 +1,7 @@
+= Captcha
+
+Pengaturan Captcha hanya tersedia di Kontak.
+
+image::captcha.png[align=center]
+
+Jika Captcha disembunyikan, maka Captcha tidak akan muncul pada halaman form kontak.

@@ -1,3 +1,5 @@
 = Filemanager 
 
-image::filemanager.jpeg[align=center]
+File manager is used to manage files and folders in public storage.
+
+image::filemanager.jpeg[]

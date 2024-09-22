@@ -1,0 +1,7 @@
+= Settings 
+
+== Open Graph Image 
+
+image::ogi-custom.png[] 
+
+image::open-graph-image.jpeg[]

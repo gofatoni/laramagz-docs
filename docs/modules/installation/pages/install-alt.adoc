@@ -11,15 +11,15 @@ Use this method if your hosting does not support:
 
 1. Go to MySQL Databases
 +
-image::mysql-cpanel.png[align=center]
+image::mysql-cpanel.png[]
 2. Create a new database
 3. Get the MySQL database name, username, and password
 4. Go to phpMyAdmin
 +
-image::phpmyadmin.png[align=center]
+image::phpmyadmin.png[]
 5. Import database `dblaramagz-v3.0.0.sql`
 +
-image::phpmyadmin-db.png[align=center]
+image::phpmyadmin-db.png[]
 
 == Preparing Files
 
@@ -27,19 +27,19 @@ I assume your website root home directory is `public_html`. Otherwise, you can a
 
 1. Go to File Manager
 +
-image::filemanager-cpanel.png[align=center]
+image::filemanager-cpanel.png[]
 +
-2. Upload `app-v3.0.0.zip` *outside* the public_html folder
+2. Upload `app-v3.1.0.zip` *outside* the public_html folder
 +
-image::put-app.jpg[align=center]
+image::put-app.jpg[]
 +
-3. Extract app-v3.0.0.zip so that the laramagz folder appears.
+3. Extract app-v3.1.0.zip so that the laramagz folder appears.
 +
-image::put-laramagz.jpg[align=center]
+image::put-laramagz.jpg[]
 +
 4. Open the .env file.
 +
-image::edit-env.png[align=center]
+image::edit-env.png[]
 +
 5. Edit the MySQL database name, username, and password.
 +
@@ -62,16 +62,16 @@ For subdomains, add the folder name so it looks like this: `ROOT_FOLDER=/../../p
 1. Open Laramagz `public` folder
 2. Select All 
 +
-image::select-all.jpg[align=center]
+image::select-all.jpg[]
 +
 3. Move it to `public_html` or `public_html/your-subdomain-folder`
 +
-image::move-to.jpg[align=center]
+image::move-to.jpg[]
 +
 4. Go to the `public_html` or `public_html/your-subdomain-folder`
 5. Edit `index.php`
 +
-image::edit-index.png[align=center]
+image::edit-index.png[]
 +
 Change:
 +
@@ -85,7 +85,7 @@ Add `laramagz` after `/..`. Be like the following:
 define('SYSTEM_PATH', '/../laramagz');
 ----
 +
-image::system-path.png[align=center]
+image::system-path.png[]
 +
 For subdomains, just add `../` before `laramagz`
 +
@@ -93,25 +93,25 @@ For subdomains, just add `../` before `laramagz`
 define('SYSTEM_PATH', '/../../laramagz');
 ----
 +
-image::subdomain.png[align=center]
+image::subdomain.png[]
 
 == Setting up a storage folder in laramagz public
 
 1. Create a `storage` folder in `public_html` or for a subdomain in `public_html/subdomain`.
 +
-image::newfolder.png[align=center]
+image::newfolder.png[]
 +
 2. Go to `laramagz/storage/app/public`
 3. Select All, except `file` folder
 +
-image::selectall.jpg[align=center]
+image::selectall.jpg[]
 +
 4. Move it to `public_html/storage`
 +
-image::move-storage.png[align=center]
+image::move-storage.png[]
 +
 or, `public_html/your-subdomain/storage`
 +
-image::move-storage-subdomain.png[align=center]
+image::move-storage-subdomain.png[]
 
 

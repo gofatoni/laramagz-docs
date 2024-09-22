@@ -1,0 +1,29 @@
+= Settings
+
+== Web Backup
+
+image::backup.png[width=800, ]
+
+=== Export Data
+
+Click the "Download Data Export File" button to download the data backup file.
+
+image::backup-data.png[width=300,]
+
+The exported data is an xlsx file containing the data in the database table.
+
+image::laramagz-backup.png[]
+
+=== Backup file storage
+
+Click the "Download Backup Storage" button to download all files in the public storage
+
+image::backup-store.png[]
+
+The download is a zip file that you can then extract and save in the public folder in the storage. If you want to re-download, you need to refresh your web browser.
+
+=== Import Data
+
+image::import-data.png[]
+
+If you want to import data from the backup data file, you can search for the laramagz-backup.xlsx file that you have downloaded. The import data action will replace all data in multiple current database tables.

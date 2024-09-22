@@ -2,16 +2,22 @@
 
 Roles have 3 default roles that cannot be changed or deleted, namely super-admin, admin, and author.
 
-Role created by users can be changed and deleted.
+Roles created by users can be changed and deleted.
 
 == All Roles
 
-image::roles.png[align=center]
+image::roles.png[]
 
-== Added a new role
+== Adding a New Role
 
-image::add-role.jpeg[align=center]
+Enter the name of the new role into the "Name" input, for example: member.
+
+Click "Check All" to select all roles or check some of the role checkboxes you want to select.
+
+image::add-role.jpeg[]
 
 == Edit Role
 
-image::edit-role.jpeg[align=center]
+The role name cannot be changed. Users can only change the role on a user by unchecking the checkbox.
+
+image::edit-role.jpeg[]

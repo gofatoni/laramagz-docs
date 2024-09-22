@@ -1,0 +1,46 @@
+= Article Post
+
+Change the article posts that have been created by pressing the pencil symbol button image:button-edit.jpg[].
+
+== Sunting Pos Artikel
+
+image::edit-post.jpeg[]
+
+=== Change permalink
+
+Press the "Use Custom Permalink" button to change the title slug. image:use-custom-permalink-button.jpg[]
+
+image::edit-custom-permalinks.jpg[]
+
+=== adding translation
+
+Press the symbol + to the language chosen to add the translation of the language.
+
+image::add-translation-button.jpg[]
+
+=== Changing the thumbnail image
+
+Press the "Remove" button to change the thumbnail image.
+
+image::featured-image.jpg[]
+
+If you want to change the image file to the image URL, select the URL tab to enter the URL image.
+
+image::featured-image-url.jpg[]
+
+=== edit the date of publication
+
+Press "Edit" to change the date of publishing.
+
+image::edit-publish.jpg[]
+
+Change the post date.
+
+image::edit-publish-input.jpg[]
+
+=== Publication of Video Posts 
+
+image::update.jpg[align=center]
+
+Press the "Update" button to publish changes or press "Save Draft" to save it.
+

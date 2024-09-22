@@ -1,0 +1,5 @@
+= Related Post Widget
+
+"Related Post Widget" hanya tersedia di halaman single post.
+
+image::relatedpost.png[align=center]

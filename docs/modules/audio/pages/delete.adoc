@@ -1,0 +1,16 @@
+= Audio
+
+== Delete audio posts
+
+- Delete an audio post by pressing the button with the trash box symbol image:button-delete.jpg[].
+- Delete one or more audio posts by selecting one or more titles in the checkbox.
++
+image::select-post.jpg[]
++
+Press “Delete” image:button-deletes.jpg[] to delete the checked audio post.
+- Delete all audio posts by checking the box in the __header column__. All rows will be checked automatically.
+Check the box to select all titles.
++
+image::seleksi-semua.jpg[]
++
+Press "delete" image:button-deletes.jpg[] to delete all audio posts.

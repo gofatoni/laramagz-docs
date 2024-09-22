@@ -1,17 +1,43 @@
-= Menu 
+= Menu
 
-image::menu.jpeg[align=center]
+Menu page to set the navigation menu feature. Navigation menu helps website visitors to explore and find the desired page.
 
-== Select Menu 
+image::menu.jpeg[width=600]
 
-image::select-menu.png[align=center]
+== Select Menu
 
-== Create Item Menu
+Select the menu section you want to set.
 
-image::create-item-menu.jpeg[align=center]
+image::select-menu.png[]
 
-image::result-menu-create.png[align=center]
+- Header Menu: Set the navigation menu located under the header.
++
+image::header-menu.jpg[]
 
-== Edit Item Menu
+- Footer Menu: Set the navigation menu located in the footer.
++
+image::footer-menu.jpg[]
 
-image::edit-item-menu.jpeg[align=center]
+== Create Menu Item
+
+Add a new menu item to the "Add Menu Item" form.
+
+image::create-item-menu.jpg[width=300]
+
+- Enter the URL by writing a slash (_slash_) before it, for example: `/sitemap`.
++
+image::input-url.jpg[]
+
+- Enter a Label with the desired label name.
++
+image::input-label.jpg[]
+
+The results can be seen on the front page of the website.
+
+image::result-menu-create.png[]
+
+== Edit Menu Item
+
+To change the menu item data, click the "Edit" button in the Menu Item table, then the menu item data will appear on the form
+
+image::edit-item-menu.jpg[]

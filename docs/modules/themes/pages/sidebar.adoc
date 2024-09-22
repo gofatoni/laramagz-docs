@@ -1,0 +1,320 @@
+= Sidebar Section
+
+The following are widgets in the Sidebar section.
+
+== 1. Article Post Widget
+
+Post article widget displays a list of posts article in Sidebar.
+
+image::add-new-post-sidebar.jpg[width=300]
+
+**Post Type** 
+
+Users can set whether the post displayed is based on certain categories or all categories.
+
+image::post-type.jpg[]
+
+Select "Post" if you want to display all posts, or select "Post by Category" if you only want to display a post with a specific category.
+
+**Category**
+
+The category option will only appear if the selected post type is “Post by category”.
+
+image::category-select.jpg[]
+
+Please select the desired post category to display.
+
+**Layout Type**
+
+The layout type determines the appearance of the post list content. 
+
+image::layout-type-post-sidebar.jpg[]
+
+Select “List Post with Link” if you want it to be displayed in list form with a link “View All” to open the list page of all article posts.
+
+image::list-post-with-link.jpg[width=300]
+
+Select “First Large Thumbnail” if you want to be displayed in list form with the first one post with a large thumbnail.
+
+image::first-large-thumbnail.jpg[width=300]
+
+Select “Regular List Posts” if you want it to be displayed as a list without the “View All” link.
+
+image::regular-list-posts.jpg[width=300]
+
+**Title** 
+
+image::title-sidebar.jpg[]
+
+The title entered into the title input will appear in the header section of the post list.
+
+image::title-header-post-sidebar.jpg[]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::title-sidebar-post-indo.jpg[]
+
+**Order** 
+
+Select one of the order types to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Popular** 
+
+The Popular input will appear if the user selects the “Popular” order. Users can select articles that are popular in one day, one week, one month, one year, or all of them.
+
+image::popular-select.jpg[]
+
+**Number of Posts**
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts.jpg[]
+
+== 2. Subscription widget (Newsletter) 
+
+image::newsletter-sidebar.jpg[width=300]
+
+This widget is used to display the newsletter form.
+
+image::widget-newsletter-sidebar.jpg[width=400]
+
+**Title**
+
+image::title-newsletter-sidebar.jpg[]
+
+The title entered into the title input will appear in the newsletter box area under the letter icon.
+
+image::display-title-newsletter-sidebar.jpg[width=300px]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::title-newsletter-sidebar-indo.jpg[]
+
+**Description**
+
+image::description.jpg[]
+
+Input Description is used to enter the information to be displayed under the email input.
+
+image::description-newsletter.jpg[]
+
+== 2. Ad Widget
+
+image::add-new-ads-sidebar.jpg[width=350]
+
+**Title**
+
+image::title-ads.jpg[]
+
+The title entered into the title input will appear in the header header section of the widget title.
+
+image::title-ads-sidebar.jpg[width=300]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::title-ad-id.jpg[]
+
+**Ad Type**
+
+image::ad-type.jpg[]
+
+There are 3 types of ads to choose from: Google Adsense, Image, and Script.
+
+**Ad Type: Google Adsense**
+
+This content requires a code on the AD Unit made on Google Adsense.
+
+If you have made an ad unit on Google Adsense, then fill it in accordance with the code given, for example:
+
+image::ad-unit-code.jpg[width=600]
+
+**GA Client**
+
+Fill with the value `data-ad-client`.
+
+image::value-ga-client.jpg[]
+
+**GA Slot**
+
+Fill with the value `data-ad-slot`.
+
+image::value-ga-slot.jpg[]
+
+**GA Size**
+
+Fill in accordance with the choice of ad size when creating an ad unit on Google Adsense.
+
+image::ad-size-ga.jpg[]
+
+Choose responsive if you make a responsive ad size.
+
+image::ga-size-responsive.jpg[]
+
+**GA Size: Responsive**
+
+If you choose GA Size Responsive, the input `Full width responsive` will appear.
+
+**Full width responsive**
+
+Fill with `data-full-width-responsive`, which is either `true` or `false`.
+
+image::full-width-responsive.jpg[]
+
+**Ad Type: Image**
+
+If you choose the image ad type, the input to upload the image, size, and url link will appear.
+
+**Ad Image**
+
+image::ad-image.jpg[]
+
+**Ad Size**
+
+Ad size will be filled automatically after successfully uploading images.
+
+image::ad-size.jpg[]
+
+**URL**
+
+Fill in the desired or blank URL link.
+
+image::url.jpg[]
+
+== 4. Video Post Widget
+
+image::add-new-video-post-sidebar.jpg[width=300]
+
+**Post Type** 
+
+Users can set whether the video post displayed is based on certain categories or all categories.
+
+image::post-type-video.jpg[]
+
+Select “Video” if you want to display all posts, or select “Video by category” if you only want to display posts with specific categories.
+
+**Category**
+
+The category option will only appear if the selected post type is “Post by category”.
+
+image::category-select.jpg[]
+
+Please select the desired post category to display.
+
+**Layout Type** 
+
+The layout type determines the appearance of the post list content. 
+
+image::layout-type-post-sidebar.jpg[]
+
+Select “List Post with Link” if you want it to be displayed in list form with a link “View All” to open the list page of all article posts.
+
+image::video-list-post-with-link.jpg[width=300]
+
+Select “First Large Thumbnail” if you want it to be displayed as a list with one first post with a large thumbnail.
+
+image::video-first-large-thumbnail.jpg[width=300]
+
+Select “Regular List Posts” if you want it to be displayed as a list without the “View All” link.
+
+image::video-regular-list-posts.jpg[width=300]
+
+**Title** 
+
+image::title-video-sidebar.jpg[]
+
+The title entered into the title input will appear in the header section of the post list.
+
+image::title-header-video-post-sidebar.jpg[width=500]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::title-video-sidebar-id.jpg[]
+
+**Order** 
+
+Select one of the order types to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Number of Posts**
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts.jpg[]
+
+== 5. Audio Post Widget
+
+image::add-new-audio-post-sidebar.jpg[width=300]
+
+**Post Type** 
+
+Users can set whether the audio post displayed is based on certain categories or all categories.
+
+image::post-type-audio.jpg[]
+
+Select “Audio” if you want to display all posts, or select “Audio by category” if you only want to display posts with specific categories.
+
+**Layout Type** 
+
+The layout type determines the appearance of the post list content. 
+
+image::layout-type-post-sidebar.jpg[]
+
+Select “List Post with Link” if you want it to be displayed in list form with a link “View All” to open the list page of all article posts.
+
+image::audio-list-post-with-link.jpg[width=300]
+
+Select “First Large Thumbnail” if you want it to be displayed as a list with one first post with a large thumbnail.
+
+image::audio-first-large-thumbnail.jpg[width=300]
+
+Select “Regular List Posts” if you want it to be displayed as a list without the “View All” link.
+
+image::audio-regular-list-posts.jpg[width=300]
+
+**Title**
+
+image::title-audio-sidebar.jpg[]
+
+The title entered into the title input will appear in the head list header section.
+
+image::title-header-audio-post-sidebar.jpg[width=500]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::title-audio-post-id.jpg[]
+
+**Order**
+
+Choose one type of order to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Number of Posts**
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts.jpg[]

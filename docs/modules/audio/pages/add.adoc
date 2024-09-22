@@ -1,0 +1,115 @@
+= Audio
+
+Add a new audio post by pressing the “Create” button image:button-create.jpg[].
+
+== Adding a New Audio Post
+
+image::add-audio.jpeg[]
+
+=== Adding Audio
+
+There are three options for adding audio.
+
+==== 1. Upload Audio 
+
+This defaults to uploading an audio file by pressing or dragging the audio file into the upload area.
+
+image::upload-audio.png[align=center]
+
+==== 2. URL 
+
+Select the URL tab if you want to add audio via URL.
+
+image::url-audio.png[align=center]
+
+==== 3. Embed
+
+Select the Embed tab if you want to add audio by embedding it.
+
+image::embed-audio.png[align=center]
+
+An example of using an embed from Soundcloud.
+
+image::embed-code-audio.jpg[]
+
+Copy the iframe code and paste it into the embed input.
+
+image::input-embed-code.jpg[]
+
+=== Adding Audio Title 
+
+Fill in the audio title with at least 3 letters.
+
+image::title.jpg[]
+
+=== Adding Summary
+
+Fill in the summary of the audio article. 
+
+image::summary.jpg[]
+
+=== Adding Content
+
+Fill in the audio article.
+
+image::content.jpg[]
+
+=== Adding Image
+
+The added image will become the post thumbnail.
+
+Click on the upload area to upload the image you want to use as the video thumbnail. Recommended size is 736x414 and size ratio is 16:9.
+
+image::audio-thumbnails.jpg[]
+
+If you want to use another image without uploading, press the URL tab to add another image using the image's URL Link
+
+image::audio-thumbnails-url.jpg[]
+
+=== Selecting Language 
+
+Select the language of the posted video post.
+
+image::languages.jpg[]
+
+=== Adding Categories
+
+Checklist one or more categories that you want to add. 
+
+image::categories.jpg[]
+
+Press “Add New Category” if you want to add a new category. If you want to add a new subcategory, select the category you want to parent.
+
+image::add-new-category.jpg[]
+
+Press the “Add New Category” button to submit.
+
+=== Adding Tags
+
+Enter the desired tags, separating each tag with a comma.
+
+image::tags.jpg[]
+
+=== Adding Meta Description
+
+Fill in a brief explanation of a maximum of 160 characters for the meta description.
+
+image::meta-description.jpg[]
+
+=== Adding Meta Keywords
+
+Enter keywords or keywords that match the content of the video post. Separate each keyword with a comma (,).
+
+image::meta-keyword.jpg[]
+
+=== Selecting visibility settings 
+
+There are two after visibility, viz: Public and Private. If you choose Public, the post will be publicly visible to any user. If you choose Private then the post can only be seen by the user who owns the post and users with super admin, and admin roles.
+
+image::visibility.jpg[align=center]
+
+=== Video Post Publication 
+
+image::publish.jpg[align=center]
+
+Press the “Publish” button to start publishing the video post or press “Save Draft” to save it.

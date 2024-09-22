@@ -1,0 +1,19 @@
+== Tags 
+
+== Delete tag data
+
+- Delete the tag by pressing the button with the trash box symbol image:button-delete.jpg[].
++
+image::remove-item-tag.jpg[width=700]
+
+- Delete one or more categories by selecting one or more categories in the checkbox.
++
+image::select-tag.jpg[width=700]
++
+Press “Delete” image:button-deletes.jpg[] to delete the checked categories.
+
+- Delete all categories by checking the box in the __header column__. All rows will be checked automatically.
++
+image::select-all-tags.jpg[width=700]
++
+Press “Delete” image:button-deletes.jpg[] to delete all categories.

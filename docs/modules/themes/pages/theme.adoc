@@ -1,57 +1,19 @@
 = Themes
 
-This page displays the theme used by Laramagz.
+On the themes page, you will see thumbnails of the themes available on Laramagz.
 
-image::themes.jpg[align=center]
+image::themes.jpeg[align=center]
 
-== Info Theme
+Hover over the theme image and 2 buttons will appear.
 
-If clicked, it will display theme information.
-
-image::button-info-theme.png[align=center]
-
-image::theme-information.jpg[align=center]
-
-== Theme Settings
-
-Click "customize" to enter the theme layout.
-
-image::button-customize-theme.png[align=center]
-
-image::general-layout.jpg[align=center]
-
-On this page, you can set content in the sidebar and footer that applies to all pages. 
-
-== Page Settings
-
-If you want to set the main content on each page, you can go to page settings.
-
-image::page-settings-click.jpg[align=center]
-
-image::page-settings.jpeg[align=center, width=800]
-
-== Visibility
-
-Sidebars and footers can also be set to display or not display for all pages. If you want to display it on a certain page, you can set it in Page Settings.
-
-image::visibility.png[align=center]
-
-=== Sidebar
-
-If the sidebar is set not visible it will look as follows. The page content is centered
-
-image::without-sidebar.jpeg[align=center]
-
-=== Footer
-
-If the footer is not visible then only the footer credits will be displayed without the footer content
-
-image::no-footer.jpeg[align=center]
-
-== Sidebar Position
-
-image::set-position.png[align=center]
-
-Sidebar position can be set right or left
-
-image::sidebar-position.jpeg[align=center]
+1. The theme information button is symbolized by (i) image:button-i.jpg[] to view theme information.
++
+When clicked, a pop up will appear containing theme information.
++
+image::theme-info.png[width=400]
++
+2. The theme custom button symbolized by the pencil symbol image:button-pencil.jpg[] to customize the theme content.
++
+When clicked, it will open the theme content customization page.
++
+image::custom-theme.jpeg[align=center]

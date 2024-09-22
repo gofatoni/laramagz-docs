@@ -1,0 +1,12 @@
+= Video
+
+== Deleting a Video Post
+
+- Delete a video post by pressing the button with the trash can symbol. image:button-delete.jpg[]
+- Delete one or more video posts by selecting one or more titles in the check list. 
++
+image::select-video-post.jpg[]
++
+- Delete all video posts by selecting all titles in the check list. 
++
+image::select-all-videos-post.jpg[]

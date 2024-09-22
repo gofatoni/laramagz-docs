@@ -1,0 +1,22 @@
+= Halaman
+
+== Visibilitas Tata Letak
+
+image::visibility.png[align=center]
+
+Jika sidebar diatur agar tidak terlihat, maka akan terlihat sebagai berikut. Konten halaman berada di tengah
+
+image::without-sidebar.jpeg[align=center]
+
+Jika area footer tidak terlihat maka hanya akan menampilkan bagian kredit.
+
+image::no-footer.jpeg[align=center]
+
+== Posisi Sidebar
+
+image::set-position.png[align=center]
+
+Posisi sidebar bisa diatur tampil sebelah kanan atau kiri.
+
+image::sidebar-position.jpeg[align=center]
+

@@ -1,19 +1,35 @@
 = Languages
 
-image::languages.jpeg[align=center]
+This page is for managing languages ​​on the website.
 
-== Added language
+image::languages.jpg[width=600]
 
-image::added_language.png[align=center]
+== Adding Languages
 
-== Change the language name displayed
+Add a new language in the form on the left bar of the language list table.
+
+image::add-language.jpg[width=300]
+
+Select the language and country you want to add.
+
+== Change the displayed language name
+
+Click on the edit button symbolized by the pencil icon.
+
+image::edit-language.jpg[]
+
+Change the language name as desired.
 
 image::change-language-name.png[align=center]
 
-== Hides the language from being displayed
+== Hiding a language from being displayed
 
-image::hide-language.png[align=center]
+To disable a language from appearing in the language selection menu, scroll left on the button in the "Active" column.
 
-== Remove language
+image::hide-language.jpg[width=600]
 
-image::click-remove-language.png[align=center]
+== Delete a language
+
+To delete a language, click on the remove button symbolized by the trash can. This button can only be clicked on languages ​​that are not currently being used.
+
+image::remove-language.jpg[width=600]

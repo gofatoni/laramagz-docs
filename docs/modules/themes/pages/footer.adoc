@@ -1,0 +1,193 @@
+= Footer Section
+
+The following are widgets in the Footer section.
+
+== 1. About Widget
+
+image::add-new-about.jpg[width=300]
+
+**Title**
+
+image::title-about.jpg[]
+
+The title entered into the title input will appear in the Widget Header Section.
+
+image::title-widget-about.jpg[width=300]
+
+**Logo**
+
+image::logo.jpg[]
+
+Select "Show" if you want to display a logo located under the title.
+
+Select "Hide" if you want to hide the logo.
+
+image::widget-about-without-logo.jpg[width=300]
+
+To change the logo image go to the Settings menu> web properties.Upload a new logo on the web logo section. 
+
+**Link**
+
+image::link.jpg[]
+
+Select "Show" if you want to display a link to the About page.
+
+image::link-about.jpg[width=300]
+
+Select "Hide" if you don't want to display the link.
+
+image::about-without-link.jpg[width=300]
+
+== 2. Links Widget
+
+This widget is used to display links to social media or other sites.
+
+image::add-new-links.jpg[width=300]
+
+**Title** 
+
+image::title-link.jpg[]
+
+The title entered into the title input will appear in the header section of the Links widget.
+
+image::title-links.jpg[width=300]
+
+**Description**
+
+Enter the description in the links widget.
+
+image::description-link.jpg[]
+
+== 3. Menu Link Widget
+
+This widget is to display the footer menu.
+
+image::menu-link-widget.jpg[]
+
+Click the eye symbol to activate and deactivate.
+
+== 4. Subscription Widget (Newsletter) 
+
+image::add-new-newsletter-footer.jpg[width=300]
+
+**Title** 
+
+image::title-newsletter-footer.jpg[]
+
+The title entered into the title input will appear in the header section of the footer Newsletter widget.
+
+image::header-newsletter-footer.jpg[width=300]
+
+**Description**
+
+image::input-description-newsletter-footer.jpg[]
+
+Inputan description digunakan untuk memasukkan keterangan yang akan ditampilkan di bawah input email.
+
+image::description-newsletter-footer.jpg[width=300]
+
+== 5. Article Post Widget
+
+Post article widget displays a list of posts article on Footer.
+
+image::add-new-post-footer-widget.jpg[width=300]
+
+**Post Type** 
+
+Users can set whether the post displayed is based on certain categories or all categories.
+
+image::post-type.jpg[]
+
+Select "Post" if you want to display all posts, or select "Post by Category" if you only want to display a post with a specific category.
+
+**Category**
+
+The category option will only appear if the selected post type is “Post by category”.
+
+image::category-select.jpg[]
+
+Please select the desired post category to display.
+
+**Title** 
+
+image::input-title-post-footer.jpg[]
+
+The title entered into the title input will appear in the header section of the post list.
+
+image::header-post-footer.jpg[]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::input-title-post-footer-id.jpg[]
+
+**Order** 
+
+Select one of the order types to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Popular** 
+
+Input Populer  akan muncul jika pengguna memilih order "Populer". Pengguna dapat memilih artikel yang populer dalam satu hari, satu minggu, satu bulan, satu tahun, atau semuanya.
+
+image::popular-select.jpg[]
+
+**Number of Posts**
+
+Inputan Number of Posts untuk mengatur jumlah pos yang ditampilkan dalam konten widget.
+
+image::number-of-posts.jpg[]
+
+== 6.  Label Widget
+
+image::add-new-label-footer.jpg[width=300]
+
+**Term**
+
+Users can set whether the label to be displayed is based on the category or tag.
+
+image::term.jpg[]
+
+**Title** 
+
+image::input-title-label-footer.jpg[]
+
+The title entered into the title input will appear in the header section of the label widget.
+
+image::header-label-footer.jpg[]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::input-title-label-footer-id.jpg[]
+
+**Order** 
+
+Select one of the order types to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Popular** 
+
+The Popular input will appear if the user selects the “Popular” order. Users can select articles that are popular in one day, one week, one month, one year, or all of them.
+
+image::popular-select.jpg[]
+
+**Number of Posts**
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts.jpg[]

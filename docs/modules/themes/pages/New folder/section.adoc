@@ -1,0 +1,24 @@
+= Section 
+
+"Sections" hanya tersedia di homepage. " Sections" adalah tata letak yang berisi widget kecil. Widget yang dapat disertakan dalam tata letak adalah pos dan term (kategori dan tag).
+
+== Menambahkan Widget 
+
+image::add-widget-in-section.png[align=center]
+
+- Mini Post: Konten widget tipe artikel.
+- List Label: Konten widget adalah jenis term (kategori atau tag).
+
+== Mini Post 
+
+Pengaturannya sama dengan widget pos, tetapi ada pengaturan tambahan untuk carousel dan putar otomatis carousel.
+
+image::mini-post-widget.png[align=center, width=400]
+
+== List Label 
+
+Anda dapat memilih untuk menampilkan daftar kategori atau tag. Anda juga dapat memilih cara menampilkannya, apakah daftar yang diurutkan atau daftar yang tidak diurutkan.
+
+image::list-label.png[align=center, width=400]
+
+

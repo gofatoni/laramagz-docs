@@ -24,37 +24,83 @@
 
 == Laramagz package directory
 
-The `laramagz-v3.0.0.zip` package contains the following files and folders.
+The `laramagz-v3.1.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v3.0.0
+    📒 laramagz-v3.1.0
         📂 app
-            📄 app-v3.0.0.zip
+            📄 app-v3.1.0.zip
         📂 database 
-            📄 dblaramagz-v3.0.0.sql
+            📄 dblaramagz-v3.1.0.sql
         📂 documentation
             📄 documentation.html
-        📂 update-db 
-            📄 cache.sql 
-            📄 chache_locks.sql 
-            📄 job_batches.sql 
-            📄 sessions.sql
         📄 CHANGELOG.txt    
         
 
-== Update Guide (from v2.3.0 to v3.0.0)
+== Update Guide (from v3..0 to v3.1.0)
 
 Follow the steps below to successfully update.
+
+=== Backup Files and Databases 
+
+==== Backup Files 
+
+1. The `service-account-credentials.json` file is located in the `storage/app/analytics` folder.
+2. .env files.
+3. The `public` storage folder is located at `storage/app/public`.
+
+==== Backup Database 
+
+Export database via phpMyAdmin
+
+image::export-via-phpmyadmin.jpg[]
+
+== Installation
+
+1. Delete all files and folders of the old version of laramagz
+2. Upload the `app-v3.1.0.zip` file in your hosting's File Manager.
+3. Extract the package.
+4. Installation (see installation guide)
+5. Edit the .env file based on your previous .env settings.
+6. Restore files in storage.
+7. Upload the `service-account-credentials.json` file to the `storage/app/analytics` folder.
+
+=== Clear cache
+
+Manually delete all cache in the following folders (except .gitignore file if present):
+
+1. `laramagz/storage/framework/views`.
+2. `laramagz/storage/framework/cache/data`.
+3. `laramagz/storage/framework/sessions`.
+4. `laramagz/bootstrap/cache`.
+
+Clearing cache with artisan command:
+
+    php artisan optimize:clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 === Export data from dashboard
 
 1. Login with super-admin.
 2. Go to the Settings > Web Backup menu.
 +
-image::web-backup-menu.jpg[align=center]
+image::web-backup-menu.jpg[]
 +
 3. Click the `Download Export Data File` button. 
 +
-image::export-data-button.jpg[align=center]
+image::export-data-button.jpg[]
 +
 [WARNING]
 ====
@@ -63,11 +109,11 @@ If it fails, export via phpMyAdmin.
 Select all tables to export, except: failed_jobs, jobs, migrations, model_has_permissions, password_resets, password_reset_tokens, and personal_access_tokens
 ====
 +
-image::export-via-phpmyadmin.jpg[align=center]
+image::export-via-phpmyadmin.jpg[]
 +
 4. Click the Download Backup Storage button. 
 +
-image::download-backup-storage.jpg[align=center]
+image::download-backup-storage.jpg[]
 +
 [WARNING]
 ====
@@ -88,7 +134,7 @@ If it fails, do a manual backup of the `storage/app/public` folder.
 5. Restore files in storage.
 6. Import cache tables, cache locks, job_batches, and sessions into the database (the import file is in the update-db folder).
 
-image::import-table.jpg[align=center]
+image::import-table.jpg[]
 
 === Clear cache
 

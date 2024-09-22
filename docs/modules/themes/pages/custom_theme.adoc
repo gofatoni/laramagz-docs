@@ -1,0 +1,75 @@
+= Theme Custom Page 
+
+On the custom theme page, users can do the following:
+
+1. Select a page. 
++
+Select the page you want to customize.
++
+image::select-page.jpg[]
++
+2. Adding Widgets.
++
+The Body, Sidebar, and Footer areas allow you to add widgets.
++
+image::add-new-widget.jpg[]
++
+Click on the “Add Widget” area and a window with a list of widgets will appear.
++
+image::add-new-widget-body.jpg[width=200]
++
+The widget options can be different in the Body, Sidebar, and Footer sections. The window above contains the widget options in the Body section.
++
+3. Change the content of the Widget.
++
+Change the widget settings by clicking the pencil button image:edit-widget.jpg[] on the card.
++
+image::card-widget.jpg[]
++
+The edit widget form modal will appear.
++
+image::edit-content-widget.jpg[width=300]
++
+4. Change the position of the widget.
++
+To change the position of the widget, hover over the widget you want to change the position of so that the arrow cursor changes to cursor drag image:cursor-drag.jpg[]. After that, click and hold then move it to the desired position as long as it is still in the same area, for example, Body only or Sidebar only. The widget position will be saved automatically.
++
+image::change-posisition-widget.jpg[]
++
+5. Enable or disable Widgets.
++
+Widgets can be activated and deactivated by clicking the button with the eye symbol image:active-widget.jpg[] on the widget card.
++
+image::card-widget-active.jpg[]
++
+6. Removing Widgets.
++
+Delete the widget by clicking the x-symbolized button. 
++
+image::card-widget-delete.jpg[]
++
+An alert message appears to confirm the deletion.
++
+image::delete-alert.jpg[width=300]
++
+7. Change sidebar position
++
+In the Sidebar section, set image:gulir-custom.jpg[] to enable customization first. Reposition the sidebar to the left by clicking the symbol and the sidebar to the right by clicking the image:right-sidebar.jpg[] symbol.
++
+8. Enable or disable Footer and Sidebar. 
++
+In the Sidebar and Footer section, set to image:gulir-custom.jpg[] to enable customization first so that it will display the previously hidden option buttons. Click the button with the eye symbol image:visibility.jpg[] to enable and disable the widget.
++
+9. Set the default widgets on the Footer and Sidebar.
++
+Click “Default Sidebar & Footer” image:default-sidebar-footer-button.jpg[] to go to the “Default Sidebar & footer” page. This page is for setting the default settings for the sidebar and footer.
++
+image::default-sidebar-footer.jpeg[width=400]
++
+The sidebar and footer widgets set in this page will be applied to all pages that use the default mode for sidebar and footer.
++
+10. Set the custom or default widget mode in the Footer and Sidebar settings.
++
+Custom mode is a mode where users can customize the widgets on the sidebar and footer by swiping to “custom” on sidebar image:widget-custom-sidebar.jpg[] and footer image:widget-custom-footer.jpg[]. 
+
+If the sidebar and footer on each page are not set to custom it will use the default widget settings. 

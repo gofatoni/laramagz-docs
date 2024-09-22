@@ -1,7 +1,0 @@
-= Related Post Widget
-
-The Related Post Widget is only available on single post pages.
-
-image::relatedpost.png[align=center]
-
-image::related-posts.jpg[align=center]

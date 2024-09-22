@@ -1,0 +1,9 @@
+= Categories
+
+image::categories.jpg[width=600]
+
+== List of All Categories
+
+Displays all categories.
+
+image::all-categories.jpg[width=400]

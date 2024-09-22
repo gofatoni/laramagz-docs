@@ -1,0 +1,5 @@
+= Settings
+
+== Web Information
+
+image::information.jpeg[align=center]

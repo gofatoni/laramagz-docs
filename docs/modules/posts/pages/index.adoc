@@ -1,25 +1,7 @@
-= Posts
+= Article Post
 
-== All Posts
+== All Article Posts 
 
-image::posts.jpeg[align=center]
+Display all article posts. 
 
-== Added a new post
-
-image::add-post.jpeg[align=center]
-
-== Edit Post
-
-image::edit-post.png[align=center]
-
-== Add Post Translation
-
-image::add-translation-button.png[align=center]
-
-image::add-post-translation.jpeg[align=center]
-
-image::edit-translation.jpeg[align=center]
-
-== Change publish date
-
-image::edit-publish-date.png[align=center]
+image::all-posts.jpeg[]

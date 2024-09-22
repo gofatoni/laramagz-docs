@@ -2,49 +2,59 @@
 
 Installing ads is done through the layout page located in the Appearance > Themes menu.
 
-image::menu.png[align=center]
+image::menu.png[]
 
-Point the mouse at the pencil icon, then click Customize.
+image::theme.png[]
 
-image::theme.png[align=center]
+Select the page you want to install an ad.
 
-Click edit on the sidebar (For sidebar ads).
+image::select-page.jpg[]
 
-image::click-edit.jpg[align=center]
+On the home page an advertisement can be attached to the body and sidebar.
 
-Click the "Add Widget" button.
+== Adding an Ad Widget (Ads)
 
-image::addwidget.png[align=center]
+Click the “Add Widget” button.
 
-Select the "Ads" widget.
+image::add-new-widget.jpg[]
 
-image::selectads.png[align=center]
+Select the "ads" widget.
 
-By default, the newly created "Ads" widget has an image or banner ad type. If you want to include image ads, scripts, or Google Adsense, you need to edit the ads widget.
+image::select-ads.jpg[]
 
-image::editads.png[align=center]
+The capital window will appear in the form of a form that contains various inputs to set the ADS widget that will be displayed.
 
-== Banner Ads
+image::add-new-ads-body.jpg[width=350]
 
-=== Upload or Replace Image 
+By default the type of ad chosen is an advertisement in the form of an image.Users can choose other types of ads, namely Google Adsense and ad scripts.
+
+image::ad-type.jpg[]
+
+== Image Ads (Banner)
+
+Select the ad type “Image” in Ad Type.
+
+=== Upload Ad Image
 
 Click on the upload image area to insert the ad image.
 
-image::clickuploadimage.png[align=center]
+image::upload-image.jpg[width=350]
 
 The image will appear and display the length and width of the image.
 
-image::changeads.png[align=center]
+image::result-upload-image.jpg[]
 
 If you want to change the image, click "Change Image".
 
-Enter the Image URL if you want to create a link.
+Enter the image url if you want to create a link.
 
-== Google Adsense
+image::url.jpg[]
 
-Select Google Adsense under Ad Type.
+== Google Adsense Ads
 
-image::gaads.png[align=center]
+Select Google Adsense under “Ad Type”.
+
+image::gaads.png[]
 
 Make sure you already have an Ad Unit that you created in Google Adsense to fill in the other inputs.
 
@@ -52,71 +62,70 @@ Make sure you already have an Ad Unit that you created in Google Adsense to fill
 
 ==== 1. GA Size
 
-Select "Responsive" in GA Size:
+Select "responsive" on ga size:
 
-image::selectresponsive.png[align=center]
+image::selectresponsive.png[]
 
-Open your Google Adsense account, create a new Ad Unit:
+Open a Google Adsense account, create a new ad unit:
 
-image::displayads.png[align=center]
+image::displayads.png[]
 
-Select "Responsive" under Ad Size in Google Adsense:
+Select "Responsive" on Ad Size on Google Adsense:
 
-image::selectresponsiveadunit.png[align=center]
+image::selectresponsiveadunit.png[]
 
 Click "Create".
 
-You will see the Ad Unit code:
+You will see the Ad Unit code, as follows:
 
-image::responsive.png[align=center]
+image::responsive.png[]
 
 ==== 2. GA Format
 
-Look at the Ad Unit code in the `data-ad-format="auto"` section. It means that the GA Format you entered is "Auto".
+Look at the Ad Unit code in the `data-ad-format=“auto”` section. It means that the GA Format you entered is “Auto”.
 
-image::gaformat.png[align=center]
+image::gaformat.png[]
 
 ==== 2. Full width responsive
 
-Select "Yes".
+Choose "YES".
 
-image::fullwidthresponsive.png[align=center]
+image::fullwidthresponsive.png[]
 
-If the Ad Unit code `data-full-width-responsive="true"` is `true`.
+If the Ad Unit code `data-full-width-responsive=“true”` is `true`.
 
 === Create Google Adsense ads with Fixed Size
 
 ==== 1. GA Size
 
-Select "Fixed" under GA Size:
+Choose "Fixed" on GA Size:
 
-image::gasizefixed.png[align=center]
+image::gasizefixed.png[]
 
-Select "Fixed" under Ad Size in Google Adsense. Enter a size of 350 for width and 300 for height. This size is for Sidebar ads.
+Select "Fixed" in Ad Size on Google Adsense.Enter the size 350 for width and 300 for height.This size is for sidebar ads.
 
-image::gaadsizefixed.png[align=center]
+image::gaadsizefixed.png[]
 
-Click "Create".
+Klik "Create".
 
-You will see the Ad Unit code:
-
-image::fixed.png[align=center]
+You will see the ad unit code, as follows:
+image::fixed.png[]
 
 ==== 2. Ad Size 
 
-Enter the width and height size according to the length and width of the Google Adsense Ad Unit ad.
+Enter the width and height sizes according to the length and width of the Google Adsense ad unit ad.
 
-image::adsize.png[align=center]
+image::adsize.png[]
 
-== Ad Code (Script)
+== Advertising code (Script)
 
-You can also display Ads through ad code or script. Google Adsense Ad Code can also be entered through this script input but we recommend using the Ad Type option: Google Adsense
+You can also display ads via ad code or script.The Google Adsense ad code can also be entered through this input script but we recommend using the AD Type option: Google Adsense
 
-Select "Script" under Ad Type.
+Select "Script" on ad type.
 
-image::script.png[align=center]
+image::script.png[]
 
-Enter the ad code in the "Script" input field.
+Enter the ad code in the "Script" input column.
 
-image::scriptinput.png[align=center]
+image::scriptinput.png[]
 

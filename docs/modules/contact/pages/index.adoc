@@ -1,56 +1,58 @@
-= Contact
+= Contacts
+
+Contacts contains visitor messages sent from the contact form on the web page.
+
+== All Contacts Messages
+
+image::all-contacts.jpg[width=600]
+
+== Read Messages
+
+image::see-detail.png[]
+
+Click the button with the eye icon in the Contacts table to see the messages.
+
+image::message.png[width=600]
 
 == Contact Page
 
-When you see an error like the following:
+=== Contact Form
 
-image::captcha-not.png[align=center]
-
-You need to set config .env:
-
-    NOCAPTCHA_SITEKEY=
-    NOCAPTCHA_SECRET=
-
-So it will look as follows:
-
-image::captcha.png[align=center]
-
-== Contac Form
-
-image::form-contact.png[align=center]
+image::form-contact.png[]
 
 Fill in the input form
 
-image::filled-form-contact.png[align=center]
+image::filled-form-contact.png[]
 
 Click "I'm not a robot".
 
-Select some images according to the name shown.
+Select some suitable images.
 
-image::click-iamnotrobot.png[align=center]
+image::click-iamnotrobot.png[width=300]
 
-After selecting click "VERIFY".
+After selecting, click "VERIFY".
 
-image::verify.webp[align=center]
+image::verify.webp[width=300]
 
-If the right meal appears a checklist mark.
+If you choose correctly, a check mark will appear
 
-image::checklist-iamnotrobot.png[align=center]
+image::checklist-iamnotrobot.png[]
 
 Click "Send Message".
 
 Message successfully sent
 
-image::success-message.png[align=center]
+image::success-message.jpg[width=400]
 
-== All Messages
+If you see an error like the following in the captcha:
 
-image::contacts.jpeg[align=center]
+image::captcha-not.png[]
 
-== Message details
+You need to set the configuration in the `.env` file:
 
-Click the eye icon to view the contact's message
+NOCAPTCHA_SITEKEY=
+NOCAPTCHA_SECRET=
 
-image::see-detail.png[align]
+So, the display will look like this:
 
-image::message.png[align=center]
+image::captcha.png[]

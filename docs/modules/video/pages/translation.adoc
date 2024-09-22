@@ -1,0 +1,17 @@
+= Video
+
+== Adding Video Post Translation
+
+When a translation is added to a video post, the video input and thumbnail image are automatically filled in according to the video and image in the translated Video post.
+
+At the time of adding translations, the video cannot be changed. Changes can only be made during editing.
+
+image::add-translation.jpg[]
+
+== Editing the Translation of a Video Post 
+
+Press the pencil button to make edits.
+
+image::edit-translation-button.jpg[]
+
+Editing the translation will return to the video post edit page.

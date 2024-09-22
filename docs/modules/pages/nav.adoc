@@ -1,1 +1,6 @@
-* xref:index.adoc[Pages]
+.Pages
+* xref:index.adoc[All Pages]
+* xref:add.adoc[Add New Page]
+* xref:edit.adoc[Edit Page]
+* xref:translation.adoc[Page Translation]
+* xref:delete.adoc[Delete Page]

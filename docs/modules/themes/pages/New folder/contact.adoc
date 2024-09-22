@@ -1,0 +1,17 @@
+= Kontak 
+
+image::contact.png[align=center]
+
+Judul halaman kontak bisa dibuat multi bahasa, juga dengan URL yang bisa dikustomisasi sesuai bahasa yang digunakan.
+
+Untuk URL disarankan untuk tidak menambahkan apapun di depan pembatas (/) atau setelah slug (kontak/) karena dapat mengakibatkan halaman tidak ditemukan.
+
+== Informasi Kontak
+
+image::contact-info.png[align=center]
+
+image::contact-info.jpeg[align=center]
+
+Jika informasi kontak dinonaktifkan, maka bagian informasi kontak akan dihilangkan sehingga tampilan formulir kontak berada di tengah halaman.
+
+image::contact-without-info.jpeg[align=center]

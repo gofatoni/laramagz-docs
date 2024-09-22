@@ -1,0 +1,31 @@
+= Account Settings
+
+== Profile
+
+The Profile page displays the information of the currently logged in user.
+
+image::profile.jpeg[]
+
+=== Adding Links
+
+Click the "+ADD LINK" button to add social media links and other links.
+
+image::add-link.jpg[width=300]
+
+=== Changing User Photos
+
+To change the user photo, click the "Photo" tab.
+
+==== Delete Photos
+
+image::remove-photo.png[]
+
+==== Uploading photo files
+
+image::upload-avatar.webp[]
+
+==== Using Uploaded Photos
+
+image::using-photo.png[]
+
+image::result.png[width=300,]

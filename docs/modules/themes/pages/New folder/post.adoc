@@ -1,0 +1,74 @@
+= Post widget
+
+== Post Type
+
+Anda dapat memilih 2 jenis postingan: postingan dan postingan berdasarkan kategori. Jika Anda memilih posting, artikel akan ditampilkan dengan semua kategori. Jika Anda memilih posting berdasarkan kategori, artikel akan ditampilkan berdasarkan kategori posting yang Anda pilih.
+
+== Category
+
+Input kategori ini hanya dapat diatur ketika Anda memilih postingan berdasarkan jenis kategori.
+
+image::category.png[align=center, width=400]
+
+== Layout Type
+
+Mengatur "Layout Type" memengaruhi tampilan style pada konten. Setiap widget memiliki jenis layout yang berbeda. 
+
+image::layout-type.png[align=center]
+
+Widget postingan memiliki 2 jenis layout, yaitu "one-column" dan "two-column". Jenis layout widget postingan default diatur ke one-column
+
+=== One Column 
+
+image::one-column.jpeg[align=center, width=400]
+
+=== Two Column
+
+image::two-column.jpeg[align=center, width=400]
+
+== Layout Type untuk Sidebar Post Widget
+
+Widget post di sidebar memiliki 3 pengaturan jenis layout. Jenis layout postingan widget sidebar default diatur dengan Regular List Posts
+
+image::layouttype-postsidebar.png[align=center]
+
+=== List Post With Link
+
+image::linkpost.png[align=center]
+
+=== First Large Thumbnail
+
+image::firstlargethumbnail.jpeg[align=center]
+
+=== Regular List Post
+
+image::regularlistpost.png[align=center]
+
+== Title
+
+Anda dapat menulis nama bahasa yang berbeda yang akan ditampilkan sesuai dengan pilihan bahasa di situs.
+
+image::title.png[align=center]
+
+== Order 
+
+Ada 4 opsi untuk mengatur pos pesanan. 
+
+image::order.png[align=center]
+
+- Latest: Konten widget akan ditampilkan berdasarkan artikel terbaru (Descending).
+- Oldest: Konten widget akan ditampilkan berdasarkan artikel terlama (Ascending).
+- Popular: Konten widget akan ditampilkan berdasarkan artikel yang paling banyak dilihat.
+- Random: Konten widget akan ditampilkan secara acak sehingga tidak akan sama setiap kali halaman dibuka.
+
+== Popular
+
+Input Populer hanya akan muncul jika Anda memilih urutan populer. Anda dapat memilih artikel yang populer dalam satu hari, satu minggu, satu bulan, satu tahun, atau semuanya.
+
+image::popular.png[align=center]
+
+== Number of Posts
+
+Mengatur jumlah postingan dalam konten widget
+
+image::number-of-posts.png[align=center]

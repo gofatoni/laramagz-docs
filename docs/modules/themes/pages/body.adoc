@@ -1,0 +1,394 @@
+= Body Section 
+
+The following are widgets in the Body section.
+
+== 1. Article Post Widget
+
+The Article Post widget displays a list of article posts.
+
+image::add-new-post-body.jpg[width=300]
+
+Settings on the Article Post widget:
+
+**Post Type** 
+
+Users can set whether the posts displayed are based on specific categories or all categories.
+
+image::post-type.jpg[]
+
+Select "Post" if you want to display all posts, or select "Post by Category" if you only want to display a post with a specific category.
+
+**Category**
+
+The category option will only appear if the selected post type is “Post by category”.
+
+image::category-select.jpg[]
+
+Please select the desired post category to be displayed.
+
+**Layout Type**
+
+The layout type determines the appearance of the post list content. 
+
+image::layout-type.jpg[]
+
+Select “One Column” if you want to display the list without columns.
+
+image::one-column.jpg[width=300]
+
+Select “Two Column” if you want to display it as 2 columns.
+
+image::two-column.jpg[width=300]
+
+**Title** 
+
+image::title-post.jpg[]
+
+The title entered into the title input will appear in the header section of the post list.
+
+image::title-header.jpg[]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::title-indo.jpg[]
+
+**Order** 
+
+Select one of the order types to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Popular** 
+
+The Popular input will appear if the user selects the “Popular” order. Users can select articles that are popular in one day, one week, one month, one year, or all of them.
+
+image::popular-select.jpg[]
+
+**Number of Posts**
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts.jpg[]
+
+== 2. Ad Widget
+
+image::add-new-ads-body.jpg[width=350]
+
+**Title**
+
+image::title-ads.jpg[]
+
+The title entered into the title input will appear in the header header section of the widget title.
+
+image::ads-title.jpg[]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+image::title-ad-id.jpg[]
+
+**Ad Type**
+
+image::ad-type.jpg[]
+
+There are 3 types of ads to choose from: Google Adsense, Image, and Script.
+
+**Ad Type: Google Adsense**
+
+This content requires a code on the AD unit made on Google Adsense.
+
+If you have made an ad unit on Google Adsense, then fill it in accordance with the code given, for example:
+
+image::ad-unit-code.jpg[width=600]
+
+**GA Client**
+
+Fill in value `data-ad-client`.
+
+image::value-ga-client.jpg[]
+
+**GA Slot**
+
+Fill in value `data-ad-slot`.
+
+image::value-ga-slot.jpg[]
+
+**GA Size**
+
+Fill in accordance with the choice of ad size when creating an ad unit on Google Adsense.
+
+image::ad-size-ga.jpg[]
+
+Choose responsive if you make a responsive ad size.
+
+image::ga-size-responsive.jpg[]
+
+**GA Size: Responsive**
+
+If you choose GA Responsive size, it will appear input `Full width responsive`.
+
+**Full width responsive**
+
+Fill in "data-full-width-responsive", namely 'True' or 'False'
+
+image::full-width-responsive.jpg[]
+
+**Ad Type: Image**
+
+If you choose the type of image ad, input will appear to upload images, size, and url links.
+
+**Ad Image**
+
+image::ad-image.jpg[]
+
+**Ad Size**
+
+Ad size will be filled automatically after successfully uploading images.
+
+image::ad-size.jpg[]
+
+**URL**
+
+Fill in the desired or blank URL link.
+
+image::url.jpg[]
+
+== 3. Section Widget
+
+This widget is to set the column area in the body.The maximum only has 2 columns and has 2 types of widgets, namely article posts and label lists.
+
+image::new-section.jpg[]
+
+== 4. Video Post Widget
+
+image::add-new-video-post-body.jpg[width=300]
+
+**Post Type** 
+
+Users can set whether video posts are displayed based on specific categories or all categories.
+
+image::post-type-video.jpg[]
+
+Select "Video" if you want to display all posts, or select "Video by Category" if you only want to display a post with a specific category.
+
+**Category**
+
+The category option will only appear if the selected post type is “Post by category”.
+
+image::category-select.jpg[]
+
+Please select the desired post category to display.
+
+**Layout Type** 
+
+The layout type determines the appearance of the post list content. 
+
+image::layout-type.jpg[]
+
+Select “One Column” if you want to display the list without columns.
+
+image::video-one-column.jpg[width=300]
+
+Select “Two Column” if you want it to be displayed in the form of 2 columns.
+
+image::video-two-column.jpg[width=300]
+
+**Title** 
+
+image::title-video.jpg[]
+
+The title entered into the title input will appear in the header section of the post list.
+
+image::title-header-video-post.jpg[width=500]
+
+The title supports multiple languages. Click one of the flags representing a language to select a language.
+
+**Order** 
+
+Select one of the order types to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Number of Posts**
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts.jpg[]
+
+== 5. Audio Post Widget
+
+image::add-new-audio-post-body.jpg[width=300]
+
+**Post Type** 
+
+Users can set whether audio posts are displayed based on specific categories or all categories.
+
+image::post-type-audio.jpg[]
+
+Select "Audio" if you want to display all posts, or select "Audio By Category" if you only want to display a post with a specific category.
+
+**Layout Type** 
+
+The layout type determines the appearance of the post list content. 
+
+image::layout-type.jpg[]
+
+Select “One Column” if you want to display the list without columns.
+
+image::audio-one-column.jpg[width=300]
+
+Select “Two Column” if you want it to be displayed as 2 columns.
+
+image::audio-two-column.jpg[width=300]
+
+**Title**
+
+image::title-audio.jpg[]
+
+The title entered into the title input will appear in the head list header section.
+
+image::title-header-audio-post.jpg[width=500]
+
+The title supports various languages.Click one of the flags that represent the language to choose language.
+
+image::title-indo.jpg[]
+
+**Order**
+
+Choose one type of order to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Number of Posts**
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts.jpg[]
+
+== Single Post Page
+
+=== Post Relationship Widget
+
+The postal relations widget is only on the single post page.This widget displays a list of posts that have the same category as the articles displayed.
+
+image::related-posts.jpg[width=300]
+
+**Title** 
+
+image::title-related-posts.jpg[]
+
+The title entered into the title input will appear in the header section of the post list.
+
+image::title-header-related-post.jpg[width=500px]
+
+**Order** 
+
+Select one of the order types to set how the post will be displayed.
+
+image::order.jpg[]
+
+Explanation:
+
+- Latest: The widget content will be displayed based on the latest article (Descending).
+- Oldest: The widget content will be displayed based on the oldest article (Ascending).
+- Popular: The widget content will be displayed based on the most viewed articles.
+- Random: Widget content will be displayed randomly so that it will not be the same every time the page is opened.
+
+**Number of Posts** 
+
+Number of Posts input to set the number of posts displayed in the widget content.
+
+image::number-of-posts-related-posts.jpg[]
+
+== Contact page
+
+=== Contact page settings
+
+This setting is used to set the title, subtitles, contact page url, display or hide the contact information area, set the contact description.and display or hide Captcha.
+
+image::contact-page-settings.jpg[]
+
+**Title**
+
+image::title-input.jpg[]
+
+The title entered into the title input will appear in the contact page title and the browser tab.
+
+image::title-contact.jpg[width=600]
+
+**Subheading**
+
+image::subheading-input.jpg[]
+
+The subheading that are entered into the input will appear under the page title.
+
+image::subheading-contact.jpg[width=600]
+
+**URL**
+
+image::url-input.jpg[]
+
+Used to set the url address on the contact.
+
+image::url-contact.jpg[width=600]
+
+**Contact Information**
+
+image::contact-information-input.jpg[]
+
+Activate or deactivate the display of contact information located in the left area of ​​the contact form.
+
+image::area-contact-information.jpg[width=600]
+
+Display when the contact information area is not displayed.
+
+image::without-contact-information.jpg[width=600]
+
+**Description**
+
+image::description-input.jpg[]
+
+Provide contact information if the contact information is activated.
+
+image::contact-information.jpg[width=400]
+
+**Captcha**
+
+image::captcha-input.jpg[]
+
+Activate or deactivate captcha on the contact form.
+
+image::captcha-display.jpg[]
+
+=== Map Widget 
+
+image::map.jpg[width=500]
+
+The map widget is used to display a map on a contact page sourced from Google Map.
+
+image::map-widget.jpg[width=300]
+ 
+The way to enter the code is to copy the Source URL on the map embedding iFrame. 
+
+image::copyembed.jpg[width=600]
+

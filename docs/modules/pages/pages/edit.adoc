@@ -1,0 +1,35 @@
+== Page
+
+Change the article post that has been created by pressing the pencil symbol image:button-edit.jpg[].
+
+== Edit Page Post
+
+image::edit-post.jpeg[]
+
+=== Change Permalink
+
+Press the “Use Custom Permalink” button to change the title slug. image:use-custom-permalink-button.jpg[]
+
+image::custom-permalinks-input.jpg[]
+
+=== Adding Translations
+
+Press the + symbol on the selected language to add a translation for that language.
+
+image::add-translation-button.jpg[]
+
+=== Changing the Thumbnail Image
+
+Press the “Remove” button to change the thumbnail image. 
+
+image::featured-image-upload-edit.jpg[]
+
+If you want to change the image file to an image URL, select the URL tab to enter the image URL.
+
+image::featured-image-url.jpg[]
+
+=== Video Post Publication 
+
+image::update.jpg[align=center]
+
+Press the “Update” button to publish the changes or press “Save Draft” to save them.

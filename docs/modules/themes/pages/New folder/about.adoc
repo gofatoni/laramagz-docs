@@ -1,0 +1,9 @@
+= About widget
+
+About Widget hanya tersedia di Footer
+
+image::about.png[align=center]
+
+Anda dapat mengatur apakah logo gambar dan tombol tautan ditampilkan atau tidak.
+
+image::about-widget-frontend.png[align=center]

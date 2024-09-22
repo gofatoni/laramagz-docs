@@ -1,0 +1,15 @@
+== Audio
+
+== Adding Translations to Audio Posts
+
+When a translation is added to an audio post, the audio input and thumbnail image are automatically filled in according to the audio and image in the audio post in the original language.
+
+image::add-translation.jpg[]
+
+== Editing the Translation of an Audio Post 
+
+Press the pencil button to make edits.
+
+image::sunting-translation-button.jpg[]
+
+Editing the translation will return to the audio post edit page.

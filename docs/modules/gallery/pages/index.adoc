@@ -1,13 +1,24 @@
 = Gallery
 
-== All Galleries
+The gallery only contains image file data.
 
-image::all-galleries.jpeg[align=center]
+== All Gallery Data
 
-== Add Gallery
+image::all-galleries.jpeg[]
 
-image::new-gallery.png[align=center]
+== Adding a Gallery
+
+image::new-gallery.png[]
+
+- Enter the file title in the "File Title" input.
+- Upload the image by clicking "Browse" in the "File Input" input.
+
+Click "Upload" to carry out the data storage process.
 
 == Edit Gallery
 
-image::edit-gallery.jpeg[align=center]
+Click on the pencil symbol button to change the gallery file data.
+
+On the Edit Gallery page you can change the gallery file title, alternative text, and gallery file description.
+
+image::edit-gallery.jpeg[]

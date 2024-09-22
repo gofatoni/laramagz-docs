@@ -1,35 +1,7 @@
 = Video
 
-== All Video
+== All Video Posts
+
+Displays all video post titles 
 
 image::videos.png[align=center]
-
-== Added new video post
-
-You can choose one of 3 ways to create a video post.
-
-=== 1. Upload Video 
-
-image::upload-video.png[align=center]
-
-=== 2. URL 
-
-image::url-video.png[align=center]
-
-=== 3. Embed
-
-image::embed-video.png[align=center]
-
-There are 2 provider options that you can use: YouTube and Vimeo.
-
-image::embed-provider.png[align=center]
-
-You can get *Embed Id* for YouTube from youtube url.
-
-image::embed-code-url.png[align=center]
-
-Or get it from video embed code:
-
-image::embed-code.png[align=center]
-
-

@@ -1,1 +1,3 @@
-* xref:index.adoc[Profile]
+.Account Settings
+* xref:account.adoc[Profile]
+* xref:password.adoc[Change Password]

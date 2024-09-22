@@ -1,13 +1,11 @@
 = Users
 
-== All Users
+This page contains all registered user data.
+
+== All User Data
+
+Displays a list of users in the form of names, roles, and statuses.
 
 image::users.png[align=center]
 
-== Add New User
 
-image::add-user.jpeg[align=center]
-
-== Edit User
-
-image::edit-user.jpeg[align=center]

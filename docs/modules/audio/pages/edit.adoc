@@ -1,0 +1,68 @@
+= Audio
+
+Edit the audio post that has been created by pressing the pencil button image:button-edit.jpg[].
+
+== Edit Audio Post 
+
+=== Change Audio
+
+image::ganti-audio.jpg[]
+
+==== Audio coming from file upload
+
+Press the “Change Audio Files” button to change the audio upload file.
+
+image::change-audio-files.jpg[]
+
+Then in the upload area insert the audio file as a replacement.
+
+image::drag-drop-files.jpg[]
+
+Press the “Use previous audio files” button if you want to use the previous file again.
+
+image::use-previous-audio-files.jpg[]
+
+==== Changing Audio from uploaded files to other sources
+
+Select the URL or Embed tab if you want to change it. How to insert it, see the “Add New Audio Post” menu.
+
+image::tab-url.jpg[]
+
+=== Changing Permalink
+
+Press the “Use Custom Permalink” button to change the title slug.
+
+image::custom-permalink.jpg[]
+
+=== Changing Thumbnail Image
+
+Press the “Remove” button to change the thumbnail image.
+
+image::edit-audio-thumbnails.jpg[]
+
+If you want to change the image file to an image URL, select the URL tab to enter the image URL.
+
+image::audio-thumbnails-url.jpg[]
+
+=== Adding Translations
+
+Press the + symbol on the selected language to add a translation for that language.
+
+image::language-translate.jpg[]
+
+=== Edit Publish Date
+
+Press “Edit” to change the publish date.
+
+image::edit-publish.jpg[]
+
+Change the post date.
+
+image::edit-input-publish.jpg[]
+
+=== Audio Post Publication 
+
+image::update.jpg[align=center]
+
+Press the “Update” button to publish the changes or press “Save Draft” to save them.
+

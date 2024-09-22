@@ -1,0 +1,85 @@
+= Article Post
+
+Add a new article post by pressing the “Create” button image:button-create.jpg[] in the “All Post” table.
+
+== Adding a New Article Post
+
+image::add-post.jpeg[]
+
+=== Adding Article Title 
+
+Fill in the title of the article with at least 3 letters.
+
+image::title.jpg[]
+
+=== Adding Summary  
+
+Fill in the summary of the article post.
+
+image::summary.jpg[]
+
+=== Adding Content 
+
+Fill in the article content. 
+
+image::content.jpg[]
+
+=== Choosing a Language 
+
+Select the language of the posted article.
+
+image::languages.jpg[]
+
+=== Adding Categories
+
+Checklist one or more categories that you want to add. 
+
+image::categories.jpg[]
+
+Press “Add New Category” if you want to add a new category. If you want to add a new subcategory, select the category you want to parent.
+
+image::add-new-category.jpg[]
+
+Press the “Add New Category” button to submit.
+
+=== Adding Tags
+
+Type the desired tag.
+
+image::tags.jpg[]
+
+=== Add an Article Thumbnail Image
+
+Click on the upload area to upload the image you want to use as a thumbnail article.The recommended size is 736x414 and the size of the ratio 16: 9.
+
+Write down the caption as an image caption if you want to add.
+
+image::featured-image.jpg[]
+
+If you want to use another image without uploading, press the URL tab to add another image using the URL link.
+
+image::featured-image-url.jpg[]
+
+=== Add Meta Description
+
+Fill in a brief explanation a maximum of 160 characters for Meta Description.
+
+image::meta-description.jpg[]
+
+=== Add Meta Keyword
+
+Enter keywords or keywords that match the contents of the article post.Separate each keyword with a comma (,).
+
+image::meta-keyword.jpg[]
+
+=== Choosing a visibility settings 
+
+There are two after visibility, namely: public and private.If you choose a public, the post will be seen in general by whoever the user.If you choose private, the post can only be seen by the post owner user and user with a super admin role, and admin.
+
+image::visibility.jpg[align=center]
+
+=== Article posting
+
+image::publish.jpg[align=center]
+
+Press the "publish" button to start publishing the article posting or press "Save Draft" to save it.

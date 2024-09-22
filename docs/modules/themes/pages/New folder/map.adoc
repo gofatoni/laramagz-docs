@@ -1,0 +1,13 @@
+= Map Widget 
+
+Widget Peta untuk menampilkan peta dari Google Map.
+
+image::googlemap.png[align=center]
+
+Pengaturan ini tersedia di halaman kontak.
+
+image::map.png[align=center]
+
+Cara memasukkan kode embed adalah dengan menyalin sumber iframe:
+
+image::copyembed.png[align=center]

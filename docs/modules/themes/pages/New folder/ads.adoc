@@ -1,0 +1,67 @@
+= Ads widget
+
+Widget iklan untuk menampilkan banner iklan
+
+image::ads-widget-modal.png[align=center]
+
+== Judul
+
+Anda dapat menulis judul bahasa berbeda yang akan ditampilkan sesuai dengan pilihan bahasa di situs.
+
+image::title.png[align=center]
+
+== Ad type
+
+There are 3 types of ad widgets, namely Google Adsense, image, and custom scripts.
+
+image::ad-type.png[align=center]
+
+=== Google Adsense
+
+Berikut ini adalah pengaturan iklan untuk Google Adsense.
+
+==== GA Client
+
+image::ga-client.png[align=center]
+
+==== GA Slot
+
+image::ga-slot.png[align=center]
+
+==== GA Size
+
+image::ga-size.png[align=center]
+
+==== Ad Size
+
+image::ad-size.png[align=center]
+
+==== GA Format
+
+Input Format GA tersedia saat Anda memilih Ukuran GA Responsif.
+
+image::ga-format.png[align=center]
+
+Terdapat 4 pilihan untuk tampilan iklan, yaitu Rectangle, Vertical, Horizontal, dan Auto
+
+==== Full width responsive
+
+image::full-width-responsive.png[align=center]
+
+=== Image
+
+==== Ad Image
+
+image::ad-image.png[align=center]
+
+==== Ad Size
+
+image::ad-size.png[align=center]
+
+==== URL
+
+image::url.png[align=center]
+
+=== Script
+
+image::script.png[align=center]

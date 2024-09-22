@@ -1,0 +1,5 @@
+= Settings 
+
+== Permalink Web 
+
+image::permalinks.jpeg[]

@@ -1,1 +1,7 @@
-* xref:index.adoc[Settings]
+.Settings
+* xref:information.adoc[Web Information]
+* xref:contact.adoc[Web Contact]
+* xref:properties.adoc[Web Properties]
+* xref:config.adoc[Web Configuration]
+* xref:backup.adoc[Web Backup]
+* xref:permalinks.adoc[Web Permalink]

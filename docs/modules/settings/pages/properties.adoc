@@ -1,0 +1,25 @@
+= Settings
+
+== Web Properties
+
+=== Web Properties - Logo & Favicon
+
+image::properties.jpeg[]
+
+==== Change the image
+
+Mouse over the image. A delete button (x) will appear in the upper right corner. Click Delete to delete.
+
+image::remove.jpg[]
+
+Click or drag the image file into the upload area to upload the image file.
+
+image::form-upload.jpg[]
+
+Click "Upload"
+
+image::upload.jpg[]
+
+=== Web Properties - Open Graph Images
+
+image::open-graph-image.jpeg[]

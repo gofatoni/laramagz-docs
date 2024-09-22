@@ -1,0 +1,13 @@
+= Categories 
+
+== Edit Category Data
+
+Click the pencil button image::button-edit.jpg[] in the All Categories table to edit the data.
+
+image::button-edit-category.jpg[]
+
+The input form will be filled with the category data to be changed.
+
+image::edit-category.jpg[width=300]
+
+Change the data in the input form as you wish. Click the “Update” button to save it.

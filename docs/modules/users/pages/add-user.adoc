@@ -1,0 +1,5 @@
+= Users
+
+== Adding New User
+
+image::add-user.jpeg[align=center]

@@ -1,0 +1,35 @@
+= Categories 
+
+== Add New Category
+
+image::add-category.jpg[width=300]
+
+**Category Name**
+
+image::input-category-name.jpg[]
+
+Enter the name of the category you want to add.
+
+**Parent Category**
+
+image::input-parent-category.jpg[]
+
+Select the parent category if the new category you want to add is a subcategory.
+
+**Category Description**
+
+image::input-description-category.jpg[]
+
+Add a little information about the category to be added.
+
+**Translation**
+
+Click the image::button-add-translation.jpg[] button to add a translation.
+
+image::input-translation-category.jpg[]
+
+**Thumbnail Image**
+
+Click the “Click to upload image” area to input a category thumbnail image.
+
+image::input-image-category.jpg[]

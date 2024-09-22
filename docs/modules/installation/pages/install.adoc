@@ -16,29 +16,29 @@ If you don't have access to a terminal in CPanel, skip this and move on to the x
 
 1. Go to MySQL Databases
 +
-image::mysql-cpanel.png[align=center]
+image::mysql-cpanel.png[]
 2. Create a new database
 3. Get the MySQL database name, username, and password
 
 == Preparing Files
 
-I assume your website root home directory is public_html. Otherwise, you can adjust.
+I assume your website root home directory is `public_html`. Otherwise, you can adjust.
 
 1. Go to File Manager
 +
-image::filemanager-cpanel.png[align=center]
+image::filemanager-cpanel.png[]
 +
-2. Upload `app-v3.0.0.zip` *outside* the public_html folder
+2. Upload `app-v3.1.0.zip` outside the public_html folder
 +
-image::put-app.jpg[align=center]
+image::put-app.jpg[]
 +
-3. Extract app-v3.0.0.zip so that the laramagz folder appears.
+3. Extract app-v3.1.0.zip so that the laramagz folder appears.
 +
-image::put-laramagz.jpg[align=center]
+image::put-laramagz.jpg[]
 +
 4. Open the .env file.
 +
-image::edit-env.png[align=center]
+image::edit-env.png[]
 +
 5. Edit the MySQL database name, username, and password.
 +
@@ -54,11 +54,11 @@ DB_PASSWORD=your_password_mysql
 
 1. Go to CPanel Terminal
 +
-image::terminal-cpanel.png[align=center]
+image::terminal-cpanel.png[]
 +
 2. Follow the following command:
 
-image::terminal-symlink.jpg[align=center]
+image::terminal-symlink.jpg[]
 
 - Type pwd to display the current directory path
 - Create a symbolic link, adjust it to the path and root folder of your website.
@@ -80,11 +80,11 @@ ln -s /home/retenvi/laramagz/public /home/retenvi/public_html/laramagz
 - Enter laramagz folder: `cd laramagz`
 - Type: `php artisan storage:link`
 
-image::storage-link.jpg[align=center]
+image::storage-link.jpg[]
 
 If an error like the following appears:
 
-image::error.png[align=center]
+image::error.png[]
 
 - Exit laramgz folder: `cd ..`
 - Type: 
@@ -94,7 +94,7 @@ image::error.png[align=center]
 ls -s /home/retenvi/laramagz/storage/app/public /home/retenvi/laramagz/public/storage
 ----
 
-image::solution-error.jpg[align=center]
+image::solution-error.jpg[]
 
 === Insert table into database
 

@@ -1,18 +1,26 @@
 = Dashboard
 
+After successfully logging in we will be shown a home page containing statistics on the amount of data, the number of visitors, the number of views and the device data used.
+
 image::dashboard.jpeg[align=center]
 
-== Google Analytics
+== Analytics
+
+These stats are sourced from Google Analytics so a setting is required to display them.
 
 image::analytics.jpeg[align=center]
 
 == Dashboard - Change the language
 
+The admin page supports multiple registered languages. You can add language support in the Localization > Languages menu.
+
 image::change-language.png[align=center]
 
 == Dashboard - Dark Mode
 
-Click to activate dark mode
+The Admin page supports three modes, namely light, dark, and auto. Auto mode will automatically adjust to the theme mode of the device you are using.
+
+Click to enable dark mode.
 
 image::dark-mode-icon.png[align=center]
 

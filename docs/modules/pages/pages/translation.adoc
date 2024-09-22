@@ -1,0 +1,15 @@
+= Page
+
+== Added Page Post Translation
+
+When a translation is added to a page post, the thumbnail image input is automatically filled in according to the image in the article post in the translated language.
+
+image::add-translation.jpeg[]
+
+== Editing Page Post Translations
+
+Press the button with the pencil symbol to make edits.
+
+image::edit-translation-button.jpg[]
+
+Editing translations will return to the Page post edit page.

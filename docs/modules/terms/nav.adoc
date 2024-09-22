@@ -1,1 +1,9 @@
-* xref:index.adoc[Term]
+.Term
+* Category
+** xref:category.adoc[All Categories]
+** xref:add-category.adoc[Add New Category]
+** xref:edit-category.adoc[Edit Category]
+** xref:delete-category.adoc[Delete Category]
+* Tags
+** xref:tag.adoc[All Tags]
+** xref:delete-tag.adoc[Delete Tag]

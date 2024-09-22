@@ -1,0 +1,17 @@
+= Article Post
+
+== Adding an article post translation
+
+When the translation is added to the article post on the thumbnail image input has been automatically filled in according to the image in the article posting with the language translated.
+
+image::add-translation.jpeg[]
+
+== Editing Article Post Translation
+
+Press the pencil symbol button to do the editing.
+
+image::edit-translation-button.jpg[]
+
+The editing of the translation will return to the article post editing page.
+
+

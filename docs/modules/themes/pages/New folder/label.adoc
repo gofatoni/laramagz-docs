@@ -1,0 +1,7 @@
+= Box Label widget
+
+image::boxlabel.png[align=center]
+
+Widget Box Label hanya tersedia di footer. Konten widget ini bisa berjenis kategori atau tag.
+
+image::label.png[align=center, width=400]

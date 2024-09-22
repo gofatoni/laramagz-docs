@@ -1,0 +1,19 @@
+= Article Post
+
+== Delete the article post
+
+- Delete an article post by pressing the button with the trash box symbol image:button-delete.jpg[].
++
+image::remove-post.jpg[]
++
+- Delete one or several article posts by selecting one or several titles in the checkbox.
++
+image::select-post.jpg[]
++
+Press "delete" image: button-deletes.jpg [] to delete the article posts that have been checked.
+- Delete all article posts by checking the box on __Header Column__.All rows will be checked all automatically.
+Check box to select all titles.
++
+image::select-all-posts.jpg[]
++
+Press “Delete” image:button-deletes.jpg[] to delete all article posts.
