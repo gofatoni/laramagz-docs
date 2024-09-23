@@ -3,15 +3,20 @@
 All laramagz changes are documented in this file.
 
 == [v3.1.0] - 2024-09-23
-=== Changed 
+=== Changed
  - Changed the category input from a drop-down list to a checkbox on article, audio and video posting pages.
- - Changed the appearance of the Theme settings.
- - Update Laravel and packages 
+ - Changed the appearance of the Theme settings page.
+ - Update Laravel and packages.
+ - Code refactoring
 
-=== Removed 
+=== Fixed
+ - All issues found in previous versions.
+
+=== Removed
  - Removed input subcategories on article, audio and video posting pages.
  - Removed the edit button and add tag form.
- - Removed contact description input on the Web Contact Settings.
+ - Removed contact description input on the Web Contact Settings page.
+ - Removed the process of resizing post thumbnails, audio, and video to only use image files of the same size.
 
 == [v3.0.0] - 2024-04-27
 === Fixed 
