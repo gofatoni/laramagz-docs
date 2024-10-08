@@ -1,5 +1,31 @@
 = ISSUE
 
+== v3.1.0
+=== 2024-10-07
+==== Error when accessing video post details
+Error message "Undefined variable $imageHelper".
+
+How to solve it:
+
+Open the `resources/views/frontend/magz/page/single.blade.php` file. 
+
+Go to line 125, change `$imageHelper` to `$videoHelper`.
+
+=== 2024-10-1
+==== Comments don't work.
+The warning message "An unexpected error occurred" appears when submitting the comment form. This error occurs because there are permissions.
+
+How to solve it:
+
+Open the `app/Http/Controllers/CommentController.php` file, delete the following line in the `__construct` method:
+
+----
+$this->middleware('permission:read-comments', ['only' => ['index']]);
+$this->middleware('permission:add-comments', ['only' => ['store']]);
+$this->middleware('permission:update-comments', ['only' => ['update']]);
+$this->middleware('permission:reply-comments', ['only' => ['store']]);
+----
+
 == v2.3.1
 === 2024-03-25
 ==== 1. Cannot save new categories when adding translations

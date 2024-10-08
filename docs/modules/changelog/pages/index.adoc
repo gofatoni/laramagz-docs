@@ -2,7 +2,7 @@
 
 All laramagz changes are documented in this file.
 
-== [v3.1.0] - 2024-09-23
+== [v3.1.0] - 2024-09-30
 === Changed
  - Changed the category input from a drop-down list to a checkbox on article, audio and video posting pages.
  - Changed the appearance of the Theme settings page.
