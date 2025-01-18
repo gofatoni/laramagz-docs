@@ -1,6 +1,6 @@
 name: docs
 title: Laramagz
-version: v3.1.1
+version: v3.2.0
 nav:
 - modules/ROOT/nav.adoc
 - modules/changelog/nav.adoc
