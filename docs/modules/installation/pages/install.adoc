@@ -105,4 +105,8 @@ Open terminal, go to laramagz folder, type:
 php artisan migrate --seed
 ----
 
+[NOTE]
+====
+If you install laramagz via git clone, after the `composer install` command, copy the `joedixon` folder contained in the laramagz-v3.1.1 package then paste it into `laramagz/vendor`
+====
 

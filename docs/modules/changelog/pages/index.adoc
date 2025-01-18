@@ -2,6 +2,25 @@
 
 All laramagz changes are documented in this file.
 
+== [v3.2.0] - 2025-01-18
+=== Added
+ - Subscribers
+
+=== Fixed 
+ - All issues found in previous versions.
+
+=== Changed
+ - Update Laravel and packages.
+
+== [v3.1.1] - 2024-10-14
+=== Added 
+ - The parent category option displays all categories other than the category being edited
+
+=== Fixed 
+ - Error when accessing video post details
+ - Comments don't work.
+ - Share posts on social media
+
 == [v3.1.0] - 2024-09-30
 === Changed
  - Changed the category input from a drop-down list to a checkbox on article, audio and video posting pages.

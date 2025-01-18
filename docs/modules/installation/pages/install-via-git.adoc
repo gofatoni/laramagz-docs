@@ -1,0 +1,51 @@
+= Install via git
+
+== Hosting Requirements
+
+- Your hosting supports git access.
+- Supports SSH access.
+
+== Setup database
+
+1. Open MySQL Databases
++
+image::mysql-cpanel.png[]
+2. Create a new database
+3. Gets the MySQL database name, username, and password
+
+== Upload laramagz to the repository
+
+Push laramagz to a repository such as github or gitlab.
+
+== Access Host via SSH Client
+
+Use an SSH Client application such as Putty or Termius to enter the hosting file manager.
+
+=== Clone laramagz from the repository
+
+Do a git clone laramagz outside the root home directory (`public_html`).
+
+=== Laramagz installation
+
+Enter the laramagz folder that has been successfully cloned.
+
+1. Upload all files and folders in laramagz public storage (`storage/app/public`) into laramagz `storage/app/public` on hosting.
+2. Run the command to copy the `.env.example` file to the `.env` file:  `cp .env.exampe .env`.
+3. Edit the MySQL database name, user and password in .env
+4. Run the `composer install` command.
+5. Run the command to generate key `php artisan key:generate`.
+6. Run the command to symlink to storage `php artisan storage:link`.
+7. Upload the `joedixon.zip` file which is in the `vendor` folder in the `laramagz` package. Extract it into the `vendor` folder.
+8. Run the command migrate `php artisan migrate --seed`.
+
+Exit the laramagz folder and then delete the root home directory or `public_html`. 
+
+Type `pwd` to find out the path to your current directory location, for example you are currently in the directory path `/home/u778899/`.
+
+Run the symlink command to link laramagz's `public` folder to `public_html` or root home directory.
+
+----
+ln -s /home/u778899/laramagz/public /home/u778899/domains/yourdomain.com/public_html
+----
+
+

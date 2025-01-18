@@ -1,5 +1,9 @@
 = ISSUE
 
+== v3.1.1
+=== 2024-11-14
+==== Social media shares do not display images
+
 == v3.1.0
 === 2024-10-07
 ==== Error when accessing video post details

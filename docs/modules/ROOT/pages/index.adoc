@@ -24,45 +24,28 @@
 
 == Laramagz package directory
 
-The `laramagz-v3.1.0.zip` package contains the following files and folders.
+The `laramagz-v3.2.0.zip` package contains the following files and folders.
 
-    📒 laramagz-v3.1.0
+    📒 laramagz-v3.2.0
         📂 app
-            📄 app-v3.1.0.zip
+            📄 app-v3.2.0.zip
         📂 database 
-            📄 dblaramagz-v3.1.0.sql
+            📄 dblaramagz-v3.2.0.sql
         📂 documentation
             📄 documentation.html
+        📂 update-3.1.1-to-3.2.0
+            📄 laramagz.zip
+        📂 vendor
+            📄 joedixon.zip
         📄 CHANGELOG.txt    
         
 
-== Update Guide (from v3..0 to v3.1.0)
+== Update Guide (from v3.1.1 to v3.2.0)
 
-Follow the steps below to successfully update.
+- Upload `laramagz.zip` contained in the `update-v3.1.1-to-3.2.0` folder.
+- Extract `laramagz.zip`, copy and paste into the laramagz folder.
 
-=== Backup Files and Databases 
-
-==== Backup Files 
-
-1. The `service-account-credentials.json` file is located in the `storage/app/analytics` folder.
-2. .env files.
-3. The `public` storage folder is located at `storage/app/public`.
-
-==== Backup Database 
-
-Export database via phpMyAdmin
-
-image::export-via-phpmyadmin.jpg[]
-
-== Installation
-
-1. Delete all files and folders of the old version of laramagz
-2. Upload the `app-v3.1.0.zip` file in your hosting's File Manager.
-3. Extract the package.
-4. Installation (see installation guide)
-5. Edit the .env file based on your previous .env settings.
-6. Restore files in storage.
-7. Upload the `service-account-credentials.json` file to the `storage/app/analytics` folder.
+If you install laramagz via git clone, after the `composer install` command, extract the zip file `joedixon.zip`, copy the `joedixon` folder then paste it into `laramagz/vendor`
 
 === Clear cache
 

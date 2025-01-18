@@ -1,3 +1,4 @@
 .Installation
 * xref:install.adoc[Install on server]
 * xref:install-alt.adoc[Install on server (alternative)]
+* xref:install-via-git.adoc[Install via git]
