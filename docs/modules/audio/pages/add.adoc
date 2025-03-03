@@ -12,63 +12,63 @@ There are three options for adding audio.
 
 ==== 1. Upload Audio 
 
-This defaults to uploading an audio file by pressing or dragging the audio file into the upload area.
+By default, you can upload an audio file by pressing or dragging it into the upload area.
 
 image::upload-audio.png[align=center]
 
 ==== 2. URL 
 
-Select the URL tab if you want to add audio via URL.
+Select the URL tab to add audio via a URL.
 
 image::url-audio.png[align=center]
 
 ==== 3. Embed
 
-Select the Embed tab if you want to add audio by embedding it.
+Select the Embed tab to add audio by embedding it.
 
 image::embed-audio.png[align=center]
 
-An example of using an embed from Soundcloud.
+Here is an example of using an embed from SoundCloud.
 
 image::embed-code-audio.jpg[]
 
-Copy the iframe code and paste it into the embed input.
+Copy the iframe code and paste it into the embed input field.
 
 image::input-embed-code.jpg[]
 
 === Adding Audio Title 
 
-Fill in the audio title with at least 3 letters.
+Enter an audio title with at least 3 characters.
 
 image::title.jpg[]
 
 === Adding Summary
 
-Fill in the summary of the audio article. 
+Enter a summary for the audio article.
 
 image::summary.jpg[]
 
 === Adding Content
 
-Fill in the audio article.
+Enter the content for the audio article.
 
 image::content.jpg[]
 
 === Adding Image
 
-The added image will become the post thumbnail.
+The uploaded image will be used as the post thumbnail.
 
-Click on the upload area to upload the image you want to use as the video thumbnail. Recommended size is 736x414 and size ratio is 16:9.
+Click the upload area to add an image for the video thumbnail. The recommended size is 736x414 with a 16:9 aspect ratio.
 
 image::audio-thumbnails.jpg[]
 
-If you want to use another image without uploading, press the URL tab to add another image using the image's URL Link
+If you want to use another image without uploading, select the URL tab and enter the image's URL link.
 
 image::audio-thumbnails-url.jpg[]
 
-=== Selecting Language 
+=== Language Selection
 
-Select the language of the posted video post.
+Select the language for the video post.
 
 image::languages.jpg[]
 

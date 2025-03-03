@@ -2,10 +2,9 @@
 
 image::adplacement.webp[align=center]
 
-
 == Showing the Ad Units that have been created
 
-Click the pencil mark to change the ad unit shown in the ad placement.
+Click the pencil icon to change the ad unit displayed in the ad placement
 
 image::edit-placement.webp[align=center]
 

@@ -1,32 +1,32 @@
 = Advertisement
 
-Installing ads is done through the layout page located in the Appearance > Themes menu.
+Installing ads is done through the Layout page, located in the Appearance > Themes menu.
 
 image::menu.png[]
 
 image::theme.png[]
 
-Select the page you want to install an ad.
+Select the page where you want to install an ad.
 
 image::select-page.jpg[]
 
-On the home page an advertisement can be attached to the body and sidebar.
+On the home page, ads can be placed in the body and sidebar.
 
-== Adding an Ad Widget (Ads)
+== Adding an Ad Widget
 
-Click the “Add Widget” button.
+Click the 'Add Widget' button.
 
 image::add-new-widget.jpg[]
 
-Select the "ads" widget.
+Select the 'ads' widget.
 
 image::select-ads.jpg[]
 
-The capital window will appear in the form of a form that contains various inputs to set the ADS widget that will be displayed.
+A modal form will appear, containing various input fields for configuring the advertising widget before it is displayed.
 
 image::add-new-ads-body.jpg[width=350]
 
-By default the type of ad chosen is an advertisement in the form of an image.Users can choose other types of ads, namely Google Adsense and ad scripts.
+By default, the selected ad type is an image advertisement. Users can choose other ad types, such as Google AdSense or ad scripts.
 
 image::ad-type.jpg[]
 
@@ -40,7 +40,7 @@ Click on the upload image area to insert the ad image.
 
 image::upload-image.jpg[width=350]
 
-The image will appear and display the length and width of the image.
+The image will appear, displaying its width and height automatically.
 
 image::result-upload-image.jpg[]
 
@@ -56,27 +56,27 @@ Select Google Adsense under “Ad Type”.
 
 image::gaads.png[]
 
-Make sure you already have an Ad Unit that you created in Google Adsense to fill in the other inputs.
+Make sure you already have an Ad Unit created in Google AdSense to fill in the required inputs.
 
 === Creating Responsive Google Adsense ads
 
 ==== 1. GA Size
 
-Select "responsive" on ga size:
+Select "Responsive" under GA Size.
 
 image::selectresponsive.png[]
 
-Open a Google Adsense account, create a new ad unit:
+Open your Google AdSense account and create a new ad unit.
 
 image::displayads.png[]
 
-Select "Responsive" on Ad Size on Google Adsense:
+Select "Responsive" under Ad Size in Google AdSense.
 
 image::selectresponsiveadunit.png[]
 
 Click "Create".
 
-You will see the Ad Unit code, as follows:
+You will see the Ad Unit Code, which appears as follows:
 
 image::responsive.png[]
 
@@ -109,6 +109,7 @@ image::gaadsizefixed.png[]
 Klik "Create".
 
 You will see the ad unit code, as follows:
+
 image::fixed.png[]
 
 ==== 2. Ad Size 
@@ -121,11 +122,11 @@ image::adsize.png[]
 
 You can also display ads via ad code or script.The Google Adsense ad code can also be entered through this input script but we recommend using the AD Type option: Google Adsense
 
-Select "Script" on ad type.
+Select "Script" in the Ad Type select option.
 
 image::script.png[]
 
-Enter the ad code in the "Script" input column.
+Enter the ad code into the "Script" input field.
 
 image::scriptinput.png[]
 
