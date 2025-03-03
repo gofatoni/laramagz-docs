@@ -24,25 +24,25 @@
 
 == Laramagz package directory
 
-The `laramagz-v3.2.0.zip` package contains the following files and folders.
+The `laramagz-v3.2.1.zip` package contains the following files and folders.
 
-    📒 laramagz-v3.2.0
+    📒 laramagz-v3.2.1
         📂 app
-            📄 app-v3.2.0.zip
+            📄 app-v3.2.1.zip
         📂 database 
-            📄 dblaramagz-v3.2.0.sql
+            📄 dblaramagz-v3.2.1.sql
         📂 documentation
             📄 documentation.html
-        📂 update-3.1.1-to-3.2.0
+        📂 update-3.2.0-to-3.2.1
             📄 laramagz.zip
         📂 vendor
             📄 joedixon.zip
         📄 CHANGELOG.txt    
         
 
-== Update Guide (from v3.1.1 to v3.2.0)
+== Update Guide (from v3.2.0 to v3.2.1)
 
-- Upload `laramagz.zip` contained in the `update-v3.1.1-to-3.2.0` folder.
+- Upload `laramagz.zip` contained in the `update-v3.2.0-to-3.2.1` folder.
 - Extract `laramagz.zip`, copy and paste into the laramagz folder.
 
 If you install laramagz via git clone, after the `composer install` command, extract the zip file `joedixon.zip`, copy the `joedixon` folder then paste it into `laramagz/vendor`

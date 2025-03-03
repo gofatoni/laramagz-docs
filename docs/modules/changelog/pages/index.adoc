@@ -2,6 +2,14 @@
 
 All laramagz changes are documented in this file.
 
+== [v3.2.1] - 2025-03-03
+=== Fixed 
+ - Page thumbnail image does not appear.
+ - Create a new page.
+ - Title link in the datatable
+ - Widget visibility settings that cannot be saved.
+ - Unable to create a language folder when adding a new language
+
 == [v3.2.0] - 2025-01-18
 === Added
  - Subscribers
